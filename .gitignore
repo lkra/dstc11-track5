@@ -1,10 +1,5 @@
-baseline/analysis/models/
+**/models/
 .idea
 runs
-.DS_Store
-baseline/__pycache__/
-baseline/analysis/utils/__pycache__/
-baseline/utils/__pycache__/
-scripts/.DS_Store
-scripts/__pycache__/
+**/.DS_Store
 **/__pycache__/
