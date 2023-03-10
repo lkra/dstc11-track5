@@ -4,13 +4,13 @@ import seaborn as sns
 sns.set(font_scale=0.6)
 
 # read in data frame
-df = pd.read_pickle("output/analysis.pkl")
+df = pd.read_pickle('output/analysis.pkl')
 
 # change data types from object to int
 print(df.dtypes)
 df = df.infer_objects()
 print(f'new data types: {df.dtypes}')
-df = df.astype({"question_dialogue_act": object})
+df = df.astype({'question_dialogue_act': object})
 print(f'question dialogue act type: {df["question_dialogue_act"].dtypes}')
 
 # calculate correlations

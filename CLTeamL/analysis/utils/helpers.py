@@ -8,10 +8,10 @@ from scripts.dataset_walker import DatasetWalker
 from utils.constants import NGRAM_SIZE
 
 
-def read_data(dataset_to_read="val"):
-    data = DatasetWalker(dataset=dataset_to_read, dataroot="./../../data/", labels=True, incl_knowledge=True)
+def read_data(dataset_to_read="val", dataroot="./../../data/"):
+    data = DatasetWalker(dataset=dataset_to_read, dataroot=dataroot, labels=True, incl_knowledge=True)
     if dataset_to_read == "val":
-        with open(f"./../../pred/{dataset_to_read}/baseline.rg.bart-base.json", 'r') as f:
+        with open(f"{dataroot}../pred/{dataset_to_read}/baseline.rg.bart-base.json", 'r') as f:
             predictions = json.load(f)
     else:
         predictions = [None] * len(data)
@@ -42,6 +42,12 @@ def split_summary_question(text, nlp):
         summary = ". ".join(sents)
 
     return summary, question
+
+def get_sentiment(summary, nlp):
+    doc = nlp(summary)
+    sentiment = doc._.blob.polarity
+
+    return sentiment
 
 
 def group_metrics_by(df, column):

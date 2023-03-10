@@ -1,22 +1,24 @@
 import pandas as pd
 import spacy
+from spacytextblob.spacytextblob import SpacyTextBlob
 from rouge_score import rouge_scorer
 from summ_eval.bleu_metric import BleuMetric
 from summ_eval.meteor_metric import MeteorMetric
 from tqdm import tqdm
 
 from utils.dialogue_act_classifier import MidasDialogTagger
-from utils.helpers import read_data, save_data, split_summary_question
+from utils.helpers import read_data, save_data, split_summary_question, get_sentiment
 
-DATASET = "train"  # val or train
+DATASET = 'train'  # val or train
 
 # create dataframe
 df = pd.DataFrame(
     columns=['turn_nr', 'dialogue_act_history',
              'question', 'question_dialogue_act',
              'reference_length', 'reference_response', 'reference_response_summary', 'reference_response_question',
-             'ref_knowledge', 'ref_know_nr', 'reference_domain', 'reference_doc_type',
-             'prediction_length', 'prediction_response', 'pred_know_nr', 'prediction_domain', 'prediction_doc_type',
+             'ref_sentiment', 'ref_knowledge', 'ref_know_nr', 'reference_domain', 'reference_doc_type',
+             'prediction_length', 'prediction_response', 'prediction_response_summary', 'prediction_response_question',
+             'pred_sentiment', 'pred_knowledge', 'pred_know_nr', 'prediction_domain', 'prediction_doc_type',
              'bleu', 'meteor', 'rouge1', 'rouge2', 'rougeL'])
 
 # define metrics
@@ -25,8 +27,9 @@ meteor_metric = MeteorMetric()
 scorer = rouge_scorer.RougeScorer(['rouge1', 'rouge2', 'rougeL'], use_stemmer=True)
 
 # define classifiers and other processing  tools
-dialogue_act_tagger = MidasDialogTagger(model_path="./models/midas_classifier.pt")
-nlp = spacy.load("en_core_web_sm")
+dialogue_act_tagger = MidasDialogTagger(model_path='./models/midas_classifier.pt')
+nlp = spacy.load('en_core_web_sm')
+nlp.add_pipe('spacytextblob')
 
 # loop over references and predictions
 data, predictions = read_data(dataset_to_read=DATASET)
@@ -47,7 +50,7 @@ for (log, reference), prediction in tqdm(zip(data, predictions)):
 
     ####################### Process user utterance #######################
     # add question
-    question = log[-1]["text"]
+    question = log[-1]['text']
 
     ####################### Process reference response #######################
     # get reference data
@@ -63,8 +66,12 @@ for (log, reference), prediction in tqdm(zip(data, predictions)):
         reference_domain = reference['knowledge'][0]['domain']
         reference_doc_type = reference['knowledge'][0]['doc_type']
 
-    # find questions
-    summary, optional_question = split_summary_question(reference_response, nlp)
+    # separate and find questions
+    ref_summary, ref_optional_question = split_summary_question(reference_response, nlp)
+
+    # analyse sentiment
+    ref_sentiment = get_sentiment(ref_summary, nlp)
+    print(f'ref sentiment: {ref_sentiment}\n')
 
     ####################### Process prediction response #######################
     # get prediction data
@@ -74,16 +81,26 @@ for (log, reference), prediction in tqdm(zip(data, predictions)):
         pred_know_nr = 'empty'
         prediction_domain = 'empty'
         prediction_doc_type = 'empty'
+        pred_knowledge = []
     else:
         prediction_response = prediction['response']
         prediction_length = len(prediction['response'])
         pred_know_nr = len(prediction['knowledge'])
         if not prediction['knowledge']:  # in case knowledge is empty
+            pred_knowledge = []
             prediction_domain = 'empty'
             prediction_doc_type = 'empty'
         else:
+            pred_knowledge = [el['sent'] for el in prediction['knowledge'] if 'sent' in el.keys()]
             prediction_domain = prediction['knowledge'][0]['domain']
             prediction_doc_type = prediction['knowledge'][0]['doc_type']
+
+    # separate and find questions
+    pred_summary, pred_optional_question = split_summary_question(prediction_response, nlp)
+
+    # analyse sentiment
+    pred_sentiment = get_sentiment(pred_summary, nlp)
+    print(f'pred sentiment: {pred_sentiment}\n')
 
     ####################### Process evaluation #######################
     # calculate metrics
@@ -95,8 +112,8 @@ for (log, reference), prediction in tqdm(zip(data, predictions)):
     rougeL = scores['rougeL'].fmeasure
 
     # append data to dataframe
-    print(f"\nQUESTION: {question}"
-          f"\n\tREFERENCE RESPONSE: {reference_response}\n\tPREDICTED RESPONSE: {prediction_response}")
+    print(f'\nQUESTION: {question}'
+          f'\n\tREFERENCE RESPONSE: {reference_response}\n\tPREDICTED RESPONSE: {prediction_response}')
     df = pd.concat([df, pd.DataFrame.from_records([{
         # Related to dialogue context
         'turn_nr': turn_nr,
@@ -113,15 +130,20 @@ for (log, reference), prediction in tqdm(zip(data, predictions)):
         'ref_know_nr': ref_know_nr,
         'reference_domain': reference_domain,
         'reference_doc_type': reference_doc_type,
-        'reference_response_summary': summary,
-        'reference_response_question': optional_question,
+        'reference_response_summary': ref_summary,
+        'reference_response_question': ref_optional_question,
+        'ref_sentiment': ref_sentiment,
 
         # Related to prediction
         'prediction_response': prediction_response,
         'prediction_length': prediction_length,
+        'pred_knowledge': pred_knowledge,
         'pred_know_nr': pred_know_nr,
         'prediction_domain': prediction_domain,
         'prediction_doc_type': prediction_doc_type,
+        'prediction_response_summary': pred_summary,
+        'prediction_response_question': pred_optional_question,
+        'pred_sentiment': pred_sentiment,
 
         # Related to evaluation
         'bleu': bleu,
