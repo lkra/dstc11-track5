@@ -30,11 +30,11 @@ CUDA_VISIBLE_DEVICES=${cuda_id} python baseline.py \
 
 
 # training and validation for response generation
-model_name=facebook/bart-base
-model_name_exp=bart-base
-cuda_id=2
+model_name=philschmid/bart-large-cnn-samsum
+model_name_exp=philschmid/bart-large-cnn-samsum
 
-CUDA_VISIBLE_DEVICES=${cuda_id} python baseline.py \
+
+python baseline.py \
         --params_file baseline/configs/generation/params.json \
         --task generation \
         --dataroot data \

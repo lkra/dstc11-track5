@@ -13,6 +13,7 @@ from sklearn.metrics import recall_score, precision_score, average_precision_sco
 
 from torch.utils.data import DataLoader, RandomSampler, SequentialSampler
 from tqdm import tqdm, trange
+import wandb
 from transformers import (
     AutoConfig,
     AutoTokenizer,
@@ -88,7 +89,6 @@ def train(args, train_dataset, eval_dataset, model: PreTrainedModel, tokenizer: 
           run_batch_fn_train, run_batch_fn_eval) -> Tuple[int, float]:
     """ Model training and evaluation """
     log_dir = os.path.join("runs", args.exp_name) if args.exp_name else None
-    tb_writer = SummaryWriter(log_dir)
     args.output_dir = log_dir
 
     args.train_batch_size = args.per_gpu_train_batch_size
@@ -153,9 +153,9 @@ def train(args, train_dataset, eval_dataset, model: PreTrainedModel, tokenizer: 
 
 
         for key, value in results.items():
-            tb_writer.add_scalar("eval_{}".format(key), value, global_step)
-        tb_writer.add_scalar("lr", scheduler.get_lr()[0], global_step)
-        tb_writer.add_scalar("loss", tr_loss / local_steps, global_step)
+            wandb.log({f'eval_{key}': value})
+        wandb.log({'lr': scheduler.get_lr()[0], 'loss': tr_loss / local_steps})
+
 
         if results['val_measure'] < val_loss:
             logger.info(f"Find a smaller val loss measure {results['val_measure']}")
@@ -165,9 +165,6 @@ def train(args, train_dataset, eval_dataset, model: PreTrainedModel, tokenizer: 
         else:
             logger.info(f"The val loss measure {results['val_measure']} is larger than "
                         f"the smallest val loss {val_loss}, continue to train ... ")
-
-    tb_writer.flush()
-    tb_writer.close()
 
     return global_step, tr_loss / local_steps
 
@@ -378,11 +375,13 @@ def main():
     dataset_args.debug = args.debug
 
     # Setup CUDA & GPU
-    device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
+    device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     args.device = device
 
     # Set seed
     set_seed(args)
+
+    wandb.init(project="dstc-2023")
 
     dataset_class, model_class, run_batch_fn_train, run_batch_fn_eval = get_classes(args)
 
