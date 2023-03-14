@@ -43,6 +43,7 @@ def split_summary_question(text, nlp):
 
     return summary, question
 
+
 def get_sentiment(summary, nlp):
     doc = nlp(summary)
     sentiment = doc._.blob.polarity

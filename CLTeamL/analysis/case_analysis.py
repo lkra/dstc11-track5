@@ -5,7 +5,7 @@ from utils.helpers import group_metrics_by, get_ngram_count, save_data
 DATASET = "train"  # val or train
 
 # read in data frame
-df = pd.read_pickle(f'output/analysis_{DATASET}.pkl')
+df = pd.read_csv(f'output/analysis_{DATASET}.csv')
 
 # group by USER UTTERANCE dialogue act
 groups = group_metrics_by(df, 'question_dialogue_act')

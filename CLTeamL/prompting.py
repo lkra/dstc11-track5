@@ -70,10 +70,7 @@ def resolve_speaker(speaker):
 
 def num_tokens_from_messages(messages, model="gpt-3.5-turbo"):
     """Returns the number of tokens used by a list of messages."""
-    try:
-        encoding = tiktoken.encoding_for_model(model)
-    except KeyError:
-        encoding = tiktoken.get_encoding("cl100k_base")
+    encoding = tiktoken.encoding_for_model(model)
     if model == "gpt-3.5-turbo":  # note: future models may deviate from this
         num_tokens = 0
         for message in messages:
@@ -152,7 +149,7 @@ DIALOGUE:\n\t{dialogue_context}
 
 def main(args):
     train_data = DatasetWalker(dataset="train", dataroot="./../data/", labels=True, incl_knowledge=True)
-    dataset_to_read = "test" if args.test_set_predictions else "val"
+    dataset_to_read = "test" if args.test_set else "val"
     dev_data = DatasetWalker(dataset=dataset_to_read, dataroot="./../data/", labels=True, incl_knowledge=True)
     # Hack to use the baseline knowledge
     with open(f"./../pred/{dataset_to_read}/baseline.rg.bart-base.json", 'r') as f:
@@ -203,13 +200,13 @@ def main(args):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument('--prompt_style', default=1, type=int, choices=[0, 1, 2, 3, 4, 5, 6],
+    parser.add_argument('--prompt_style', default=1, type=int, choices=[0, 1],
                         help="Which prompt style to use: "
                              "0 ChatGPT style; "
                              "1 GPT3 style; ")
     parser.add_argument('--n_shot', default=0, type=int,
                         help="How many examples to give in the prompt")
-    parser.add_argument('--test_set_predictions', default=False, action='store_true',
+    parser.add_argument('--test_set', default=False, action='store_true',
                         help="Run on the test set instead of the validation set")
     args = parser.parse_args()
     config = vars(args)
@@ -218,4 +215,8 @@ if __name__ == "__main__":
         print(f"  {k:>21} : {v}")
     main(args)
 
-# python -m scripts.scores --dataset val --dataroot data/ --outfile pred/val/prompting.rg.prompt-style0.json --scorefile pred/val/prompting.rg.prompt-style0.score.json
+# python -m scripts.scores
+# --dataset val
+# --dataroot data/
+# --outfile pred/val/groundtruth.rg.prompt-style0.json
+# --scorefile pred/val/groundtruth.rg.prompt-style0.score.json
