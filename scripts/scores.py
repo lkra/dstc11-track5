@@ -21,7 +21,7 @@ class Metric:
         self._detection_tp = 0.0
         self._detection_fp = 0.0
         self._detection_fn = 0.0
-        
+
         self._selection_tp = 0.0
         self._selection_fp = 0.0
         self._selection_fn = 0.0
@@ -49,10 +49,12 @@ class Metric:
     def _match_knowledge_obj(self, obj1, obj2):
         matched = False
         if obj1['doc_type'] == 'review' and obj2['doc_type'] == 'review':
-            if obj2['domain'] == obj1['domain'] and obj2['entity_id'] == obj1['entity_id'] and obj2['doc_id'] == obj1['doc_id'] and obj2['sent_id'] == obj1['sent_id']:
+            if obj2['domain'] == obj1['domain'] and obj2['entity_id'] == obj1['entity_id'] and obj2['doc_id'] == obj1[
+                'doc_id'] and obj2['sent_id'] == obj1['sent_id']:
                 matched = True
         elif obj1['doc_type'] == 'faq' and obj2['doc_type'] == 'faq':
-            if obj2['domain'] == obj1['domain'] and obj2['entity_id'] == obj1['entity_id'] and obj2['doc_id'] == obj1['doc_id']:
+            if obj2['domain'] == obj1['domain'] and obj2['entity_id'] == obj1['entity_id'] and obj2['doc_id'] == obj1[
+                'doc_id']:
                 matched = True
         return matched
 
@@ -84,7 +86,7 @@ class Metric:
             exact_matched = 0
 
         return (tp, fp, fn, exact_matched)
-    
+
     def _rouge(self, ref_response, hyp_response):
         scorer = rouge_scorer.RougeScorer(['rouge1', 'rouge2', 'rougeL'], use_stemmer=True)
 
@@ -96,13 +98,12 @@ class Metric:
 
         return {'rouge1': rouge1, 'rouge2': rouge2, 'rougeL': rougeL}
 
-                    
     def update(self, ref_obj, hyp_obj):
         if ref_obj['target'] is True:
             if hyp_obj['target'] is True:
                 self._ref_responses.append(ref_obj['response'])
                 self._pred_responses.append(hyp_obj['response'])
-                
+
                 self._detection_tp += 1
 
                 rouge_scores = self._rouge(ref_obj['response'], hyp_obj['response'])
@@ -120,7 +121,7 @@ class Metric:
 
         if len(ref_knowledge) > 0 or len(hyp_knowledge) > 0:
             self._selection_total += 1.0
-            
+
             tp, fp, fn, exact_matched = self._match_knowledge(ref_knowledge, hyp_knowledge)
 
             self._selection_tp += float(tp)
@@ -129,25 +130,24 @@ class Metric:
 
             self._selection_exact_matched += float(exact_matched)
 
-
     def _compute(self, score_sum):
         if self._detection_tp + self._detection_fp > 0.0:
-            score_p = score_sum/(self._detection_tp + self._detection_fp)
+            score_p = score_sum / (self._detection_tp + self._detection_fp)
         else:
             score_p = 0.0
 
         if self._detection_tp + self._detection_fn > 0.0:
-            score_r = score_sum/(self._detection_tp + self._detection_fn)
+            score_r = score_sum / (self._detection_tp + self._detection_fn)
         else:
             score_r = 0.0
 
         if score_p + score_r > 0.0:
-            score_f = 2*score_p*score_r/(score_p+score_r)
+            score_f = 2 * score_p * score_r / (score_p + score_r)
         else:
             score_f = 0.0
 
         return (score_p, score_r, score_f)
-        
+
     def scores(self):
         detection_p, detection_r, detection_f = self._compute(self._detection_tp)
 
@@ -169,10 +169,12 @@ class Metric:
         selection_em_acc = self._selection_exact_matched / self._selection_total
 
         bleu_metric = BleuMetric()
-        bleu_score = bleu_metric.evaluate_batch(self._pred_responses, self._ref_responses)['bleu'] / 100.0 * self._detection_tp
+        bleu_score = bleu_metric.evaluate_batch(self._pred_responses, self._ref_responses)[
+                         'bleu'] / 100.0 * self._detection_tp
 
         meteor_metric = MeteorMetric()
-        meteor_score = meteor_metric.evaluate_batch(self._pred_responses, self._ref_responses)['meteor'] * self._detection_tp
+        meteor_score = meteor_metric.evaluate_batch(self._pred_responses, self._ref_responses)[
+                           'meteor'] * self._detection_tp
 
         generation_bleu_p, generation_bleu_r, generation_bleu_f = self._compute(bleu_score)
         generation_meteor_p, generation_meteor_r, generation_meteor_f = self._compute(meteor_score)
@@ -203,16 +205,18 @@ class Metric:
         }
 
         return scores
-        
+
+
 def main(argv):
     parser = argparse.ArgumentParser(description='Evaluate the system outputs.')
 
-    parser.add_argument('--dataset', dest='dataset', action='store', metavar='DATASET', choices=['train', 'val', 'test'], required=True, help='The dataset to analyze')
-    parser.add_argument('--dataroot',dest='dataroot',action='store', metavar='PATH', required=True,
+    parser.add_argument('--dataset', dest='dataset', action='store', metavar='DATASET',
+                        choices=['train', 'val', 'test'], required=True, help='The dataset to analyze')
+    parser.add_argument('--dataroot', dest='dataroot', action='store', metavar='PATH', required=True,
                         help='Will look for corpus in <dataroot>/<dataset>/...')
-    parser.add_argument('--outfile',dest='outfile',action='store',metavar='JSON_FILE',required=True,
+    parser.add_argument('--outfile', dest='outfile', action='store', metavar='JSON_FILE', required=True,
                         help='File containing output JSON')
-    parser.add_argument('--scorefile',dest='scorefile',action='store',metavar='JSON_FILE',required=True,
+    parser.add_argument('--scorefile', dest='scorefile', action='store', metavar='JSON_FILE', required=True,
                         help='File containing scores')
 
     args = parser.parse_args()
@@ -222,19 +226,19 @@ def main(argv):
             output = json.load(f)
     except FileNotFoundError:
         sys.exit('Output file does not exist at %s' % args.outfile)
-    
+
     data = DatasetWalker(dataroot=args.dataroot, dataset=args.dataset, labels=True)
 
     metric = Metric()
 
     for (instance, ref), pred in zip(data, output):
         metric.update(ref, pred)
-        
+
     scores = metric.scores()
 
     with open(args.scorefile, 'w') as out:
         json.dump(scores, out, indent=2)
-    
 
-if __name__ =="__main__":
-    main(sys.argv)        
+
+if __name__ == "__main__":
+    main(sys.argv)
