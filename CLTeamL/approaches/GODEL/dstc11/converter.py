@@ -33,7 +33,7 @@ def process(filepath):
                         kb_str.append(f'R: {kb}')
                     else:
 
-                        kb = kbs[domain][str(entity)]['faqs']['docs'][str(doc)]
+                        kb = kbs[domain][str(entity)]['faqs'][str(doc)]
                         question, answer = kb['question'], kb['answer']
                         kb_str.append(f'Q: {question} A: {answer}')
                 kb_str = ' '.join(kb_str)

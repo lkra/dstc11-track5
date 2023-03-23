@@ -39,9 +39,9 @@ class DSTC11(datasets.GeneratorBasedBuilder):
 
     def _split_generators(self, dl_manager):
 
-        train_path = '../examples/dstc11/dstc11_train.jsonl'
-        validation_path = '../examples/dstc11/dstc11_val.jsonl'
-        test_path = '../examples/dstc11/dstc11_val.jsonl'
+        train_path = '../dstc11/dstc11_train.jsonl'
+        validation_path = '../dstc11/dstc11_val.jsonl'
+        test_path = '../dstc11/dstc11_val.jsonl'
         return [
             datasets.SplitGenerator(name=datasets.Split.TRAIN, gen_kwargs={
                                     "filepath": train_path}),
