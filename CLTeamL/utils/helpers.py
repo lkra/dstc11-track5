@@ -1,7 +1,9 @@
 import json
 import statistics
 
+import matplotlib.pyplot as plt
 import pandas as pd
+import seaborn as sns
 
 from scripts.dataset_walker import DatasetWalker
 from utils.nlp_helpers import get_sentiment
@@ -50,7 +52,8 @@ def process_knowledge(item, nlp):
         item_knowledge, item_know_sentiment, item_know_avg_sentiment = [], [], 0
         item_domain, item_doc_type = 'empty', 'empty'
     else:
-        item_knowledge = [el['sent'] for el in item['knowledge'] if 'sent' in el.keys()]
+        item_knowledge = [el['sent'] if 'sent' in el.keys() else el['question'] + el['answer']
+                          for el in item['knowledge']]
         item_know_sentiment = [get_sentiment(el, nlp) for el in item_knowledge]
         item_know_avg_sentiment = statistics.mean(item_know_sentiment) if item_know_sentiment else None
         item_domain = item['knowledge'][0]['domain']
@@ -79,3 +82,18 @@ def score_predictions(reference_response, prediction_response, bleu_metric, mete
             bleu, meteor, rouge1, rouge2, rougeL = None, None, None, None, None
 
     return bleu, meteor, rouge1, rouge2, rougeL
+
+
+def hardest_examples(n_samples):
+    dataset = pd.read_csv(f'./../data_analysis/output/analysis_train.csv')
+    dataset.sort_values(by="ref_know_nr", ascending=False, inplace=True)
+
+    print(dataset['ref_know_nr'].describe())
+
+    sns.kdeplot(data=dataset, x="ref_know_nr")
+    plt.show()
+
+    dataset = dataset[dataset['ref_know_nr'] < dataset['ref_know_nr'].mean() + dataset['ref_know_nr'].std()]
+    dataset = dataset[dataset['ref_know_nr'] > dataset['ref_know_nr'].mean()]
+
+    return dataset[:n_samples].index

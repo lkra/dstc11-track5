@@ -36,7 +36,7 @@ def beam_search_question(model, index, phrase_to_complete="would you like"):
 
 
 def most_frequent_question():
-    full_questions = pd.read_csv(f'./../data_analysis/output/scores_per_reference_question_train.csv')
+    full_questions = pd.read_csv(f'./../error_analysis/output/scores_per_reference_question_baseline.rg.bart-base.csv')
 
     full_questions.sort_values(by="num_samples", ascending=False, inplace=True)
 

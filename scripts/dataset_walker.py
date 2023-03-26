@@ -72,3 +72,12 @@ class DatasetWalker(object):
                 label['knowledge'][idx]['answer'] = answer
 
         return label
+
+    def filter_knowledge_only(self):
+        x, y = [], []
+        for lab, log in zip(self.labels, self.logs):
+            if lab['target']:
+                x.append(lab)
+                y.append(log)
+
+        self.labels, self.logs = x, y
