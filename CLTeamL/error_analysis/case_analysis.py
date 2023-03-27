@@ -7,14 +7,9 @@ from utils.helpers import group_metrics_by
 
 def main(args):
     approach = args.prediction_file.rsplit(".", 1)[0]
-    ref_columns = ['turn_nr',
-                   'ref_know_nr', 'ref_know_avg_sentiment',
-                   'ref_response_length', 'ref_response_sent_nr',
-                   'ref_response_summary_sentiment',
-                   'case_type']
 
     # read in data frame
-    df = pd.read_csv(f'./output/errors_{approach}.csv')
+    df = pd.read_csv(f'./output/error_analysis_{approach}.csv')
     df = df[df['target']]
 
     # group by USER UTTERANCE dialogue act

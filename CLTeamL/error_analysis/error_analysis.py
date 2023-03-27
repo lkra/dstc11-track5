@@ -13,6 +13,8 @@ from utils.nlp_helpers import get_sentiment, split_summary_question, get_num_sen
 
 
 def main(args):
+    approach = args.prediction_file.rsplit(".", 1)[0]
+
     # create dataframe
     pred_df = pd.DataFrame(
         columns=['target',
@@ -83,7 +85,7 @@ def main(args):
         lambda x: score_predictions(x['ref_response'], x['pred_response'], bleu_metric, meteor_metric, rouge_metric),
         axis=1, result_type='expand')
 
-    df.to_csv(f'./output/errors_{args.prediction_file.rsplit(".", 1)[0]}.csv', index=False)
+    df.to_csv(f'./output/error_analysis_{approach}.csv', index=False)
 
 
 if __name__ == "__main__":

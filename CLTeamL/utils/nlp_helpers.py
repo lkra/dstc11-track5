@@ -29,7 +29,7 @@ def split_summary_question(text, nlp):
         sents = sents[-1].split(',')
 
     # separate questions from summaries
-    if dummy_question(sents[-1]):
+    if sents and dummy_question(sents[-1]):
         question = sents[-1]
         summary = ". ".join(sents[:-1])
     else:

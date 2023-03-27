@@ -96,8 +96,8 @@ cd scripts
 python scores.py
  --dataset val
  --dataroot data/
- --outfile pred/val/baseline.rg.prompt-style0.json
- --scorefile pred/val/baseline.rg.prompt-style0.score.json
+ --outfile pred/val/baseline.rg.prompt-style0_n0.json
+ --scorefile pred/val/baseline.rg.prompt-style0_n0.score.json
 ```
 
 #### Error analysis
@@ -107,7 +107,7 @@ To compare the output of a specific approach to the ground truth, on an item by 
 ```bash
 python error_analysis.py
  --dataset val
- --prediction_file baseline.rg.prompt-style0.json
+ --prediction_file baseline.rg.prompt-style0_n0.json
 ```
 
 To compare the output of a specific type of dialogue act, you may run:

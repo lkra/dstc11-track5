@@ -48,7 +48,7 @@ def chatgpt(utterances: list, model: str = "gpt-3.5-turbo"):
         messages=utterances,
         temperature=0,
         top_p=1,
-        max_tokens=60,
+        max_tokens=100,  # Manually change to 60 with prompt style 1
         frequency_penalty=0,
         presence_penalty=0
     )
@@ -213,7 +213,6 @@ def main(args):
         if reference['target']:
             # Get the prompt for asking about the sample
             prompt, prompt_tokens = get_prompt_text(log, reference, prompt_style=args.prompt_style)
-            prompt = f"{example_prompt}\n{prompt}"
 
             if args.dry_run:
                 prediction = {"text": "DUMMY RUN"}
@@ -221,21 +220,31 @@ def main(args):
             else:
                 # Pass through model
                 try:
+                    # Ugly hack to adhere to rate limit (1 / s)
+                    time.sleep(0.4)
                     if args.prompt_style in [0, 2]:
-                        # ChatGPT style
+                        # ChatGPT call
+                        prompt = [example_prompt] + prompt if example_prompt != '' else prompt
                         prediction = chatgpt(prompt)
                         reference['finish_reason'] = prediction['finish_reason']
                     elif args.prompt_style in [1]:
-                        # GPT3 style
+                        # GPT3 call
+                        prompt = f"{example_prompt}\n{prompt}"
                         [prediction] = gpt3([prompt])
+                    elif args.prompt_style in [3]:
+                        # Create summary with GPT3
+                        partial_prompt = ''
+                        [summary] = gpt3([partial_prompt])
+                        # Insert summary in ChatGPT prompt
+                        prompt = prompt.format(summary=summary)
+                        # ChatGPT call
+                        prompt = [example_prompt] + prompt if example_prompt != '' else prompt
+                        prediction = chatgpt(prompt)
+                        reference['finish_reason'] = prediction['finish_reason']
                     else:
                         raise ValueError(f"Unknown prompt style: {args.prompt_style}")
                 except:
                     prediction = {"text": "DUMMY RUN"}
-
-            # Ugly hack to adhere to rate limit (1 / s)
-            if not args.dry_run:
-                time.sleep(0.5)
 
             # Count tokens to calculate price
             total_tokens += prompt_tokens
@@ -245,6 +254,7 @@ def main(args):
             reference['prompt'] = prompt
             reference['prompt_tokens'] = prompt_tokens
             reference['response'] = prediction['text']
+            print(f"INDEX: {i}, RESPONSE: {reference['response']}")
 
             if i % 500 == 0:
                 # Write results to file as backup
@@ -263,12 +273,12 @@ if __name__ == "__main__":
                         help="Which prompt style to use: "
                              "0 ChatGPT style using user messages for dialogue history; "
                              "1 GPT3 style; "
-                             "2 ChatGPT style only using one user messages with max_tokens=50; ")
+                             "2 ChatGPT 3steps style only using one user message; ")
     parser.add_argument('--n_shot', default=0, type=int,
                         help="How many examples to give in the prompt")
     parser.add_argument('--test_set', default=False, action='store_true',
                         help="Run on the test set instead of the validation set")
-    parser.add_argument('--dry_run', default=True, action='store_true',
+    parser.add_argument('--dry_run', default=False, action='store_true',
                         help="Create the prompts but do not send them to the API")
     args = parser.parse_args()
     config = vars(args)
@@ -276,9 +286,3 @@ if __name__ == "__main__":
     for k, v in config.items():
         print(f"  {k:>21} : {v}")
     main(args)
-
-# python -m scripts.scores
-# --dataset val
-# --dataroot data/
-# --outfile pred/val/groundtruth.rg.prompt-style0.json
-# --scorefile pred/val/groundtruth.rg.prompt-style0.score.json

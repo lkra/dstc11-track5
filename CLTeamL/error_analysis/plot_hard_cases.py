@@ -14,7 +14,7 @@ def main(args):
                    ]
 
     # read in data frame
-    df = pd.read_csv(f'./output/errors_{approach}.csv')
+    df = pd.read_csv(f'./output/error_analysis_{approach}.csv')
     df = df[df['target']]
 
     # Report overall statistics
