@@ -41550,5 +41550,4717 @@
         }
       }
     }
+  },
+  "attraction": {
+    "100001": {
+      "name": "7D Experience",
+      "reviews": {
+        "0": {
+          "traveler_type": "Family",
+          "sentences": {
+            "0": "My kids loved the 7D Experience! It was a great family activity and the staff was very friendly and accommodating."
+          }
+        },
+        "1": {
+          "traveler_type": "Solo traveler",
+          "sentences": {
+            "0": "As someone who gets motion sickness easily, I was hesitant to try the 7D Experience, but I'm glad I did! It was a thrilling ride and the effects were amazing."
+          }
+        },
+        "2": {
+          "traveler_type": "Couple",
+          "sentences": {
+            "0": "We had a blast at the 7D Experience! It was a unique and exciting date activity and we would definitely recommend it to other couples."
+          }
+        }
+      },
+      "faqs": {
+        "0": {
+          "question": "Are there age restrictions for 7D Experience?",
+          "answer": "No, there are no age restrictions for 7D Experience."
+        },
+        "1": {
+          "question": "Can children ride 7D Expeirence unaccompanied themselves?",
+          "answer": "As long as they are 40 inches or taller, children can ride 7D Experience by themselves or with adults."
+        },
+        "2": {
+          "question": "Can people with medical issues ride the 7D Experience?",
+          "answer": "7D Experience is not recommended for people with a medical condition."
+        },
+        "3": {
+          "question": "Can you tell me if 7D Experience is safe for pregnant women?",
+          "answer": "7D Experience is not recommended for pregnant women."
+        },
+        "4": {
+          "question": "Does 7D Experience allow dogs?",
+          "answer": "No, dogs are not allowed."
+        },
+        "5": {
+          "question": "How much is the admission fee at 7D Experience?",
+          "answer": "The admission at 7D Experience is $13 for adults and children."
+        },
+        "6": {
+          "question": "I have a motion sickness, can I ride the 7D Experience?",
+          "answer": "You can, but it is not recommended to ride 7D Experience if you experience motion sickness on rides."
+        },
+        "7": {
+          "question": "Is credit accepted at 7D Experience?",
+          "answer": "7D Experience accepts credit cards."
+        },
+        "8": {
+          "question": "Is there a space to park a bike, similar to car parking?",
+          "answer": "Bike parking is available at 7D Experience."
+        },
+        "9": {
+          "question": "Is this a good place to bring kids?",
+          "answer": "Yes, 7D Experience is kid-friendly."
+        },
+        "10": {
+          "question": "What are the hours of operation for 7D Experience?",
+          "answer": "7D Experience is open Monday through Sunday from 10AM to 9PM."
+        },
+        "11": {
+          "question": "What parking does 7D Experience have?",
+          "answer": "7D Experience has street parking."
+        },
+        "12": {
+          "question": "What's the minimum height people have to be to ride the 7D Experience?",
+          "answer": "The minimum height to ride 7D Experience is 40 inches."
+        }
+      }
+    },
+    "100003": {
+      "name": "Alamo Square",
+      "reviews": {
+        "0": {
+          "traveler_type": "Solo traveler",
+          "sentences": {
+            "0": "Alamo Square is a great place to relax and enjoy the beautiful scenery.",
+            "1": "The playground and dog play area are perfect for those traveling with pets or children."
+          }
+        },
+        "1": {
+          "traveler_type": "Family traveler",
+          "sentences": {
+            "0": "Our family had a wonderful time at Alamo Square.",
+            "1": "The picnic area and tennis courts kept us entertained for hours."
+          }
+        },
+        "2": {
+          "traveler_type": "Couple traveler",
+          "sentences": {
+            "0": "Alamo Square is a romantic spot for a picnic or a stroll.",
+            "1": "The views of the city are breathtaking and the atmosphere is peaceful."
+          }
+        }
+      },
+      "faqs": {
+        "0": {
+          "question": "Are there any admission fees at Alamo Square?",
+          "answer": "Alamo Square does not charge any admission fees."
+        },
+        "1": {
+          "question": "Are there any restrooms that visitors can use at Alamo Square?",
+          "answer": "Restrooms are available for use at Alamo Square."
+        },
+        "2": {
+          "question": "Does Alamo Square allow bike parking?",
+          "answer": "Yes, bike parking is available at Alamo Square."
+        },
+        "3": {
+          "question": "Does Alamo Square have a play area for dogs?",
+          "answer": "Alamo Square does have a dog play area."
+        },
+        "4": {
+          "question": "Does Alamo Square have a playground?",
+          "answer": "Yes, Alamo Square does have a playground."
+        },
+        "5": {
+          "question": "Does Alamo Square have tennis courts?",
+          "answer": "Yes, Alamo Square does have tennis courts."
+        },
+        "6": {
+          "question": "Is Alamo Square good for kids?",
+          "answer": "Alamo Square is kid friendly."
+        },
+        "7": {
+          "question": "Is there a picnic area available at Alamo Square?",
+          "answer": "Yes, Alamo Square has a picnic area."
+        },
+        "8": {
+          "question": "Is there any parking nearby?",
+          "answer": "Yes, street parking is available."
+        },
+        "9": {
+          "question": "What are the opening hours of Alamo Square?",
+          "answer": "Alamo Square is open from 5am to 12am."
+        }
+      }
+    },
+    "100005": {
+      "name": "Alcatraz Island",
+      "reviews": {
+        "0": {
+          "traveler_type": "Solo traveler",
+          "sentences": {
+            "0": "Visiting Alcatraz Island was a surreal experience.",
+            "1": "The audio tour was informative and gave me chills as I walked through the prison cells."
+          }
+        },
+        "1": {
+          "traveler_type": "Family with kids",
+          "sentences": {
+            "0": "Our family had a great time at Alcatraz Island.",
+            "1": "The kids loved learning about the history and exploring the different areas of the prison."
+          }
+        },
+        "2": {
+          "traveler_type": "Couple",
+          "sentences": {
+            "0": "Alcatraz Island was a romantic and unique date idea.",
+            "1": "We enjoyed the stunning views of San Francisco Bay and the fascinating stories of the prison's past."
+          }
+        }
+      },
+      "faqs": {
+        "0": {
+          "question": "Do we need to sign up ahead of time for a tour?",
+          "answer": "Yes, the attraction is by appointment only."
+        },
+        "1": {
+          "question": "Does Alcatraz Island allow dogs?",
+          "answer": "No, Alcatraz Island does not allow dogs."
+        },
+        "2": {
+          "question": "Does the Alcatraz Island offer free WiFi?",
+          "answer": "No, Alcatraz Island does not offer free WiFi."
+        },
+        "3": {
+          "question": "How long is the Alcatraz Tour?",
+          "answer": "The Alcatraz tour is 2 hours long."
+        },
+        "4": {
+          "question": "Is Alcatraz Island good for kids?",
+          "answer": "Yes, Alcatraz Island is good for kids."
+        },
+        "5": {
+          "question": "Is there a dress code for Alcatraz Island?",
+          "answer": "Casual attire is the dress code at Alcatraz Island."
+        },
+        "6": {
+          "question": "What are the admission costs for adults and kids at Alcatraz Island?",
+          "answer": "It costs $39.90 for adults and $24.40 for kids."
+        },
+        "7": {
+          "question": "What time is Alcatraz Island open?",
+          "answer": "Alcatraz Island is open every day from 8:30 am to 6:30pm."
+        }
+      }
+    },
+    "100011": {
+      "name": "Aquarium Of The Bay",
+      "reviews": {
+        "0": {
+          "traveler_type": "Solo traveler",
+          "sentences": {
+            "0": "I had a great time exploring the Aquarium Of The Bay on my own.",
+            "1": "The exhibits were fascinating and the staff was very helpful."
+          }
+        },
+        "1": {
+          "traveler_type": "Family with kids",
+          "sentences": {
+            "0": "Our family had a blast at Aquarium Of The Bay! The kids loved seeing all the different sea creatures and we appreciated the wheelchair accessibility for our grandparent."
+          }
+        },
+        "2": {
+          "traveler_type": "Couple",
+          "sentences": {
+            "0": "My partner and I had a lovely date at Aquarium Of The Bay.",
+            "1": "The atmosphere was romantic and the exhibits were breathtaking.",
+            "2": "We highly recommend it for a unique date idea."
+          }
+        }
+      },
+      "faqs": {
+        "0": {
+          "question": "Are dogs allowed?",
+          "answer": "Aquarium Of The Bay does not allow dogs."
+        },
+        "1": {
+          "question": "Does Aquarium Of The Bay offer military discounts?",
+          "answer": "Aquarium Of The Bay offers military discounts."
+        },
+        "2": {
+          "question": "How much is the admission to Aquarium Of The Bay for both adults and kids?",
+          "answer": "The admission fee is $29.25 for adults and $19.25 for children."
+        },
+        "3": {
+          "question": "Is the Aquarium wheelchair accessible?",
+          "answer": "Aquarium Of The Bay is wheelchair accessible."
+        },
+        "4": {
+          "question": "Is there any place to park my bike there?",
+          "answer": "Yes, there is bike parking at Aquarium Of The Bay."
+        },
+        "5": {
+          "question": "Is there parking available at Aquarium Of The Bay?",
+          "answer": "Garage and street parking are available at Aquarium Of The Bay."
+        },
+        "6": {
+          "question": "Is this a good place to bring kids?",
+          "answer": "Aquarium of The Bay is good for kids."
+        },
+        "7": {
+          "question": "What are the business hours for Aquarium Of The Bay?",
+          "answer": "Aquarium Of The Bay is open from 10AM to 6pm every day of the week."
+        },
+        "8": {
+          "question": "What forms of payment are accepted?",
+          "answer": "Credit cards are accepted as payment at Aquarium Of The Bay."
+        }
+      }
+    },
+    "100012": {
+      "name": "Baker Beach",
+      "reviews": {
+        "0": {
+          "traveler_type": "Solo traveler",
+          "sentences": {
+            "0": "Baker Beach was the perfect spot for a peaceful afternoon.",
+            "1": "The trail was a great way to get some exercise and the beach was beautiful."
+          }
+        },
+        "1": {
+          "traveler_type": "Family with kids",
+          "sentences": {
+            "0": "We had a great time at Baker Beach! The kids loved playing in the sand and the picnic area was perfect for lunch."
+          }
+        },
+        "2": {
+          "traveler_type": "Couple",
+          "sentences": {
+            "0": "Baker Beach was a romantic spot for a sunset picnic.",
+            "1": "The views were breathtaking and we can't wait to come back."
+          }
+        }
+      },
+      "faqs": {
+        "0": {
+          "question": "Are there restrooms at Baker Beach?",
+          "answer": "Restrooms are available at Baker Beach."
+        },
+        "1": {
+          "question": "Do you allow dogs?",
+          "answer": "Yes, dogs are allowed."
+        },
+        "2": {
+          "question": "Does Baker Beach have a picnic area?",
+          "answer": "Yes, Baker Beach has a picnic area."
+        },
+        "3": {
+          "question": "How much does admission cost at Baker Beach?",
+          "answer": "Admission to Baker Beach is free."
+        },
+        "4": {
+          "question": "Is Baker Beach good for kids?",
+          "answer": "Baker Beach is good for kids."
+        },
+        "5": {
+          "question": "Is bike parking available at Baker Beach?",
+          "answer": "Yes, bike parking is available at Baker Beach."
+        },
+        "6": {
+          "question": "Is there any trail at Baker Beach?",
+          "answer": "Yes, there is a 1.5 mile trail at Baker Beach."
+        },
+        "7": {
+          "question": "Is there parking available at Baker Beach?",
+          "answer": "Street parking and a private parking lot are both available at Baker Beach."
+        },
+        "8": {
+          "question": "When is Baker Beach open to the public?",
+          "answer": "Baker Beach is open from 6AM to 7PM every day of the week."
+        }
+      }
+    },
+    "100013": {
+      "name": "Balmy Street Murals",
+      "reviews": {
+        "0": {
+          "traveler_type": "Solo traveler",
+          "sentences": {
+            "0": "Balmy Street Murals is a must-visit for anyone interested in street art.",
+            "1": "The murals are stunning and the neighborhood has a great vibe."
+          }
+        },
+        "1": {
+          "traveler_type": "Family with kids",
+          "sentences": {
+            "0": "We had a great time exploring Balmy Street Murals with our kids.",
+            "1": "They loved seeing all the colorful artwork and we appreciated the free admission."
+          }
+        },
+        "2": {
+          "traveler_type": "Couple",
+          "sentences": {
+            "0": "Balmy Street Murals was a romantic and unique date spot.",
+            "1": "We enjoyed strolling through the alleys and admiring the beautiful murals together."
+          }
+        }
+      },
+      "faqs": {
+        "0": {
+          "question": "Can I park my bike at Balmy Street Murals?",
+          "answer": "There is no bike parking at Balmy Street Murals."
+        },
+        "1": {
+          "question": "Can I park my car at Balmy Street Murals?",
+          "answer": "Parking is not available."
+        },
+        "2": {
+          "question": "How much is admission to Balmy Street Murals?",
+          "answer": "Admission to Balmy Street Murals is free."
+        },
+        "3": {
+          "question": "Is Balmy Street Murals wheelchair accessible?",
+          "answer": "Balmy Street Murals is not wheelchair accessible."
+        },
+        "4": {
+          "question": "Is this place appropriate for kids?",
+          "answer": "Yes, Balmy Street Murals is good for kids."
+        }
+      }
+    },
+    "100015": {
+      "name": "Batteries to Bluffs Trail",
+      "reviews": {
+        "0": {
+          "traveler_type": "Solo traveler",
+          "sentences": {
+            "0": "The Batteries to Bluffs Trail was a great solo hike with stunning views of the Golden Gate Bridge.",
+            "1": "The trail was challenging but manageable for a solo hiker."
+          }
+        },
+        "1": {
+          "traveler_type": "Family with kids",
+          "sentences": {
+            "0": "Our family had a wonderful time hiking the Batteries to Bluffs Trail.",
+            "1": "The trail was kid-friendly and offered beautiful views of the ocean and the Golden Gate Bridge."
+          }
+        },
+        "2": {
+          "traveler_type": "Group of friends",
+          "sentences": {
+            "0": "The Batteries to Bluffs Trail was the perfect hike for our group of friends.",
+            "1": "The trail was challenging enough to."
+          }
+        }
+      },
+      "faqs": {
+        "0": {
+          "question": "Are bikes permitted at Batteries to Bluffs Trail?",
+          "answer": "No, bikes are not permitted at Batteries to Bluffs Trail."
+        },
+        "1": {
+          "question": "Does Batteries to Bluffs Trail offer bike parking?",
+          "answer": "Yes, Batteries to Bluffs Trail offers bike parking."
+        },
+        "2": {
+          "question": "How long does it take to complete a hike at Batteries to Bluffs Trail?",
+          "answer": "It should take you about 14 minutes to finish the trail."
+        },
+        "3": {
+          "question": "Is Batteries to Bluffs Trail good for kids?",
+          "answer": "Yes, it is good for kids."
+        },
+        "4": {
+          "question": "What is parking like at Batteries to Bluffs Trail?",
+          "answer": "You can park your car in a private lot at Batteries to Bluffs Trail."
+        },
+        "5": {
+          "question": "What is the challenge level of Batteries to Bluffs Trail?",
+          "answer": "The challenge level is moderate to difficult at Batteries to Bluffs Trail."
+        },
+        "6": {
+          "question": "What is the length of the Batteries to Bluffs Trail?",
+          "answer": "The Batteries to Bluffs Trail is 0.7 miles in length."
+        }
+      }
+    },
+    "100017": {
+      "name": "Bay City Bike Rentals and Tours - The Haight",
+      "reviews": {
+        "0": {
+          "traveler_type": "Solo traveler",
+          "sentences": {
+            "0": "I had a great experience renting a bike from Bay City Bike Rentals and Tours.",
+            "1": "The staff was friendly and helpful, and the rental process was easy."
+          }
+        },
+        "1": {
+          "traveler_type": "Family with kids",
+          "sentences": {
+            "0": "We rented bikes for the whole family and had a blast exploring San Francisco.",
+            "1": "Bay City Bike Rentals and Tours was great for kids and the staff made sure we had everything we needed."
+          }
+        },
+        "2": {
+          "traveler_type": "Couple",
+          "sentences": {
+            "0": "My partner and I rented bikes from Bay City Bike Rentals and Tours and had a romantic ride through Golden Gate."
+          }
+        }
+      },
+      "faqs": {
+        "0": {
+          "question": "Are dogs allowed at Bay City Bike Rentals and Tours?",
+          "answer": "Dogs are not allowed."
+        },
+        "1": {
+          "question": "How much will a bike rental cost me if I rent from Bay City Bike Rentals and Tours?",
+          "answer": "The rental fee depends on your bike and can be anywhere from $16 to $78 a day."
+        },
+        "2": {
+          "question": "Is Bay City Bike Rentals and Tours good for kids?",
+          "answer": "Bay City Bike Rentals and Tours is good for kids."
+        },
+        "3": {
+          "question": "Is Bay City Bike Rentals and Tours wheelchair accessible?",
+          "answer": "No, it is not wheelchair accessible."
+        },
+        "4": {
+          "question": "Is bike parking available at Bay City Bike Rentals and Tours?",
+          "answer": "Yes.You can park your bike at Bay City Bike Rentals and Tours."
+        },
+        "5": {
+          "question": "Is there a military discount offered?",
+          "answer": "Yes, Bay City Bike Rentals and Tours offers a military discount."
+        },
+        "6": {
+          "question": "Is there any parking available at Bay City Bike Rentals and Tours?",
+          "answer": "Street parking is available at Bay City Bike Rentals and Tours."
+        },
+        "7": {
+          "question": "What are the opening hours for Bay City Bike Rentals and Tours?",
+          "answer": "Bay City Bike Rentals and Tours is open from 8:30 am to 6:00 pm, seven days a week."
+        },
+        "8": {
+          "question": "What forms of payment are accepted?",
+          "answer": "Bay City Bike Rentals and Tours accepts only credit card as primary payment."
+        }
+      }
+    },
+    "100019": {
+      "name": "Bay City Bike Rentals and Tours - Fisherman's Wharf",
+      "reviews": {
+        "0": {
+          "traveler_type": "Solo traveler",
+          "sentences": {
+            "0": "I had a great experience renting a bike from Bay City Bike Rentals and Tours.",
+            "1": "The staff was friendly and helpful, and the rental process was quick and easy."
+          }
+        },
+        "1": {
+          "traveler_type": "Family traveler",
+          "sentences": {
+            "0": "My family and I had a blast exploring San Francisco on bikes rented from Bay City Bike Rentals and Tours.",
+            "1": "The bikes were in great condition and the staff provided us with maps and recommendations for our route."
+          }
+        },
+        "2": {
+          "traveler_type": "Adventure traveler",
+          "sentences": {
+            "0": "If you're looking for an exciting way to see San Francisco, I highly recommend."
+          }
+        }
+      },
+      "faqs": {
+        "0": {
+          "question": "Are you kid-friendly?",
+          "answer": "Bay City Bike Rentals and Tours is good for kids."
+        },
+        "1": {
+          "question": "Does this establishment accept credit cards as a payment option?",
+          "answer": "Bay City Bike Rentals and Tours accepts credit cards."
+        },
+        "2": {
+          "question": "How much does the bike rentals cost?",
+          "answer": "The rental cost varies from $16 to $78 a day depending on the bike."
+        },
+        "3": {
+          "question": "Is Bay City Bike Rentals and Tours wheelchair accessible?",
+          "answer": "Bay City Bike Rentals and Tours doesn't support wheelchair accessible location."
+        },
+        "4": {
+          "question": "Is bike parking available at Bay City Bike Rentals and Tours?",
+          "answer": "Yes, bike parking is available."
+        },
+        "5": {
+          "question": "Is there any parking there?",
+          "answer": "Street parking is available at Bay City Bike Rentals and Tour."
+        },
+        "6": {
+          "question": "What are your operating hours of Bay City Bike Rentals and Tours?",
+          "answer": "Bay City Bike Rentals and Tours is open from 8:30 am to 6:00 pm, seven days a week."
+        }
+      }
+    },
+    "100022": {
+      "name": "Belden Place",
+      "reviews": {
+        "0": {
+          "traveler_type": "Solo traveler",
+          "sentences": {
+            "0": "Belden Place is a great spot for a solo traveler looking for a unique dining experience.",
+            "1": "The small alleyway is filled with cozy restaurants and a lively atmosphere."
+          }
+        },
+        "1": {
+          "traveler_type": "Family with kids",
+          "sentences": {
+            "0": "While Belden Place may not be listed as kid-friendly, my family and I had a great time exploring the different restaurants and trying new foods.",
+            "1": "Just be prepared for the narrow walkway and limited seating options."
+          }
+        },
+        "2": {
+          "traveler_type": "Couple",
+          "sentences": {
+            "0": "Belden Place is the perfect date night spot for couples looking for a romantic and."
+          }
+        }
+      },
+      "faqs": {
+        "0": {
+          "question": "Can I park my car at Belden Place?",
+          "answer": "Parking is not available at Belden Place."
+        },
+        "1": {
+          "question": "Does admission to Belden Place cost anything for either adults or kids?",
+          "answer": "Admission is free for adults and children."
+        },
+        "2": {
+          "question": "Is Belden Place good for kids?",
+          "answer": "Belden Place is not listed as good for kids."
+        },
+        "3": {
+          "question": "Is there a specific dress code at Belden Place?",
+          "answer": "There is no specific dress code at the Belden Place."
+        }
+      }
+    },
+    "100023": {
+      "name": "Bernal Heights Park",
+      "reviews": {
+        "0": {
+          "traveler_type": "Solo traveler",
+          "sentences": {
+            "0": "Bernal Heights Park is a great spot for a peaceful walk with stunning views of the city.",
+            "1": "The dog play area is a bonus for furry friends."
+          }
+        },
+        "1": {
+          "traveler_type": "Family with kids",
+          "sentences": {
+            "0": "We had a wonderful time at Bernal Heights Park.",
+            "1": "The kids loved running around and playing in the open space, and the restrooms were clean and convenient."
+          }
+        },
+        "2": {
+          "traveler_type": "Couple",
+          "sentences": {
+            "0": "Bernal Heights Park is a romantic spot to watch the sunset over San Francisco.",
+            "1": "We enjoyed a picnic and the quiet atmosphere away from the hustle."
+          }
+        }
+      },
+      "faqs": {
+        "0": {
+          "question": "Are dogs allowed?",
+          "answer": "Dogs are allowed at Bernal Heights Park."
+        },
+        "1": {
+          "question": "Are there any restrooms available for public use at Bernal Heights Park?",
+          "answer": "Yes, Bernal Heights Park does have restrooms available."
+        },
+        "2": {
+          "question": "Does Bernal Heights Park have a dog play area?",
+          "answer": "Yes Bernal Heights Park does have a dog play area."
+        },
+        "3": {
+          "question": "Does Bernal Heights Park offer parking?",
+          "answer": "Bernal Heights Park offers street parking and a private lot."
+        },
+        "4": {
+          "question": "Is Bernal Heights Park wheelchair accessible?",
+          "answer": "Bernal Heights Park is not wheelchair accessible."
+        },
+        "5": {
+          "question": "Is the park appropriate for kids?",
+          "answer": "Bernal Heights Park is good for kids."
+        },
+        "6": {
+          "question": "Is there an admission fee at Bernal Heights Park?",
+          "answer": "There is no admission fee at Bernal Heights Park, as it is free to all."
+        },
+        "7": {
+          "question": "Is there bike parking at Bernal Heights Park?",
+          "answer": "Yes, Bernal Heights Park offers bike parking."
+        }
+      }
+    },
+    "100026": {
+      "name": "Cable Car - California Street Line",
+      "reviews": {
+        "0": {
+          "traveler_type": "Solo traveler",
+          "sentences": {
+            "0": "The Cable Car - California Street Line was a great way to see the city and experience a piece of history.",
+            "1": "The admission fee was reasonable and the views were amazing."
+          }
+        },
+        "1": {
+          "traveler_type": "Family with kids",
+          "sentences": {
+            "0": "Our family had a blast riding the Cable Car - California Street Line.",
+            "1": "The kids loved the experience and we all enjoyed the beautiful views of San Francisco."
+          }
+        },
+        "2": {
+          "traveler_type": "Couple",
+          "sentences": {
+            "0": "The Cable Car - California Street Line was a romantic way to see the city.",
+            "1": "We loved holding hands and taking in the stunning views together."
+          }
+        }
+      },
+      "faqs": {
+        "0": {
+          "question": "How much is the admission fee for the Cable Car?",
+          "answer": "The admission fee is $8 at Cable Car - California Street Line."
+        },
+        "1": {
+          "question": "Is there WiFi at the Cable Car - California Street Line?",
+          "answer": "There is no WiFi at the Cable Car - California Street Line."
+        }
+      }
+    },
+    "100027": {
+      "name": "Cable Car - Powell/Hyde Line",
+      "reviews": {
+        "0": {
+          "traveler_type": "Solo traveler",
+          "sentences": {
+            "0": "The Cable Car - Powell/Hyde Line was a great way to see the city and experience a piece of history.",
+            "1": "The fare was a bit pricey, but worth it for the unique experience."
+          }
+        },
+        "1": {
+          "traveler_type": "Family traveler",
+          "sentences": {
+            "0": "Riding the Cable Car - Powell/Hyde Line was a highlight of our family trip to San Francisco.",
+            "1": "The kids loved the views and the excitement of riding a cable car."
+          }
+        },
+        "2": {
+          "traveler_type": "Couple traveler",
+          "sentences": {
+            "0": "We had a romantic ride on the Cable Car - Powell/Hyde Line at."
+          }
+        }
+      },
+      "faqs": {
+        "0": {
+          "question": "Can I park my bike at Cable Car - Powell/Hyde Line?",
+          "answer": "There is no bike parking available at Cable Car - Powell/Hyde Line."
+        },
+        "1": {
+          "question": "Is there WiFi at the Cable Car - Powell/Hyde Line?",
+          "answer": "There is no WiFi at the Cable Car - Powell/Hyde Line."
+        },
+        "2": {
+          "question": "What are the hours of operation for the Cable Car - Powell/Hyde Line?",
+          "answer": "The Cable Car - Powell/Hyde Line opens at 6 am Monday through Sunday, it closes at 12 am everyday too."
+        },
+        "3": {
+          "question": "What is the fare to ride the cable car?",
+          "answer": "The fare for adult and child is $8 at Cable Car - Powell/Hyde Line."
+        }
+      }
+    },
+    "100028": {
+      "name": "Cable Car - Powell/Mason Line",
+      "reviews": {
+        "0": {
+          "traveler_type": "Solo traveler",
+          "sentences": {
+            "0": "The Cable Car - Powell/Mason Line was a great way to see the city and experience a piece of history.",
+            "1": "The fare was a bit steep, but worth it for the views."
+          }
+        },
+        "1": {
+          "traveler_type": "Family with kids",
+          "sentences": {
+            "0": "Our family had a blast riding the Cable Car - Powell/Mason Line.",
+            "1": "The kids loved the experience and we all enjoyed the beautiful views of San Francisco."
+          }
+        },
+        "2": {
+          "traveler_type": "Couple",
+          "sentences": {
+            "0": "Riding the Cable Car - Powell/Mason Line was a romantic and unique way to explore the city.",
+            "1": "The fare."
+          }
+        }
+      },
+      "faqs": {
+        "0": {
+          "question": "Can I park my car at Cable Car - Powell/Mason Line?",
+          "answer": "There is no parking at Cable Car - Powell/Mason Line."
+        },
+        "1": {
+          "question": "Is there WiFi at the Cable Car - Powell/Mason Line?",
+          "answer": "There is no WiFi at the Cable Car - Powell/Mason Line."
+        },
+        "2": {
+          "question": "What is the fare of the cable car?",
+          "answer": "The fare of the cable car is $8 for both adults and kids."
+        }
+      }
+    },
+    "100029": {
+      "name": "Cable Car Museum",
+      "reviews": {
+        "0": {
+          "traveler_type": "Solo traveler",
+          "sentences": {
+            "0": "The Cable Car Museum was a great experience.",
+            "1": "I learned a lot about the history of cable cars and the exhibits were fascinating."
+          }
+        },
+        "1": {
+          "traveler_type": "Family with kids",
+          "sentences": {
+            "0": "We had a blast at the Cable Car Museum! The kids loved seeing the old cable cars and learning about how they work."
+          }
+        },
+        "2": {
+          "traveler_type": "Couple",
+          "sentences": {
+            "0": "The Cable Car Museum was a unique and interesting attraction.",
+            "1": "We enjoyed exploring the exhibits and learning about the history of cable cars."
+          }
+        }
+      },
+      "faqs": {
+        "0": {
+          "question": "Can I bring my dog to Cable Car Museum?",
+          "answer": "Sorry, you're not allowed to bring a pet to the museum."
+        },
+        "1": {
+          "question": "Can I park my bike at Cable Car Museum?",
+          "answer": "No, bike parking is not available at the Cable Car Museum."
+        },
+        "2": {
+          "question": "Can I park my car at Cable Car Museum?",
+          "answer": "There is no place for parking at Cable Car Museum."
+        },
+        "3": {
+          "question": "Is Cable Car Museum good for kids?",
+          "answer": "Cable Car Museum is good for kids."
+        },
+        "4": {
+          "question": "Is there an admission fee to visit the Cable Car Museum?",
+          "answer": "The Cable Car Museum is free of charge."
+        },
+        "5": {
+          "question": "What is the opening hours of Cable Car Museum?",
+          "answer": "Cable Car Museum is open from 10am to 5pm everyday."
+        }
+      }
+    },
+    "100030": {
+      "name": "California Academy of Sciences",
+      "reviews": {
+        "0": {
+          "traveler_type": "Family",
+          "sentences": {
+            "0": "The California Academy of Sciences was a great experience for our family.",
+            "1": "Our kids loved the exhibits and we appreciated the wheelchair accessibility."
+          }
+        },
+        "1": {
+          "traveler_type": "Solo traveler",
+          "sentences": {
+            "0": "As a solo traveler, I found the California Academy of Sciences to be a fascinating and educational destination.",
+            "1": "The free WiFi was a nice bonus."
+          }
+        },
+        "2": {
+          "traveler_type": "Couple",
+          "sentences": {
+            "0": "My partner and I had a wonderful time at the California Academy of Sciences.",
+            "1": "The admission fee was a bit steep, but the exhibits and bike parking made it worth it."
+          }
+        }
+      },
+      "faqs": {
+        "0": {
+          "question": "Are there exhibits there that kids would enjoy?",
+          "answer": "Yes, the California Academy of Sciences is good for kids."
+        },
+        "1": {
+          "question": "Are you wheelchair accessible?",
+          "answer": "Yes, California Academy of Sciences is wheelchair accessible."
+        },
+        "2": {
+          "question": "Can I make an appointment to come?",
+          "answer": "California Academy of Sciences isn't available for appointment booking."
+        },
+        "3": {
+          "question": "Do you accept major credit cards for payment?",
+          "answer": "The California Academy of Sciences accepts credit cards."
+        },
+        "4": {
+          "question": "Does California Academy of Sciences allow dogs?",
+          "answer": "No, California Academy of Sciences does not allow dogs."
+        },
+        "5": {
+          "question": "Is WiFi available?",
+          "answer": "California Academy of Sciences offers free WiFi."
+        },
+        "6": {
+          "question": "Is bike parking available at California Academy of Sciences?",
+          "answer": "Yes, bike parking is available."
+        },
+        "7": {
+          "question": "What are the hours of operation at the California Academy of Sciences?",
+          "answer": "The California Academy of Sciences is open from 9:30 AM to 5 PM Monday to Saturday and 11 AM to 5 PM on Sundays."
+        },
+        "8": {
+          "question": "What is the admission fee for California Academy of Sciences?",
+          "answer": "The admission fee is $36 for an adult and $26 for a child at the California Academy of Sciences."
+        },
+        "9": {
+          "question": "What type of parking do you offer there?",
+          "answer": "California Academy of Sciences offers garage and street parking."
+        },
+        "10": {
+          "question": "What's the dress code at California Academy of Sciences?",
+          "answer": "The dress code at California Academy of Sciences is casual."
+        }
+      }
+    },
+    "100031": {
+      "name": "Camera Obscura",
+      "reviews": {
+        "0": {
+          "traveler_type": "Solo traveler",
+          "sentences": {
+            "0": "Camera Obscura was a unique and fascinating experience.",
+            "1": "The interactive exhibits were a lot of fun to explore on my own."
+          }
+        },
+        "1": {
+          "traveler_type": "Family with kids",
+          "sentences": {
+            "0": "Our family had a blast at Camera Obscura! The kids loved the optical illusions and we all learned something new."
+          }
+        },
+        "2": {
+          "traveler_type": "Couple",
+          "sentences": {
+            "0": "We had a great date at Camera Obscura.",
+            "1": "The admission fee was affordable and we enjoyed exploring the different exhibits together."
+          }
+        }
+      },
+      "faqs": {
+        "0": {
+          "question": "Can I park my car at Camera Obscura?",
+          "answer": "Sorry, you cannot park your car at Camera Obscura."
+        },
+        "1": {
+          "question": "How much is the admission going to cost to Camera Obscura, for both adults and children?",
+          "answer": "The admission fee is $3 for adults and children."
+        },
+        "2": {
+          "question": "What days and times is Camera Obscura open?",
+          "answer": "Camera Obscura is open Monday through Saturday, 11AM to 5 PM."
+        }
+      }
+    },
+    "100033": {
+      "name": "Cartoon Art Museum",
+      "reviews": {
+        "0": {
+          "traveler_type": "Family",
+          "sentences": {
+            "0": "The Cartoon Art Museum was a hit with our kids! They loved seeing all the different cartoons and characters on display.",
+            "1": "The admission prices were also very reasonable for a family outing."
+          }
+        },
+        "1": {
+          "traveler_type": "Art enthusiast",
+          "sentences": {
+            "0": "As someone who loves art and cartoons, the Cartoon Art Museum was a dream come true.",
+            "1": "The exhibits were well-curated and informative, and I appreciated the museum's dedication to preserving and showcasing cartoon art."
+          }
+        },
+        "2": {
+          "traveler_type": "Local",
+          "sentences": {
+            "0": "I've been to the Cartoon Art Museum multiple times and it never gets old.",
+            "1": "It."
+          }
+        }
+      },
+      "faqs": {
+        "0": {
+          "question": "Does the museum accept credit cards?",
+          "answer": "The Cartoon Art Museum accepts credit cards"
+        },
+        "1": {
+          "question": "Does the museum offer military discounts?",
+          "answer": "Yes, military discounts are offered at the Cartoon Art Museum."
+        },
+        "2": {
+          "question": "How much will I need to pay for adults' and children's admission to the Cartoon Art Museum?",
+          "answer": "Admission to the Cartoon Art Museum is 10 dollars for adults and 4 dollars for children."
+        },
+        "3": {
+          "question": "Is Cartoon Art Museum good for kids?",
+          "answer": "Cartoon Art Museum is good for kids."
+        },
+        "4": {
+          "question": "Is Cartoon Art Museum wheelchair accessible?",
+          "answer": "Yes, Cartoon Art Museum is wheelchair accessible."
+        },
+        "5": {
+          "question": "What are the operating hours of The Cartoon Art Museum?",
+          "answer": "The Cartoon Art Museum is open from 11 am to 5pm but is closed on Wednesdays."
+        }
+      }
+    },
+    "100035": {
+      "name": "China Beach",
+      "reviews": {
+        "0": {
+          "traveler_type": "Solo traveler",
+          "sentences": {
+            "0": "China Beach is a peaceful and beautiful spot to relax and enjoy the ocean.",
+            "1": "The restroom facilities were clean and well-maintained."
+          }
+        },
+        "1": {
+          "traveler_type": "Family with kids",
+          "sentences": {
+            "0": "We had a great time at China Beach! The kids loved playing in the sand and the fact that it's kid-friendly made it even better."
+          }
+        },
+        "2": {
+          "traveler_type": "Cyclist",
+          "sentences": {
+            "0": "China Beach is a great destination for a bike ride.",
+            "1": "The bike parking was convenient and the views of the ocean were breathtaking."
+          }
+        }
+      },
+      "faqs": {
+        "0": {
+          "question": "Are there any restrooms available for use at China Beach?",
+          "answer": "Yes, restrooms are available at China Beach."
+        },
+        "1": {
+          "question": "Does China Beach cost any admission fee to visit?",
+          "answer": "China beach is free of charge to visit."
+        },
+        "2": {
+          "question": "Does China Beach have bike parking available?",
+          "answer": "China Beach has bike parking available"
+        },
+        "3": {
+          "question": "Is China Beach kid-friendly?",
+          "answer": "Yes, China Beach is kid-friendly."
+        },
+        "4": {
+          "question": "Is parking available at China Beach?",
+          "answer": "Street parking and a private parking lot are both available at China Beach."
+        }
+      }
+    },
+    "100037": {
+      "name": "City Lights Bookstore",
+      "reviews": {
+        "0": {
+          "traveler_type": "Solo traveler",
+          "sentences": {
+            "0": "City Lights Bookstore is a must-visit for any book lover.",
+            "1": "The staff is friendly and knowledgeable, and the selection of books is impressive."
+          }
+        },
+        "1": {
+          "traveler_type": "Family with kids",
+          "sentences": {
+            "0": "We had a great time exploring City Lights Bookstore with our children.",
+            "1": "The staff was patient and helpful, and the kids loved the children's section."
+          }
+        },
+        "2": {
+          "traveler_type": "Couple",
+          "sentences": {
+            "0": "City Lights Bookstore is the perfect spot for a cozy date.",
+            "1": "We spent hours browsing the shelves and sipping coffee in the attached cafe.",
+            "2": "Highly recommend!."
+          }
+        }
+      },
+      "faqs": {
+        "0": {
+          "question": "Are dogs permitted at City Lights Bookstore?",
+          "answer": "City Lights Bookstore does not allow dogs."
+        },
+        "1": {
+          "question": "Are you wheelchair accessible?",
+          "answer": "No, City Lights Bookstore is not wheelchair accessible."
+        },
+        "2": {
+          "question": "Can I park my bike there?",
+          "answer": "Yes, there is bike parking at City Lights Bookstore."
+        },
+        "3": {
+          "question": "Does City Lights Bookstore accept google pay?",
+          "answer": "No, City Lights Bookstore does not accept Google Pay."
+        },
+        "4": {
+          "question": "Does The City Lights Bookstore accept Apple Pay?",
+          "answer": "The City Lights Bookstore does not accept Apple Pay."
+        },
+        "5": {
+          "question": "Does the bookstore accept credit cards?",
+          "answer": "The establishment accepts credit cards."
+        },
+        "6": {
+          "question": "Is street parking available there?",
+          "answer": "Yes, street parking is available."
+        },
+        "7": {
+          "question": "What are the opening hours of City Lights Bookstore?",
+          "answer": "City Lights Bookstore is open from 10:00 am to 12:00 am every day."
+        }
+      }
+    },
+    "100040": {
+      "name": "Clarion Alley",
+      "reviews": {
+        "0": {
+          "traveler_type": "Solo traveler",
+          "sentences": {
+            "0": "Clarion Alley is a great spot for street art enthusiasts.",
+            "1": "The vibrant murals and graffiti are a feast for the eyes."
+          }
+        },
+        "1": {
+          "traveler_type": "Family traveler",
+          "sentences": {
+            "0": "We had a fun time exploring Clarion Alley with our kids.",
+            "1": "They loved the colorful artwork and we appreciated the unique atmosphere."
+          }
+        },
+        "2": {
+          "traveler_type": "Couple traveler",
+          "sentences": {
+            "0": "Clarion Alley is a romantic spot for a stroll.",
+            "1": "The art is beautiful and the alley has a cozy, intimate feel."
+          }
+        }
+      },
+      "faqs": {
+        "0": {
+          "question": "Can I park my bike at Clarion Alley?",
+          "answer": "There is no bike parking area at Clarion Alley."
+        },
+        "1": {
+          "question": "Can I park my car at Clarion Alley?",
+          "answer": "You cannot park your car at at Clarion Alley."
+        },
+        "2": {
+          "question": "Is Clarion Alley good for kids?",
+          "answer": "Clarion Alley is a good place for kids."
+        },
+        "3": {
+          "question": "Is Clarion Alley wheelchair accessible?",
+          "answer": "Clarion Alley is not wheelchair accessible."
+        }
+      }
+    },
+    "100041": {
+      "name": "Coit Tower",
+      "reviews": {
+        "0": {
+          "traveler_type": "Solo traveler",
+          "sentences": {
+            "0": "Coit Tower offers stunning views of San Francisco and is definitely worth the visit.",
+            "1": "However, be prepared for a lot of stairs and no elevator access."
+          }
+        },
+        "1": {
+          "traveler_type": "Family with kids",
+          "sentences": {
+            "0": "Coit Tower was a hit with our kids! They loved the murals and the view from the top.",
+            "1": "Just be aware that there are no restrooms available at the tower."
+          }
+        },
+        "2": {
+          "traveler_type": "Couple",
+          "sentences": {
+            "0": "Coit Tower was a romantic spot to visit with my partner.",
+            "1": "The views were breathtaking and we enjoyed learning about the history."
+          }
+        }
+      },
+      "faqs": {
+        "0": {
+          "question": "Are dogs allowed at Coit Tower?",
+          "answer": "No, dogs are not allowed at Coit Tower."
+        },
+        "1": {
+          "question": "Can I park my car at Coit Tower?",
+          "answer": "You cannot park at Coit Tower."
+        },
+        "2": {
+          "question": "Do I need an appointment to come to Coit Tower?",
+          "answer": "No, Coit Tower is not by appointment only."
+        },
+        "3": {
+          "question": "Does Coit Tower offer free WiFi?",
+          "answer": "No, Coit Tower does not offer free WiFi."
+        },
+        "4": {
+          "question": "Is Coit Tower appropriate for kids?",
+          "answer": "Coit Tower is good for kids."
+        },
+        "5": {
+          "question": "Is Coit Tower wheelchair accessible?",
+          "answer": "The Coit Tower is not wheelchair accessible."
+        },
+        "6": {
+          "question": "What is the dress code at Coit Tower?",
+          "answer": "Coit Tower dress code is casual"
+        },
+        "7": {
+          "question": "When is Coit Tower open each day?",
+          "answer": "Coit tower is open from 10:00 am to 5:00 pm every day."
+        }
+      }
+    },
+    "100042": {
+      "name": "Conservatory of Flowers",
+      "reviews": {
+        "0": {
+          "traveler_type": "Solo traveler",
+          "sentences": {
+            "0": "The Conservatory of Flowers is a beautiful and peaceful place to visit.",
+            "1": "The admission fee is reasonable and the staff is friendly and helpful."
+          }
+        },
+        "1": {
+          "traveler_type": "Family with kids",
+          "sentences": {
+            "0": "We had a great time exploring the different plants and flowers at the Conservatory of Flowers.",
+            "1": "Our kids especially enjoyed the interactive exhibits and the butterfly exhibit."
+          }
+        },
+        "2": {
+          "traveler_type": "Couple",
+          "sentences": {
+            "0": "The Conservatory of Flowers is a romantic and enchanting place to visit.",
+            "1": "We loved strolling through the gardens and admiring the beautiful flowers.",
+            "2": "The admission fee was."
+          }
+        }
+      },
+      "faqs": {
+        "0": {
+          "question": "Are visits to this place allowed via drop-in?",
+          "answer": "No, it is not by appointment only."
+        },
+        "1": {
+          "question": "Do you accept Google Pay?",
+          "answer": "Google Pay is not accepted by Conservatory of Flowers."
+        },
+        "2": {
+          "question": "Does Conservatory of Flowers accept credit cards?",
+          "answer": "Conservatory of Flowers accepts credit cards."
+        },
+        "3": {
+          "question": "Does this place take Apple Pay as payment?",
+          "answer": "No, the Conservatory of Flowers does not accept Apple Pay."
+        },
+        "4": {
+          "question": "How much is the admission fee for Conservatory of Flowers?",
+          "answer": "The admission fee for adults is $10 Tuesdays to Thursdays and $12 Friday to Sunday. The fee for children is $3 everyday."
+        },
+        "5": {
+          "question": "Is Conservatory of Flowers good for kids?",
+          "answer": "Conservatory of Flowers is good for kids."
+        },
+        "6": {
+          "question": "Is free WiFi available at Conservatory of Flowers?",
+          "answer": "Free Wifi is available at Conservatory of Flowers"
+        },
+        "7": {
+          "question": "What are the business hours for the Conservatory of Flowers?",
+          "answer": "The Conservatory of Flowers is open from 10 AM to 4:30 PM Tuesday through Sunday and is closed Mondays."
+        }
+      }
+    },
+    "100043": {
+      "name": "Contemporary Jewish Museum",
+      "reviews": {
+        "0": {
+          "traveler_type": "Family",
+          "sentences": {
+            "0": "The Contemporary Jewish Museum was a great experience for our family.",
+            "1": "The exhibits were engaging and informative for both adults and children."
+          }
+        },
+        "1": {
+          "traveler_type": "Art enthusiast",
+          "sentences": {
+            "0": "As an art enthusiast, I was blown away by the thought-provoking exhibits at the Contemporary Jewish Museum.",
+            "1": "The museum's unique approach to showcasing Jewish culture through contemporary art was truly inspiring."
+          }
+        },
+        "2": {
+          "traveler_type": "History buff",
+          "sentences": {
+            "0": "The Contemporary Jewish Museum provided a fascinating glimpse into the rich history of Jewish culture.",
+            "1": "The exhibits were well-curated and provided a comprehensive overview of the Jewish."
+          }
+        }
+      },
+      "faqs": {
+        "0": {
+          "question": "How much will a ticket cost to visit the Contemporary Jewish Museum?",
+          "answer": "Admission is $16 for adults and $8 for children."
+        },
+        "1": {
+          "question": "Is Contemporary Jewish Museum good for kids?",
+          "answer": "Contemporary Jewish Museum is good for kids."
+        },
+        "2": {
+          "question": "What days and times is the Contemporary Jewish Museum open?",
+          "answer": "The Contemporary Jewish Museum is open from 11:00 am to 5:00 pm every day except for Wednesday when it is closed."
+        }
+      }
+    },
+    "100045": {
+      "name": "Cupid's Span",
+      "reviews": {
+        "0": {
+          "traveler_type": "Solo traveler",
+          "sentences": {
+            "0": "I loved visiting Cupid's Span! The views of the bay and the bridge were breathtaking, and the park was very clean and well-maintained."
+          }
+        },
+        "1": {
+          "traveler_type": "Family with kids",
+          "sentences": {
+            "0": "Cupid's Span was a great spot for our family outing.",
+            "1": "The kids loved the sculpture and we enjoyed a picnic in the park afterwards."
+          }
+        },
+        "2": {
+          "traveler_type": "Couple",
+          "sentences": {
+            "0": "Cupid's Span was the perfect romantic spot for a sunset stroll.",
+            "1": "The sculpture was beautiful and the views of the city skyline were stunning."
+          }
+        }
+      },
+      "faqs": {
+        "0": {
+          "question": "Are dogs allowed there?",
+          "answer": "Yes, dogs are allowed."
+        },
+        "1": {
+          "question": "Does Cupid's Span offer parking?",
+          "answer": "Cupid's Span offers street parking and a private parking lot."
+        },
+        "2": {
+          "question": "Is Cupid's Span good for kids?",
+          "answer": "Yes, it is good for kids."
+        },
+        "3": {
+          "question": "Is Cupid's Span wheelchair accessible?",
+          "answer": "Cupid's Span is not wheelchair accessible."
+        },
+        "4": {
+          "question": "Is bike parking available at Cupid's Span?",
+          "answer": "Yes, bike parking is available at Cupid's Span."
+        }
+      }
+    },
+    "100046": {
+      "name": "de Young",
+      "reviews": {
+        "0": {
+          "traveler_type": "Solo traveler",
+          "sentences": {
+            "0": "The de Young museum was a great experience.",
+            "1": "The free WiFi was a plus and the admission fee for adults was reasonable."
+          }
+        },
+        "1": {
+          "traveler_type": "Family traveler",
+          "sentences": {
+            "0": "We had a wonderful time at de Young with our kids.",
+            "1": "The museum is definitely kid-friendly and the staff was very helpful."
+          }
+        },
+        "2": {
+          "traveler_type": "Art enthusiast",
+          "sentences": {
+            "0": "As an art lover, I was impressed with the de Young museum's collection.",
+            "1": "The opening hours were convenient and the dress code was casual, which made for a comfortable visit."
+          }
+        }
+      },
+      "faqs": {
+        "0": {
+          "question": "Are dogs allowed at de Young?",
+          "answer": "Dogs are not allowed at de Young"
+        },
+        "1": {
+          "question": "Are you kid-friendly?",
+          "answer": "Yes, de Young is good for kids."
+        },
+        "2": {
+          "question": "Do I need to make an appointment?",
+          "answer": "de Young is not by appointment only."
+        },
+        "3": {
+          "question": "Is free WiFi offered at de Young?",
+          "answer": "Yes, the de Young offers free WiFi."
+        },
+        "4": {
+          "question": "What are your opening hours of de Young?",
+          "answer": "deYoung is open from 9:30 am to 5:00 pm, Tuesday through Sunday, and closed Monday."
+        },
+        "5": {
+          "question": "What is the cost of admission for adults and kids at the de Young?",
+          "answer": "Admission is free for children and $15 for adults."
+        },
+        "6": {
+          "question": "What's the dress code at de Young?",
+          "answer": "The dress code at de Young is casual."
+        }
+      }
+    },
+    "100047": {
+      "name": "Dolores Park",
+      "reviews": {
+        "0": {
+          "traveler_type": "Solo traveler",
+          "sentences": {
+            "0": "Dolores Park is a great spot to relax and people watch.",
+            "1": "The views of the city are amazing from here."
+          }
+        },
+        "1": {
+          "traveler_type": "Family with kids",
+          "sentences": {
+            "0": "We had a blast at Dolores Park! The playgrounds and grassy areas were perfect for our little ones to run around and play."
+          }
+        },
+        "2": {
+          "traveler_type": "Couple",
+          "sentences": {
+            "0": "Dolores Park is a romantic spot to watch the sunset over the city.",
+            "1": "We enjoyed a picnic and some wine while taking in the views."
+          }
+        }
+      },
+      "faqs": {
+        "0": {
+          "question": "Does Dolores Park have bike parking?",
+          "answer": "Yes, bike parking is available."
+        },
+        "1": {
+          "question": "Is Delores Park good for kids?",
+          "answer": "Dolores Park is good for kids."
+        },
+        "2": {
+          "question": "Is there any parking available at Dolores Park?",
+          "answer": "Street parking is available at Dolores Park."
+        },
+        "3": {
+          "question": "What are the opening hours at Dolores Park?",
+          "answer": "Dolores Park is open from 6 AM to 10 PM every day."
+        }
+      }
+    },
+    "100049": {
+      "name": "Dragon Gate",
+      "reviews": {
+        "0": {
+          "traveler_type": "Solo traveler",
+          "sentences": {
+            "0": "Dragon Gate is a beautiful landmark, but unfortunately not wheelchair accessible."
+          }
+        },
+        "1": {
+          "traveler_type": "Family with kids",
+          "sentences": {
+            "0": "We enjoyed visiting Dragon Gate, but were disappointed to find out there is no onsite parking."
+          }
+        },
+        "2": {
+          "traveler_type": "Couple",
+          "sentences": {
+            "0": "Dragon Gate is a must-see attraction, and the fact that it's free to visit is a bonus."
+          }
+        }
+      },
+      "faqs": {
+        "0": {
+          "question": "Can I park my bike at Dragon Gate?",
+          "answer": "No, Dragon Gate does not have bike parking."
+        },
+        "1": {
+          "question": "Can I park my car at Dragon Gate?",
+          "answer": "Dragon Gate does not allow parking onsite."
+        },
+        "2": {
+          "question": "Is Dragon Gate free to visit?",
+          "answer": "Yes, Dragon Gate doesn't charge any entrance fee."
+        },
+        "3": {
+          "question": "Is Dragon Gate wheelchair accessible?",
+          "answer": "Dragon Gate is not wheelchair accessible."
+        },
+        "4": {
+          "question": "What are your opening hours of Dragon Gate?",
+          "answer": "Dragon Gate is open 7 days a week, 24 hours a day."
+        }
+      }
+    },
+    "100052": {
+      "name": "Embarcadero Public Promenade",
+      "reviews": {
+        "0": {
+          "traveler_type": "Solo traveler",
+          "sentences": {
+            "0": "Embarcadero Public Promenade is a great place to take a stroll and enjoy the views of the bay.",
+            "1": "The promenade is well-maintained and offers a peaceful escape from the city hustle."
+          }
+        },
+        "1": {
+          "traveler_type": "Family traveler",
+          "sentences": {
+            "0": "Our family had a wonderful time at Embarcadero Public Promenade.",
+            "1": "The kids loved running around and exploring the different sculptures and art installations."
+          }
+        },
+        "2": {
+          "traveler_type": "Couple traveler",
+          "sentences": {
+            "0": "Embarcadero Public Promenade is a romantic spot to watch the sunset over the bay.",
+            "1": "The."
+          }
+        }
+      },
+      "faqs": {
+        "0": {
+          "question": "Can I park my car at Embarcadero Public Promenade?",
+          "answer": "You can not park your car at Embarcadero Public Promenade."
+        },
+        "1": {
+          "question": "Is this a good place for kids?",
+          "answer": "Yes, Embarcadero Public Promenade is kid-friendly."
+        }
+      }
+    },
+    "100054": {
+      "name": "Exploratorium",
+      "reviews": {
+        "0": {
+          "traveler_type": "Solo traveler",
+          "sentences": {
+            "0": "The Exploratorium was a great experience for me.",
+            "1": "The interactive exhibits were fascinating and I learned a lot."
+          }
+        },
+        "1": {
+          "traveler_type": "Family with kids",
+          "sentences": {
+            "0": "We had a blast at the Exploratorium! There were so many hands-on activities for the kids to enjoy and we all learned something new."
+          }
+        },
+        "2": {
+          "traveler_type": "Couple",
+          "sentences": {
+            "0": "The Exploratorium was a unique and fun date idea.",
+            "1": "We enjoyed exploring the exhibits together and trying out the interactive displays."
+          }
+        }
+      },
+      "faqs": {
+        "0": {
+          "question": "Can I park my car at Exploratorium?",
+          "answer": "Sorry, there is no parking at Exploratorium."
+        },
+        "1": {
+          "question": "Can we just show up?",
+          "answer": "No, it is not by appointment only."
+        },
+        "2": {
+          "question": "Does Exploratorium accept google pay?",
+          "answer": "Google Pay is an acceptable form of payment at Exploratorium."
+        },
+        "3": {
+          "question": "Does Exploratorium have free WiFi?",
+          "answer": "Yes. Exploratorium offer free WiFi."
+        },
+        "4": {
+          "question": "Does the Exploratorium accept cryptocurrency as payment?",
+          "answer": "No, Exploratorium does not accept cryptocurrency."
+        },
+        "5": {
+          "question": "Does the Exploratorium offer a military discount?",
+          "answer": "Yes, the Exploratorium offers military discount."
+        },
+        "6": {
+          "question": "How much does admission cost for adults and children at the Exploratorium?",
+          "answer": "Admission to the Exploratorium is $29.95 for adults and $19.95 for children."
+        },
+        "7": {
+          "question": "Is Apple Pay accepted at Exploratorium?",
+          "answer": "Exploratorium supports Apple Pay as payment."
+        },
+        "8": {
+          "question": "Is Exploratorium friendly to kids?",
+          "answer": "Exploratorium is friendly to kids"
+        },
+        "9": {
+          "question": "Is Exploratorium wheelchair accessible?",
+          "answer": "Yes, the Exploratorium is wheelchair accessible."
+        },
+        "10": {
+          "question": "What is the dress code at Exploratorium?",
+          "answer": "The dress code at Exploratorium is casual."
+        },
+        "11": {
+          "question": "What payment options do you offer at the Exploratorium?",
+          "answer": "Payment options at Exploratorium are cash, credit card, google play, or apple play."
+        },
+        "12": {
+          "question": "When is the Exploratorium open every day?",
+          "answer": "The Exploratorium is open only on Tuesday from 10:00 am to 5:00 pm."
+        }
+      }
+    },
+    "100055": {
+      "name": "Exploratorium After Dark",
+      "reviews": {
+        "0": {
+          "traveler_type": "Solo traveler",
+          "sentences": {
+            "0": "I had a great time exploring the exhibits at Exploratorium After Dark.",
+            "1": "The staff was friendly and helpful, and I appreciated the wheelchair accessibility."
+          }
+        },
+        "1": {
+          "traveler_type": "Family with kids",
+          "sentences": {
+            "0": "We were disappointed to learn that Exploratorium After Dark is not suitable for children.",
+            "1": "However, we still enjoyed the interactive exhibits and the convenience of bike parking."
+          }
+        },
+        "2": {
+          "traveler_type": "Couple",
+          "sentences": {
+            "0": "We loved the unique experience of visiting Exploratorium After Dark.",
+            "1": "The admission fee was a bit steep, but we were."
+          }
+        }
+      },
+      "faqs": {
+        "0": {
+          "question": "Are dogs allowed inside the Exploratorium after dark?",
+          "answer": "Yes, dogs are allowed."
+        },
+        "1": {
+          "question": "Does Exploratorium After Dark accept Google Pay?",
+          "answer": "Exploratorium After Dark accepts Google Pay."
+        },
+        "2": {
+          "question": "How much is the admission fee to Exploratorium After Dark costs, for both adults and kids?",
+          "answer": "The admission fee is $29.95 for adults and $19.95 for children."
+        },
+        "3": {
+          "question": "Is Apple Pay accepted at Exploratorium After Dark?",
+          "answer": "Yes, the Exploratorium After Dark accepts Apple Pay."
+        },
+        "4": {
+          "question": "Is Exploratorium After Dark by appoointment only?",
+          "answer": "No, Exploratorium After Dark welcomes walk-in customers."
+        },
+        "5": {
+          "question": "Is Exploratorium After Dark good for kids?",
+          "answer": "No, the Exploratorium After Dark is not good for kids."
+        },
+        "6": {
+          "question": "Is Exploratorium After Dark wheelchair accessible?",
+          "answer": "Yes, it is wheelchair accessible."
+        },
+        "7": {
+          "question": "Is bike parking available at Exploratorium After Dark?",
+          "answer": "Exploratorium After Dark has bike parking."
+        },
+        "8": {
+          "question": "Is cryptocurrency accepted at Exploratorium After Dark?",
+          "answer": "No, Exploratorium After Dark does not accept cryptocurrency."
+        },
+        "9": {
+          "question": "Is there free WiFi available at Exploratorium After Dark?",
+          "answer": "Free WiFi is available at Exploratorium After Dark."
+        },
+        "10": {
+          "question": "What are the hours of operation for the Exploratorium After Dark?",
+          "answer": "Exploratorium After Dark is normally open from 6 PM to 10 PM."
+        },
+        "11": {
+          "question": "What kind of parking is available?",
+          "answer": "You can park your car in a garage or on the street at Exploratorium After Dark"
+        },
+        "12": {
+          "question": "What payment options does Exploratorium After Dark accept?",
+          "answer": "Exploratorium After Dark accepts credit cards, Apple Pay and Google Pay."
+        }
+      }
+    },
+    "100056": {
+      "name": "Ferry Building Bike Rentals",
+      "reviews": {
+        "0": {
+          "traveler_type": "Solo traveler",
+          "sentences": {
+            "0": "I had a great experience renting a bike from Ferry Building Bike Rentals.",
+            "1": "The staff was friendly and helpful in recommending a route to explore the city."
+          }
+        },
+        "1": {
+          "traveler_type": "Family traveler",
+          "sentences": {
+            "0": "Ferry Building Bike Rentals was the perfect activity for our family.",
+            "1": "The kids loved picking out their own bikes and we had a fun day exploring the city together."
+          }
+        },
+        "2": {
+          "traveler_type": "Adventure traveler",
+          "sentences": {
+            "0": "Renting a bike from Ferry Building Bike Rentals was the highlight of my trip.",
+            "1": "I was able to see so much more of the city."
+          }
+        }
+      },
+      "faqs": {
+        "0": {
+          "question": "Can I park my car at Ferry Building Bike Rentals?",
+          "answer": "You can park car at Ferry Building Bike Rentals."
+        },
+        "1": {
+          "question": "Do you have anything my kids would like?",
+          "answer": "Yes, it is good for kids."
+        },
+        "2": {
+          "question": "Does Ferry Building Bike Rentals accept credit cards?",
+          "answer": "The company accepts credit cards."
+        },
+        "3": {
+          "question": "How much is a bike rental going to cost me at Ferry Building Bike Rentals?",
+          "answer": "The bike rental is $8 to $16 per hour, depending on the bike you choose to rent."
+        },
+        "4": {
+          "question": "Is bike parking available at Ferry Building Bike Rentals?",
+          "answer": "Yes, bike parking is available at Ferry Building Bike Rentals."
+        },
+        "5": {
+          "question": "What are your opening hours of Ferry Building Bike Rentals?",
+          "answer": "The Ferry Building Bike Rentals is open every day from 9:00 am to 6:00 pm."
+        }
+      }
+    },
+    "100057": {
+      "name": "Ferry Building Marketplace",
+      "reviews": {
+        "0": {
+          "traveler_type": "Solo traveler",
+          "sentences": {
+            "0": "The Ferry Building Marketplace is a great place to explore on your own.",
+            "1": "The variety of food options and unique shops make it a fun and interesting experience."
+          }
+        },
+        "1": {
+          "traveler_type": "Family with kids",
+          "sentences": {
+            "0": "We had a blast at the Ferry Building Marketplace! There were plenty of options for everyone in the family, and the kids loved trying all the different foods."
+          }
+        },
+        "2": {
+          "traveler_type": "Couple",
+          "sentences": {
+            "0": "The Ferry Building Marketplace is the perfect spot for a romantic date.",
+            "1": "We enjoyed a delicious dinner and a stroll along the waterfront, taking in the beautiful."
+          }
+        }
+      },
+      "faqs": {
+        "0": {
+          "question": "Are dogs allowed at Ferry Building Marketplace?",
+          "answer": "No, dogs aren't allowed at Ferry Building Marketplace."
+        },
+        "1": {
+          "question": "Does Ferry Building Marketplace take google pay?",
+          "answer": "Ferry Building Marketplace accepts Google Pay."
+        },
+        "2": {
+          "question": "Is Apple Pay accepted at Ferry Building Marketplace?",
+          "answer": "Apple Pay is accepted at Ferry Building Marketplace."
+        },
+        "3": {
+          "question": "Is Ferry Building Marketplace good for kids?",
+          "answer": "Yes.Ferry Building Marketplace is good for kids."
+        },
+        "4": {
+          "question": "Is there anywhere I can park my bike?",
+          "answer": "Yes, bike parking is available."
+        },
+        "5": {
+          "question": "What are the business hours of Ferry Building Marketplace?",
+          "answer": "Ferry Building Marketplace is open from 10:00 am to 6:00 pm every day. On Saturday it is open from 9:00 am to 6:00 pm. On Sunday it is open from 11:00 am to 5:00 pm."
+        },
+        "6": {
+          "question": "What kind of parking is available at your establishment?",
+          "answer": "Parking is only Streets."
+        },
+        "7": {
+          "question": "What payment options does The Ferry Building Marketplace accept?",
+          "answer": "The Ferry Building Marketplace accepts credit cards, Apple Pay and Google Pay."
+        }
+      }
+    },
+    "100058": {
+      "name": "Filbert Steps",
+      "reviews": {
+        "0": {
+          "traveler_type": "Solo traveler",
+          "sentences": {
+            "0": "Filbert Steps is a great place to visit if you're looking for a peaceful and scenic walk.",
+            "1": "The views of the city from the top are breathtaking."
+          }
+        },
+        "1": {
+          "traveler_type": "Family traveler",
+          "sentences": {
+            "0": "Our family had a wonderful time exploring Filbert Steps.",
+            "1": "The kids loved climbing the stairs and we all enjoyed the beautiful gardens along the way."
+          }
+        },
+        "2": {
+          "traveler_type": "Couple traveler",
+          "sentences": {
+            "0": "Filbert Steps is a romantic spot with stunning views of the city.",
+            "1": "We highly recommend taking a picnic and enjoying the scenery together."
+          }
+        }
+      },
+      "faqs": {
+        "0": {
+          "question": "Can I park my bike at Filbert Steps?",
+          "answer": "Bike parking is not allowed at Filbert Steps."
+        },
+        "1": {
+          "question": "Is this place a good spot for kids?",
+          "answer": "Yes, Filbert Steps is good for kids."
+        }
+      }
+    },
+    "100059": {
+      "name": "Fisherman's Wharf",
+      "reviews": {
+        "0": {
+          "traveler_type": "Family",
+          "sentences": {
+            "0": "We had a great time at Fisherman's Wharf with our kids.",
+            "1": "There were plenty of activities and attractions to keep them entertained all day."
+          }
+        },
+        "1": {
+          "traveler_type": "Solo",
+          "sentences": {
+            "0": "As a solo traveler, I enjoyed exploring Fisherman's Wharf at my own pace.",
+            "1": "The views of the bay were breathtaking and there were plenty of delicious seafood options to try."
+          }
+        },
+        "2": {
+          "traveler_type": "Couple",
+          "sentences": {
+            "0": "My partner and I had a romantic evening at Fisherman's Wharf.",
+            "1": "We enjoyed a delicious seafood dinner and watched."
+          }
+        }
+      },
+      "faqs": {
+        "0": {
+          "question": "Is the Fisherman's Wharf appropriate for kids?",
+          "answer": "Yes, the Fisherman's Wharf is good for kids."
+        }
+      }
+    },
+    "100062": {
+      "name": "Fort Point",
+      "reviews": {
+        "0": {
+          "traveler_type": "Solo traveler",
+          "sentences": {
+            "0": "Fort Point is a great spot to take in some history and enjoy the views of the Golden Gate Bridge.",
+            "1": "The lack of parking and bike racks can be a bit of a hassle, but it's worth it."
+          }
+        },
+        "1": {
+          "traveler_type": "Family with kids",
+          "sentences": {
+            "0": "Our family had a blast exploring Fort Point and learning about its role in American history.",
+            "1": "The kids especially loved climbing up to the top of the fort and pretending to be soldiers."
+          }
+        },
+        "2": {
+          "traveler_type": "Couple",
+          "sentences": {
+            "0": "Fort Point is a romantic spot to visit, especially during sunset when."
+          }
+        }
+      },
+      "faqs": {
+        "0": {
+          "question": "Can I park my bike at Fort Point?",
+          "answer": "No, there is no bike parking at Fort Point."
+        },
+        "1": {
+          "question": "Can I park my car at Fort Point?",
+          "answer": "Fort Point does not offer parking."
+        },
+        "2": {
+          "question": "Do I need to pay a fee to visit Fort Point?",
+          "answer": "There's no entrance fee at Fort Point."
+        },
+        "3": {
+          "question": "What is the opening hours at Fort Point?",
+          "answer": "Fort Point is open 10am to 5pm, Friday to Sunday."
+        }
+      }
+    },
+    "100064": {
+      "name": "Golden Gate Bridge",
+      "reviews": {
+        "0": {
+          "traveler_type": "Solo traveler",
+          "sentences": {
+            "0": "The Golden Gate Bridge is a must-see attraction when visiting San Francisco.",
+            "1": "The toll fee is a bit steep, but the views are worth it."
+          }
+        },
+        "1": {
+          "traveler_type": "Family with kids",
+          "sentences": {
+            "0": "Our family had a great time walking across the Golden Gate Bridge and taking in the stunning views.",
+            "1": "Just be sure to hold onto your hats on windy days!."
+          }
+        },
+        "2": {
+          "traveler_type": "Couple",
+          "sentences": {
+            "0": "The Golden Gate Bridge is a romantic spot to watch the sunset and take in the city skyline.",
+            "1": "We highly recommend visiting during off-peak hours to."
+          }
+        }
+      },
+      "faqs": {
+        "0": {
+          "question": "Can I park my bike at Golden Gate Bridge?",
+          "answer": "Bike parking is not available at Golden Gate Bridge."
+        },
+        "1": {
+          "question": "Is there a fee to cross the Golden Gate Bridge?",
+          "answer": "Yes, tolls are collected in the southbound direction into San Francisco only."
+        },
+        "2": {
+          "question": "What are Golden Gate Bridge's opening hours?",
+          "answer": "The Golden Gate Bridge is open 24 hours a day."
+        },
+        "3": {
+          "question": "What payment methods are available for the Golden Gate Bridge toll?",
+          "answer": "Payment can be made using a credit card, cash, check or money order."
+        },
+        "4": {
+          "question": "What's the toll amount that Golden Gate Bridge charges?",
+          "answer": "Golden Gate Bridge has a toll rate of $8.40 per vehicle."
+        }
+      }
+    },
+    "100065": {
+      "name": "Golden Gate Bridge Welcome Center",
+      "reviews": {
+        "0": {
+          "traveler_type": "Solo traveler",
+          "sentences": {
+            "0": "I visited the Golden Gate Bridge Welcome Center and was disappointed to find out there was no WiFi available.",
+            "1": "However, the staff was friendly and helpful with directions."
+          }
+        },
+        "1": {
+          "traveler_type": "Family with kids",
+          "sentences": {
+            "0": "We had a great time visiting the Golden Gate Bridge Welcome Center.",
+            "1": "The free admission was a plus and the kids enjoyed learning about the history of the bridge."
+          }
+        },
+        "2": {
+          "traveler_type": "Couple",
+          "sentences": {
+            "0": "The Golden Gate Bridge Welcome Center was a romantic spot to visit with my partner.",
+            "1": "We were able to take in the beautiful views."
+          }
+        }
+      },
+      "faqs": {
+        "0": {
+          "question": "Can I park my bike at Golden Gate Bridge Welcome Center?",
+          "answer": "As of this time, there is no bike parking at Golden Gate Bridge Welcome Center."
+        },
+        "1": {
+          "question": "Does your hotel have WiFi?",
+          "answer": "There is no WiFi at the Golden Gate Bridge Welcome Center."
+        },
+        "2": {
+          "question": "Is Golden Gate Bridge Welcome Center wheelchair accessible?",
+          "answer": "Golden Gate Bridge Welcome Center is not wheelchair accessible."
+        },
+        "3": {
+          "question": "Is there any admission fee associated with visiting the Golden Gate Bridge Welcome Center?",
+          "answer": "The Golden Gate Bridge Welcome Center is free to enter."
+        },
+        "4": {
+          "question": "What are the Golden Gate Bridge Welcome Center's opening hours?",
+          "answer": "The welcome center is open from 9am to 6pm everyday."
+        }
+      }
+    },
+    "100070": {
+      "name": "Grace Cathedral",
+      "reviews": {
+        "0": {
+          "traveler_type": "Solo traveler",
+          "sentences": {
+            "0": "Grace Cathedral is a must-visit for anyone interested in architecture and history.",
+            "1": "The guided tour was informative and engaging, and the admission fee was well worth it."
+          }
+        },
+        "1": {
+          "traveler_type": "Family with kids",
+          "sentences": {
+            "0": "Our family had a great time exploring Grace Cathedral.",
+            "1": "The kids loved the stained glass windows and the tour guide was patient and knowledgeable."
+          }
+        },
+        "2": {
+          "traveler_type": "Couple",
+          "sentences": {
+            "0": "Grace Cathedral is a beautiful and peaceful place to visit.",
+            "1": "The guided tour was a romantic and informative way to spend an afternoon together."
+          }
+        }
+      },
+      "faqs": {
+        "0": {
+          "question": "Can I take a guided tour at Grace Cathedral?",
+          "answer": "Yes, a guided tour is available at Grace Cathedral."
+        },
+        "1": {
+          "question": "How much time it will take to finish the guided tour at Grace Cathedral?",
+          "answer": "It takes 90 minutes to complete the guided tour at Grace Cathedral."
+        },
+        "2": {
+          "question": "What are the opening hours at Grace Cathedral?",
+          "answer": "Grace Cathedral is open from 7am to 6pm on weekdays, and 8am to 6pm on Saturday and Sunday."
+        },
+        "3": {
+          "question": "What is the admission fee for the guided tour at Grace Cathedral?",
+          "answer": "The admission fee for the guided tour is $25 at Grace Cathedral."
+        }
+      }
+    },
+    "100072": {
+      "name": "Gregangelo's Velocity Arts & Entertainment",
+      "reviews": {
+        "0": {
+          "traveler_type": "Solo traveler",
+          "sentences": {
+            "0": "I had a blast at Gregangelo's Velocity Arts & Entertainment! The performers were amazing and the atmosphere was electric."
+          }
+        },
+        "1": {
+          "traveler_type": "Family with kids",
+          "sentences": {
+            "0": "We took our kids to Gregangelo's Velocity Arts & Entertainment and they loved it! The interactive exhibits and performances kept them entertained for hours."
+          }
+        },
+        "2": {
+          "traveler_type": "Couple",
+          "sentences": {
+            "0": "Gregangelo's Velocity Arts & Entertainment was the perfect date night spot.",
+            "1": "The unique entertainment and intimate setting made for a memorable evening."
+          }
+        }
+      },
+      "faqs": {
+        "0": {
+          "question": "Can I park my car at Gregangelo's Velocity Arts & Entertainment?",
+          "answer": "There is no parking at Gregangelo's Velocity Arts & Entertainment."
+        },
+        "1": {
+          "question": "Is Gregangelo's Velocity Arts & Entertainment good for kids?",
+          "answer": "Gregangelo's Velocity Arts & Entertainment is good for kids."
+        },
+        "2": {
+          "question": "What are the opening hours at Gregangelo's Velocity Arts & Entertainment each day?",
+          "answer": "Gregangelo's Velocity Arts & Entertainment is open 24 hours each and every day."
+        },
+        "3": {
+          "question": "What payment options do you guys accept?",
+          "answer": "Gregangelo's Velocity Arts & Entertainment accepts cash only."
+        }
+      }
+    },
+    "100074": {
+      "name": "Haas-Lilienthal House",
+      "reviews": {
+        "0": {
+          "traveler_type": "Solo traveler",
+          "sentences": {
+            "0": "The Haas-Lilienthal House is a beautiful historic home with knowledgeable and friendly staff.",
+            "1": "I highly recommend taking a tour."
+          }
+        },
+        "1": {
+          "traveler_type": "Family with kids",
+          "sentences": {
+            "0": "Visiting the Haas-Lilienthal House was a great educational experience for our family.",
+            "1": "The kids loved learning about the history of the house and the city."
+          }
+        },
+        "2": {
+          "traveler_type": "Couple",
+          "sentences": {
+            "0": "We had a lovely time exploring the Haas-Lilienthal House and admiring the beautiful architecture.",
+            "1": "The staff was very welcoming and informative."
+          }
+        }
+      },
+      "faqs": {
+        "0": {
+          "question": "Does Haas-Lilienthal House accept Apple Pay?",
+          "answer": "Haas-Lilienthal House does not take Apple Pay."
+        },
+        "1": {
+          "question": "Does Haas-Lilienthal House offer military discount?",
+          "answer": "The Haas-Liliental House does not offer military discounts."
+        },
+        "2": {
+          "question": "What are the opening hours at Haas-Lilienthal House?",
+          "answer": "They are open on Wednesday from 12 to 3pm, Saturday from 12 to 3pm and Sunday from 11am to 4pm."
+        },
+        "3": {
+          "question": "What payment options are available at Haas-Lilienthal House?",
+          "answer": "The Haas-Lilienthal House only accepts Cash, Visa, Master and AMEX."
+        }
+      }
+    },
+    "100077": {
+      "name": "Hidden Garden Steps",
+      "reviews": {
+        "0": {
+          "traveler_type": "Solo traveler",
+          "sentences": {
+            "0": "The Hidden Garden Steps were a peaceful escape from the busy city.",
+            "1": "Although not wheelchair accessible, the steps were easy to climb and offered a beautiful view at the top."
+          }
+        },
+        "1": {
+          "traveler_type": "Family with kids",
+          "sentences": {
+            "0": "Our family loved visiting the Hidden Garden Steps! It was great to find a kid-friendly activity in the city.",
+            "1": "We were disappointed to find out there was no bike parking, but we still had a great time."
+          }
+        },
+        "2": {
+          "traveler_type": "Couple",
+          "sentences": {
+            "0": "The Hidden Garden Steps were a romantic spot for a date night.",
+            "1": "We enjoyed."
+          }
+        }
+      },
+      "faqs": {
+        "0": {
+          "question": "Can I park my bike at Hidden Garden Steps?",
+          "answer": "Hidden Garden Steps does not offer bike parking."
+        },
+        "1": {
+          "question": "Is Hidden Garden Steps kid-friendly?",
+          "answer": "Yes, Hidden Garden Steps is kid-friendly."
+        },
+        "2": {
+          "question": "Is Hidden Garden Steps wheelchair accessible?",
+          "answer": "Hidden Garden Steps is not wheelchair accessible."
+        },
+        "3": {
+          "question": "What days and times can I visit Hidden Garden Steps?",
+          "answer": "The Hidden Garden Steps are open 24 hours a day Monday to Friday and is closed Saturdays and Sundays."
+        }
+      }
+    },
+    "100080": {
+      "name": "Hyde Street Beach",
+      "reviews": {
+        "0": {
+          "traveler_type": "Solo traveler",
+          "sentences": {
+            "0": "Hyde Street Beach is a great spot to relax and enjoy the views of the Golden Gate Bridge.",
+            "1": "However, be aware that there are no facilities or amenities available."
+          }
+        },
+        "1": {
+          "traveler_type": "Family with kids",
+          "sentences": {
+            "0": "We had a wonderful time at Hyde Street Beach! The kids loved playing in the sand and the views of the bridge were breathtaking.",
+            "1": "Just make sure to bring your own snacks and drinks as there are no vendors nearby."
+          }
+        },
+        "2": {
+          "traveler_type": "Couple",
+          "sentences": {
+            "0": "Hyde Street Beach is a romantic spot to watch the sunset and enjoy a picnic."
+          }
+        }
+      },
+      "faqs": {
+        "0": {
+          "question": "Is Hyde Street Beach wheelchair accessible?",
+          "answer": "There is no wheelchair accessible access at Hyde Street Beach"
+        },
+        "1": {
+          "question": "Is bike parking available at Hyde Street Beach?",
+          "answer": "Yes, bike parking is available."
+        },
+        "2": {
+          "question": "Is street parking available at the beach?",
+          "answer": "Hyde Street Beach has street parking."
+        }
+      }
+    },
+    "100081": {
+      "name": "Hyde Street Pier",
+      "reviews": {
+        "0": {
+          "traveler_type": "Family",
+          "sentences": {
+            "0": "Hyde Street Pier is a great place to take the kids for a fun and educational experience.",
+            "1": "The exhibits are interactive and engaging, and the staff is knowledgeable and friendly."
+          }
+        },
+        "1": {
+          "traveler_type": "History Buff",
+          "sentences": {
+            "0": "As a lover of maritime history, I was blown away by the collection at Hyde Street Pier.",
+            "1": "The restored ships and exhibits are a true testament to San Francisco's rich nautical past."
+          }
+        },
+        "2": {
+          "traveler_type": "Solo Traveler",
+          "sentences": {
+            "0": "I had a great time exploring Hyde Street Pier on my own.",
+            "1": "The peaceful waterfront location and fascinating exhibits made."
+          }
+        }
+      },
+      "faqs": {
+        "0": {
+          "question": "Is Hyde Street Pier good for kids?",
+          "answer": "Hyde Street Pier is good for kids."
+        },
+        "1": {
+          "question": "Is Hyde Street Pier wheelchair accessible?",
+          "answer": "Hyde Street Pier is not wheelchair accessible."
+        },
+        "2": {
+          "question": "Is there any parking nearby?",
+          "answer": "Street parking is available."
+        },
+        "3": {
+          "question": "Is there anywhere for me to park my bike?",
+          "answer": "Yes, Hyde Street Pier offers bike parking."
+        },
+        "4": {
+          "question": "What are the hours of operation for the Hyde Street Pier?",
+          "answer": "Hyde Street Pier is open from 9:30am to 4:30pm everyday."
+        }
+      }
+    },
+    "100082": {
+      "name": "Ina Coolbrith Park",
+      "reviews": {
+        "0": {
+          "traveler_type": "Solo traveler",
+          "sentences": {
+            "0": "Ina Coolbrith Park is a peaceful oasis in the middle of the city.",
+            "1": "I enjoyed reading a book on the bench overlooking the bay."
+          }
+        },
+        "1": {
+          "traveler_type": "Family with kids",
+          "sentences": {
+            "0": "We had a great time at Ina Coolbrith Park! The playground was perfect for our little ones and the views were stunning."
+          }
+        },
+        "2": {
+          "traveler_type": "Couple",
+          "sentences": {
+            "0": "Ina Coolbrith Park is a romantic spot for a picnic.",
+            "1": "We loved the quiet atmosphere and the beautiful scenery.",
+            "2": "Highly recommend!."
+          }
+        }
+      },
+      "faqs": {
+        "0": {
+          "question": "Can I park bikes at Ina Coolbrith Park?",
+          "answer": "Bikes can be parked at Ina Coolbrith Park."
+        },
+        "1": {
+          "question": "Is Ina Coolbrith Park kid-friendly?",
+          "answer": "Yes, Ina Coolbrith Park is kid-friendly."
+        },
+        "2": {
+          "question": "What parking does  Ina Coolbrith Park have?",
+          "answer": "Street parking is available at Ina Coolbrith Park."
+        }
+      }
+    },
+    "100084": {
+      "name": "Japantown",
+      "reviews": {
+        "0": {
+          "traveler_type": "Solo traveler",
+          "sentences": {
+            "0": "Japantown is a great place to explore on your own.",
+            "1": "The shops and restaurants offer a unique experience."
+          }
+        },
+        "1": {
+          "traveler_type": "Family traveler",
+          "sentences": {
+            "0": "Our family had a wonderful time in Japantown.",
+            "1": "The kids loved the cultural activities and we enjoyed the delicious food."
+          }
+        },
+        "2": {
+          "traveler_type": "Couple traveler",
+          "sentences": {
+            "0": "Japantown is a romantic destination with its charming streets and cozy cafes.",
+            "1": "We had a lovely time exploring the area together."
+          }
+        }
+      },
+      "faqs": {
+        "0": {
+          "question": "Is Japantown a good place to bring kids?",
+          "answer": "Yes, Japantown is good for kids."
+        }
+      }
+    },
+    "100086": {
+      "name": "Kadampa Meditation Center San Francisco",
+      "reviews": {
+        "0": {
+          "traveler_type": "Solo traveler",
+          "sentences": {
+            "0": "The atmosphere at Kadampa Meditation Center San Francisco is very peaceful and conducive for meditation.",
+            "1": "The staff are also very friendly and accommodating."
+          }
+        },
+        "1": {
+          "traveler_type": "Family traveler",
+          "sentences": {
+            "0": "We were disappointed to find out that there were no activities for kids at Kadampa Meditation Center San Francisco.",
+            "1": "However, the center's serene environment made up for it."
+          }
+        },
+        "2": {
+          "traveler_type": "Couple traveler",
+          "sentences": {
+            "0": "Kadampa Meditation Center San Francisco is a great place for couples to unwind and relax.",
+            "1": "The meditation sessions are very calming and the staff are very helpful."
+          }
+        }
+      },
+      "faqs": {
+        "0": {
+          "question": "Are there activities for kids there?",
+          "answer": "Kadampa Meditation Center San Francisco is not good for kids."
+        },
+        "1": {
+          "question": "What days and hours is Kadampa Meditation Center San Francisco open?",
+          "answer": "Kadampa Meditation Center San Francisco is open from 1:30 pm to 6:00 pm. It is closed on Friday, and open on Saturday from 11:00 am to 3:00 pm and on Sunday from 1:00 pm to 3:00 pm."
+        }
+      }
+    },
+    "100087": {
+      "name": "Lake Merced",
+      "reviews": {
+        "0": {
+          "traveler_type": "Solo traveler",
+          "sentences": {
+            "0": "I had a great time walking my dog around Lake Merced.",
+            "1": "The scenery was beautiful and the park was well-maintained."
+          }
+        },
+        "1": {
+          "traveler_type": "Family traveler",
+          "sentences": {
+            "0": "Lake Merced was the perfect spot for a family picnic.",
+            "1": "The kids loved playing on the playground and we enjoyed the peaceful atmosphere."
+          }
+        },
+        "2": {
+          "traveler_type": "Cycling enthusiast",
+          "sentences": {
+            "0": "I highly recommend biking around Lake Merced.",
+            "1": "The bike path is well-marked and the views of the lake are stunning."
+          }
+        }
+      },
+      "faqs": {
+        "0": {
+          "question": "Does Lake Merced allow to bring dogs?",
+          "answer": "Yes. Lake Merced allows to bring dogs."
+        },
+        "1": {
+          "question": "Is Lake Merced kid friendly?",
+          "answer": "Yes, Lake Merced is kid-friendly."
+        },
+        "2": {
+          "question": "Is bike parking available at Lake Merced?",
+          "answer": "Yes, bike parking is available."
+        },
+        "3": {
+          "question": "Is there any parking available nearby?",
+          "answer": "Lake Merced has street and private lot parking."
+        }
+      }
+    },
+    "100089": {
+      "name": "Lands End Lookout",
+      "reviews": {
+        "0": {
+          "traveler_type": "Solo traveler",
+          "sentences": {
+            "0": "Lands End Lookout was a great place to spend a few hours hiking and taking in the stunning views of the Golden Gate Bridge.",
+            "1": "The moderate trail was challenging but manageable for a solo hiker like myself."
+          }
+        },
+        "1": {
+          "traveler_type": "Family with kids",
+          "sentences": {
+            "0": "Our family had a wonderful time exploring Lands End Lookout.",
+            "1": "The kids loved the trail and we all enjoyed learning about the history of the area at the visitor center.",
+            "2": "Highly recommend for families!."
+          }
+        },
+        "2": {
+          "traveler_type": "Couple",
+          "sentences": {
+            "0": "Lands End Lookout was the."
+          }
+        }
+      },
+      "faqs": {
+        "0": {
+          "question": "Can I ride a bike at Lands End Lookout?",
+          "answer": "Yes, bikes are allowed at Lands End Lookout."
+        },
+        "1": {
+          "question": "Does Lands End Lookout offer free WiFi?",
+          "answer": "Lands End Lookout does not offer free WiF."
+        },
+        "2": {
+          "question": "How long is the trail at Lands End Lookout?",
+          "answer": "Lands End Lookout has a trail length of 3.4 miles."
+        },
+        "3": {
+          "question": "What are the hours that Lands End Lookout is open each day?",
+          "answer": "Lands End Lookout is open from 9:00 am to 5:00 pm every day."
+        },
+        "4": {
+          "question": "What is the challenge level of the trail at Lands End Lookout?",
+          "answer": "The challenge level of the trail at Lands End Lookout is moderate."
+        }
+      }
+    },
+    "100092": {
+      "name": "Legion of Honor",
+      "reviews": {
+        "0": {
+          "traveler_type": "Solo traveler",
+          "sentences": {
+            "0": "I had a great time exploring the Legion of Honor.",
+            "1": "The art collection was impressive and the free WiFi was a nice touch."
+          }
+        },
+        "1": {
+          "traveler_type": "Family with kids",
+          "sentences": {
+            "0": "We brought our children to the Legion of Honor and they loved it! The staff was friendly and accommodating, and the admission cost for children being free was a huge plus."
+          }
+        },
+        "2": {
+          "traveler_type": "Couple",
+          "sentences": {
+            "0": "My partner and I enjoyed a romantic afternoon at the Legion of Honor.",
+            "1": "The dress code was casual, which made for a relaxed atmosphere, and the."
+          }
+        }
+      },
+      "faqs": {
+        "0": {
+          "question": "Can I park my bike at Legion of Honor?",
+          "answer": "bike parking not permitted"
+        },
+        "1": {
+          "question": "Can I park my car at Legion of Honor?",
+          "answer": "Legion of Honor does not offer parking."
+        },
+        "2": {
+          "question": "Do I need to make an appointment before coming?",
+          "answer": "Legion of Honor is not by appointment only."
+        },
+        "3": {
+          "question": "Does Legion of Honor offer free WiFi?",
+          "answer": "Yes, Legion of Honor offers free WiFi."
+        },
+        "4": {
+          "question": "How much does the admission cost at Legion of Honor?",
+          "answer": "Adults are $15 and children are free."
+        },
+        "5": {
+          "question": "I have dog and was wondering is Legion of Honor, dog friendly?",
+          "answer": "Legion of Honor isn't a dog friendly zone."
+        },
+        "6": {
+          "question": "Is Legion of Honor good for kids?",
+          "answer": "Legion of Honor is good for kids."
+        },
+        "7": {
+          "question": "What are the business hours for Legion of Honor?",
+          "answer": "Legion of Honor is open from 9:30 am to 5 pm, but is closed on Mondays."
+        },
+        "8": {
+          "question": "What is the dress code of Legion of Honor?",
+          "answer": "The dress code is casual."
+        }
+      }
+    },
+    "100093": {
+      "name": "Lombard Street",
+      "reviews": {
+        "0": {
+          "traveler_type": "Solo traveler",
+          "sentences": {
+            "0": "Lombard Street is a must-visit destination in San Francisco.",
+            "1": "The winding road and beautiful flowers make for a picturesque experience."
+          }
+        },
+        "1": {
+          "traveler_type": "Family traveler",
+          "sentences": {
+            "0": "Our family had a great time visiting Lombard Street.",
+            "1": "The kids loved running up and down the stairs while we enjoyed the stunning views."
+          }
+        },
+        "2": {
+          "traveler_type": "Couple traveler",
+          "sentences": {
+            "0": "Lombard Street was the perfect romantic spot for my partner and me.",
+            "1": "We enjoyed walking hand in hand down the winding road and taking in the beautiful scenery."
+          }
+        }
+      },
+      "faqs": {
+        "0": {
+          "question": "Can I park my bike at Lombard Street?",
+          "answer": "Bike parking is not available at Lombard Street."
+        },
+        "1": {
+          "question": "Is Lombard Street kid-friendly?",
+          "answer": "Yes, Lombard Street is kid-friendly."
+        }
+      }
+    },
+    "100096": {
+      "name": "Madame Tussauds San Francisco",
+      "reviews": {
+        "0": {
+          "traveler_type": "Family",
+          "sentences": {
+            "0": "Madame Tussauds San Francisco was a great experience for our family.",
+            "1": "The kids loved taking pictures with the wax figures of their favorite celebrities."
+          }
+        },
+        "1": {
+          "traveler_type": "Couple",
+          "sentences": {
+            "0": "My partner and I had a blast at Madame Tussauds San Francisco.",
+            "1": "The interactive exhibits and lifelike wax figures made for a fun and unique date."
+          }
+        },
+        "2": {
+          "traveler_type": "Solo",
+          "sentences": {
+            "0": "As a solo traveler, I was impressed with the attention to detail in each wax figure at Madame Tussauds San Francisco.",
+            "1": "It was a great."
+          }
+        }
+      },
+      "faqs": {
+        "0": {
+          "question": "Are dogs permitted at Madame Tussauds San Francisco?",
+          "answer": "Dogs are not allowed at Madame Tussauds San Francisco."
+        },
+        "1": {
+          "question": "Are visits by appointment only?",
+          "answer": "No, Madame Tussauds San Francisco is not by appointment only."
+        },
+        "2": {
+          "question": "Can I park my bike at Madame Tussauds San Francisco?",
+          "answer": "Madame Tussaud's does not offer bike parking."
+        },
+        "3": {
+          "question": "Do you know when Madame Tussauds San Francisco is open each day?",
+          "answer": "Madame Tussauds San Francisco is open from 10:00 am to 8:00 pm each every day."
+        },
+        "4": {
+          "question": "Does this spot offer a military discount?",
+          "answer": "Madame Tussauds San Francisco offers military discount."
+        },
+        "5": {
+          "question": "How much is the admission fee for kids and adults at Madame Tussauds San Francisco?",
+          "answer": "It costs $19.99 for both kids and adults at Madame Tussauds San Francisco."
+        },
+        "6": {
+          "question": "Is Madame Tussauds San Francisco good for kids?",
+          "answer": "Madame Tussauds San Francisco is good for kids."
+        },
+        "7": {
+          "question": "What payment options are available at Madame Tussauds San Francisco?",
+          "answer": "Madame Tussaud's San Francisco offers cash, visa, MasterCard, and Amex as form of payment."
+        }
+      }
+    },
+    "100097": {
+      "name": "Magowan's Infinite Mirror Maze",
+      "reviews": {
+        "0": {
+          "traveler_type": "Solo traveler",
+          "sentences": {
+            "0": "Magowan's Infinite Mirror Maze was a unique and fun experience.",
+            "1": "The maze was challenging and the mirrors made it even more exciting."
+          }
+        },
+        "1": {
+          "traveler_type": "Family with kids",
+          "sentences": {
+            "0": "Our family had a blast at Magowan's Infinite Mirror Maze.",
+            "1": "The kids loved the challenge of finding their way through the maze and the mirrors added an extra level of fun."
+          }
+        },
+        "2": {
+          "traveler_type": "Group of friends",
+          "sentences": {
+            "0": "Magowan's Infinite Mirror Maze was a great activity for our group.",
+            "1": "We had a lot of laughs trying to navigate through the maze and the."
+          }
+        }
+      },
+      "faqs": {
+        "0": {
+          "question": "Can I park my bike at Magowan's Infinite Mirror Maze?",
+          "answer": "There is no parking or bike parking at all."
+        },
+        "1": {
+          "question": "Can I park my car at Magowan's Infinite Mirror Maze?",
+          "answer": "No, there is not parking available at Magowan's Infinite Mirror Maze."
+        },
+        "2": {
+          "question": "Does Magowan's Infinite Mirror Maze allow dogs?",
+          "answer": "Dogs are not allowed at Magowan's Infinite Mirror Maze."
+        },
+        "3": {
+          "question": "Does Magowan's Infinite Mirror Maze offer WiFi?",
+          "answer": "WiFi isn't available at Magowan's Infinite Mirror Maze."
+        },
+        "4": {
+          "question": "Is this a good place to bring my children?",
+          "answer": "Magowan's Infinite Mirror Maze is kid friendly."
+        },
+        "5": {
+          "question": "What time is the Mirror Maze open each day of the week?",
+          "answer": "The maze is open every day from 11am to 7pm."
+        }
+      }
+    },
+    "100099": {
+      "name": "Martin Luther King Jr Memorial",
+      "reviews": {
+        "0": {
+          "traveler_type": "Solo traveler",
+          "sentences": {
+            "0": "The Martin Luther King Jr Memorial is a must-visit for anyone interested in civil rights history.",
+            "1": "The statue of MLK is breathtaking and the surrounding area is peaceful and reflective."
+          }
+        },
+        "1": {
+          "traveler_type": "Family with kids",
+          "sentences": {
+            "0": "We brought our children to the Martin Luther King Jr Memorial and it was a great learning experience for them.",
+            "1": "The faqs section was helpful in answering their questions about MLK's life and legacy."
+          }
+        },
+        "2": {
+          "traveler_type": "Couple",
+          "sentences": {
+            "0": "The Martin Luther King Jr Memorial is a beautiful and moving tribute to an incredible leader."
+          }
+        }
+      },
+      "faqs": {
+        "0": {
+          "question": "Is Martin Luther King Jr Memorial wheelchair accessible?",
+          "answer": "The Martin Luther King Jr Memorial is not wheelchair accessible."
+        }
+      }
+    },
+    "100101": {
+      "name": "McKinley Square Park Foundation",
+      "reviews": {
+        "0": {
+          "traveler_type": "Solo traveler",
+          "sentences": {
+            "0": "McKinley Square Park Foundation is a peaceful oasis in the middle of the city.",
+            "1": "Although it's not wheelchair accessible, it's still worth a visit for its beautiful scenery."
+          }
+        },
+        "1": {
+          "traveler_type": "Family traveler",
+          "sentences": {
+            "0": "We had a great time at McKinley Square Park Foundation with our kids.",
+            "1": "It's a safe and fun place for them to run around and explore."
+          }
+        },
+        "2": {
+          "traveler_type": "Cyclist traveler",
+          "sentences": {
+            "0": "As a cyclist, I was disappointed to find out that there's no bike parking available at McKinley Square Park Foundation.",
+            "1": "However."
+          }
+        }
+      },
+      "faqs": {
+        "0": {
+          "question": "Can I park my car at McKinley Square Park Foundation?",
+          "answer": "No, parking is not available at McKinley Square Park Foundation."
+        },
+        "1": {
+          "question": "Do you offer any parking areas there for bikes?",
+          "answer": "No, McKinley Square Park Foundation doesn't offer bike parking."
+        },
+        "2": {
+          "question": "Is McKinley Square Park Foundation wheelchair accessible?",
+          "answer": "The McKinley Square Park Foundation is not wheelchair accessible."
+        },
+        "3": {
+          "question": "May I bring my children to McKInley Park Foundation",
+          "answer": "Yes, McKinley Square Park Foundation is kid-friendly."
+        }
+      }
+    },
+    "100102": {
+      "name": "Mission Dolores Basilica/San Francisco de Asis",
+      "reviews": {
+        "0": {
+          "traveler_type": "Solo traveler",
+          "sentences": {
+            "0": "The Mission Dolores Basilica/San Francisco de Asis is a beautiful and peaceful place to visit.",
+            "1": "I enjoyed learning about its history and admiring the architecture."
+          }
+        },
+        "1": {
+          "traveler_type": "Family with kids",
+          "sentences": {
+            "0": "We had a great time visiting the Mission Dolores Basilica/San Francisco de Asis with our children.",
+            "1": "The staff was friendly and informative, and our kids loved exploring the grounds."
+          }
+        },
+        "2": {
+          "traveler_type": "Couple",
+          "sentences": {
+            "0": "The Mission Dolores Basilica/San Francisco de Asis is a romantic and serene spot to visit."
+          }
+        }
+      },
+      "faqs": {
+        "0": {
+          "question": "Can I park my car at Mission Dolores Basilica/San Francisco de Asis?",
+          "answer": "Car parking is not available at the Mission Dolores Basilica/San Francisco de Asis."
+        },
+        "1": {
+          "question": "How much does the admission cost at Mission Dolores Basilica?",
+          "answer": "It is free to get into Mission Dolores Basilica."
+        },
+        "2": {
+          "question": "I was wondering if Mission Dolores Basilica/San Francisco de Asis is child friendly?",
+          "answer": "Mission Dolores Basilica/San Francisco de Asis is appropriate for children."
+        },
+        "3": {
+          "question": "Is Mission Dolores Basilica/San Francisco de Asis wheelchair accessible?",
+          "answer": "Mission Dolores Basilica/San Francisco de Asis is not wheelchair accessible."
+        },
+        "4": {
+          "question": "What time does Mission Dolores Basilica open and close?",
+          "answer": "Mission Dolores Basilica is open from 9:30 am to 4:00 pm every day."
+        }
+      }
+    },
+    "100103": {
+      "name": "Mount Davidson Park",
+      "reviews": {
+        "0": {
+          "traveler_type": "Solo traveler",
+          "sentences": {
+            "0": "Mount Davidson Park offers a peaceful escape from the city with stunning views of San Francisco.",
+            "1": "The hiking trails are well-maintained and the park is dog-friendly, making it a great spot for a solo adventure."
+          }
+        },
+        "1": {
+          "traveler_type": "Family with kids",
+          "sentences": {
+            "0": "Our family had a wonderful time exploring Mount Davidson Park.",
+            "1": "The kids loved the playground and the scenic views from the top of the hill.",
+            "2": "We highly recommend this park for families looking for a fun outdoor activity."
+          }
+        },
+        "2": {
+          "traveler_type": "Couple",
+          "sentences": {
+            "0": "Mount Davidson Park is a romantic spot."
+          }
+        }
+      },
+      "faqs": {
+        "0": {
+          "question": "Does Mount Davidson Park allow dogs?",
+          "answer": "Mount Davidson Park allows you to bring dogs."
+        },
+        "1": {
+          "question": "Is bike parking available at Mount Davidson Park?",
+          "answer": "No, bike parking is not available."
+        },
+        "2": {
+          "question": "Is there any parking nearby?",
+          "answer": "Yes, street parking is available."
+        },
+        "3": {
+          "question": "Is this park appropriate for kids?",
+          "answer": "Yes, Mount Davidson Park is good for kids."
+        }
+      }
+    },
+    "100105": {
+      "name": "Municipal Pier",
+      "reviews": {
+        "0": {
+          "traveler_type": "Solo traveler",
+          "sentences": {
+            "0": "Municipal Pier is a great spot to catch some sun and enjoy the ocean view.",
+            "1": "The parking can be a bit pricey, but it's worth it for the experience."
+          }
+        },
+        "1": {
+          "traveler_type": "Family with kids",
+          "sentences": {
+            "0": "We had a blast at Municipal Pier! The kids loved playing in the sand and the whole family enjoyed the nearby restaurants and shops."
+          }
+        },
+        "2": {
+          "traveler_type": "Couple",
+          "sentences": {
+            "0": "Municipal Pier was the perfect romantic getaway for us.",
+            "1": "We enjoyed a beautiful sunset and a lovely dinner at one of the nearby restaurants.",
+            "2": "The parking was a bit."
+          }
+        }
+      },
+      "faqs": {
+        "0": {
+          "question": "How much does it cost to park at Municipal Pier?",
+          "answer": "It can cost up to $34 for 2 hours parking, but you can also find free parking on-street."
+        }
+      }
+    },
+    "100106": {
+      "name": "Musee Mecanique",
+      "reviews": {
+        "0": {
+          "traveler_type": "Solo traveler",
+          "sentences": {
+            "0": "Musee Mecanique is a great place to spend a few hours alone.",
+            "1": "The vintage arcade games are a lot of fun and the admission is free."
+          }
+        },
+        "1": {
+          "traveler_type": "Family with kids",
+          "sentences": {
+            "0": "Our family had a blast at Musee Mecanique! The kids loved playing the old-fashioned games and we appreciated the free admission."
+          }
+        },
+        "2": {
+          "traveler_type": "Couple",
+          "sentences": {
+            "0": "Musee Mecanique was a unique and fun date spot.",
+            "1": "We enjoyed playing the vintage games together and the casual dress code made for a relaxed."
+          }
+        }
+      },
+      "faqs": {
+        "0": {
+          "question": "How much is the admission at Musee Mecanique?",
+          "answer": "The admission is free of charge at Musee Mecanique."
+        },
+        "1": {
+          "question": "Is Musee Mecanique good for kids?",
+          "answer": "Yes, the attraction is good for kids."
+        },
+        "2": {
+          "question": "Is free WiFi provided at Musee Mecanique?",
+          "answer": "Musee Mecanique does not offer free WiFi."
+        },
+        "3": {
+          "question": "What are your opening hours of Musee Mecanique?",
+          "answer": "The opening hours are from 10AM to 8PM."
+        },
+        "4": {
+          "question": "What is the dress code at Musee Mecanique?",
+          "answer": "The dress code at Musee Mecanique is casual."
+        }
+      }
+    },
+    "100107": {
+      "name": "Museum Of 3D Illusions",
+      "reviews": {
+        "0": {
+          "traveler_type": "Solo traveler",
+          "sentences": {
+            "0": "The Museum Of 3D Illusions was a fun and unique experience.",
+            "1": "The 3D art was amazing and made for great photo opportunities."
+          }
+        },
+        "1": {
+          "traveler_type": "Family with kids",
+          "sentences": {
+            "0": "Our family had a blast at the Museum Of 3D Illusions.",
+            "1": "The kids loved interacting with the art and we got some great family photos."
+          }
+        },
+        "2": {
+          "traveler_type": "Couple",
+          "sentences": {
+            "0": "The Museum Of 3D Illusions was a great date spot.",
+            "1": "We had a lot of fun exploring the different exhibits and taking silly photos together."
+          }
+        }
+      },
+      "faqs": {
+        "0": {
+          "question": "Do I need to make any appointment to see the museum?",
+          "answer": "No, Museum Of 3D Illusions is not by appointment only."
+        },
+        "1": {
+          "question": "Do you allow dogs?",
+          "answer": "No, dogs aren't allowed at Museum Of 3D Illusions."
+        },
+        "2": {
+          "question": "Do you offer a military discount?",
+          "answer": "The Museum of 3D Illusions offers military discounts."
+        },
+        "3": {
+          "question": "Does the Museum Of 3D Illusions offer free WiFi?",
+          "answer": "Yes, Museum Of 3D Illusions provides free WiFi."
+        },
+        "4": {
+          "question": "How much does an admission ticket to the Museum Of 3D Illusions cost for both an adult and a child?",
+          "answer": "The admission fee at Museum of 3D Illusions is 25 dollars for an adult and 12 dollars for a child."
+        },
+        "5": {
+          "question": "Is Museum of 3D Illusions appropriate for children?",
+          "answer": "Museum Of 3D Illusions is appropriate for children."
+        },
+        "6": {
+          "question": "What are the business hours for Museum Of 3D Illusions?",
+          "answer": "The Museum of 3D Illusions is open from 10:00 am to 10:00 pm every day except Saturday when it is open until 11:00 pm."
+        },
+        "7": {
+          "question": "What's the dress code for the Museum Of 3D Illusions?",
+          "answer": "The dress code for the Museum Of 3D Illusions is casual."
+        }
+      }
+    },
+    "100113": {
+      "name": "North Beach",
+      "reviews": {
+        "0": {
+          "traveler_type": "Solo traveler",
+          "sentences": {
+            "0": "North Beach is a great spot for some quiet time by the water.",
+            "1": "Just be aware that parking is limited."
+          }
+        },
+        "1": {
+          "traveler_type": "Family with kids",
+          "sentences": {
+            "0": "We had a blast at North Beach! The kids loved playing in the sand and the water was perfect for swimming."
+          }
+        },
+        "2": {
+          "traveler_type": "Couple",
+          "sentences": {
+            "0": "North Beach was the perfect romantic getaway.",
+            "1": "We enjoyed a beautiful sunset and a peaceful walk along the shore."
+          }
+        }
+      },
+      "faqs": {
+        "0": {
+          "question": "Can I park my car at North Beach?",
+          "answer": "Parking is not available."
+        }
+      }
+    },
+    "100114": {
+      "name": "Oakland Museum of California",
+      "reviews": {
+        "0": {
+          "traveler_type": "Solo traveler",
+          "sentences": {
+            "0": "The Oakland Museum of California was a great place to spend a few hours exploring.",
+            "1": "The exhibits were informative and engaging, and the staff was friendly and helpful."
+          }
+        },
+        "1": {
+          "traveler_type": "Family with kids",
+          "sentences": {
+            "0": "Our family had a wonderful time at the Oakland Museum of California.",
+            "1": "The exhibits were educational and fun for both adults and children, and the staff was very accommodating to our needs."
+          }
+        },
+        "2": {
+          "traveler_type": "Art enthusiast",
+          "sentences": {
+            "0": "As an art lover, I was blown away by the collections at the Oakland Museum of California.",
+            "1": "The exhibits were thoughtfully."
+          }
+        }
+      },
+      "faqs": {
+        "0": {
+          "question": "Is Oakland Museum of California a dog friendly place?",
+          "answer": "No, Oakland Museum of California doesn't allow to bring pets inside."
+        },
+        "1": {
+          "question": "Is free WiFi provided at Oakland Museum of California?",
+          "answer": "Yes, WiFi is free at Oakland Museum of California."
+        },
+        "2": {
+          "question": "Is the Oakland Museum of California kid friendly?",
+          "answer": "Yes, Oakland Museum of California is kid-friendly."
+        },
+        "3": {
+          "question": "Is this museum by appointment only?",
+          "answer": "No, Oakland Museum of California is not by appointment only."
+        },
+        "4": {
+          "question": "What are the operating hours for the Oakland Museum of California?",
+          "answer": "Opening hours are from 11am to 5pm on Wednesdays only."
+        },
+        "5": {
+          "question": "What is the admission fee to the Oakland Museum of California costs for both adults and kids?",
+          "answer": "The Oakland Museum of California charges $16 for adults and $7 for children."
+        }
+      }
+    },
+    "100115": {
+      "name": "Ocean Beach",
+      "reviews": {
+        "0": {
+          "traveler_type": "Solo traveler",
+          "sentences": {
+            "0": "Ocean Beach is a great spot to catch some waves and enjoy the beautiful scenery.",
+            "1": "The dog-friendly policy was a huge plus for me and my furry companion."
+          }
+        },
+        "1": {
+          "traveler_type": "Family with kids",
+          "sentences": {
+            "0": "Our family had a blast at Ocean Beach! The kids loved playing in the sand and the calm waves were perfect for them to swim in."
+          }
+        },
+        "2": {
+          "traveler_type": "Couples",
+          "sentences": {
+            "0": "Ocean Beach was the perfect romantic getaway for my partner and I.",
+            "1": "We enjoyed a beautiful sunset and a peaceful walk along the beach.",
+            "2": "The parking options made it."
+          }
+        }
+      },
+      "faqs": {
+        "0": {
+          "question": "Are dogs allowed at Ocean Beach?",
+          "answer": "Ocean Beach does allow you to bring dogs."
+        },
+        "1": {
+          "question": "Does Ocean Beach offer parking?",
+          "answer": "There is both a lot and street parking available at Ocean Beach."
+        },
+        "2": {
+          "question": "Is Ocean Beach good for kids?",
+          "answer": "Ocean Beach is a good place for kids."
+        },
+        "3": {
+          "question": "Is bike parking available at Ocean Beach?",
+          "answer": "Yes, bike parking is available at Ocean Beach."
+        },
+        "4": {
+          "question": "What is the opening hours of Ocean Beach?",
+          "answer": "Ocean Beach is open 24 hours, 7 days a week."
+        }
+      }
+    },
+    "100118": {
+      "name": "Painted Ladies",
+      "reviews": {
+        "0": {
+          "traveler_type": "Solo traveler",
+          "sentences": {
+            "0": "The Painted Ladies were a beautiful sight to see, but it was disappointing to find out there was no parking available.",
+            "1": "I would recommend taking public transportation or walking to avoid the hassle."
+          }
+        },
+        "1": {
+          "traveler_type": "Family traveler",
+          "sentences": {
+            "0": "Our family enjoyed visiting the Painted Ladies, but we were disappointed to find out there was no wheelchair access.",
+            "1": "It made it difficult for our elderly family member to fully enjoy the experience."
+          }
+        },
+        "2": {
+          "traveler_type": "Couple traveler",
+          "sentences": {
+            "0": "The Painted Ladies were a romantic spot to visit, but we were disappointed to."
+          }
+        }
+      },
+      "faqs": {
+        "0": {
+          "question": "Can I park my car at Painted Ladies?",
+          "answer": "No, there is no parking at Painted Ladies."
+        },
+        "1": {
+          "question": "Is Painted Ladies wheelchair accessible?",
+          "answer": "There is no wheelchair access at Painted Ladies."
+        }
+      }
+    },
+    "100120": {
+      "name": "Palace Of Fine Arts",
+      "reviews": {
+        "0": {
+          "traveler_type": "Solo traveler",
+          "sentences": {
+            "0": "The Palace of Fine Arts is a beautiful place to visit and take pictures.",
+            "1": "However, it would have been better if there were more amenities like free WiFi and bike parking."
+          }
+        },
+        "1": {
+          "traveler_type": "Family with kids",
+          "sentences": {
+            "0": "We had a great time exploring the Palace of Fine Arts.",
+            "1": "The staff was friendly and accommodating, and the wheelchair accessibility made it easy for our elderly family member to enjoy the experience."
+          }
+        },
+        "2": {
+          "traveler_type": "Couple",
+          "sentences": {
+            "0": "The Palace of Fine Arts is a romantic spot for a date.",
+            "1": "We enjoyed the peaceful atmosphere and the."
+          }
+        }
+      },
+      "faqs": {
+        "0": {
+          "question": "Can I park my bike at Palace Of Fine Arts?",
+          "answer": "There is no bike parking at the Palace of Fine Arts, sorry!"
+        },
+        "1": {
+          "question": "Can I park my car at Palace Of Fine Arts?",
+          "answer": "There is no parking available at Palace of Fine Arts."
+        },
+        "2": {
+          "question": "Do you accept Google Pay as payment?",
+          "answer": "No.Palace Of Fine Arts does not accept Google Pay."
+        },
+        "3": {
+          "question": "Does The Palace of Fine Arts accept credit cards?",
+          "answer": "The Palace of Fine Arts accepts credit cards."
+        },
+        "4": {
+          "question": "Is Apple Pay accepted at Palace Of Fine Arts?",
+          "answer": "No, the restaurant does not accept Apple Pay."
+        },
+        "5": {
+          "question": "Is Palace Of Fine Arts wheelchair accessible?",
+          "answer": "Palace Of Fine Arts is wheelchair accessible."
+        },
+        "6": {
+          "question": "Is free WiFi service offered here?",
+          "answer": "Palace Of Fine Arts does not offer free WiFi."
+        },
+        "7": {
+          "question": "Is there any dresscode to visit Palace Of Fine Arts?",
+          "answer": "No, Palace Of Fine Arts doesn't require any specific attire to the visitors."
+        },
+        "8": {
+          "question": "What are the opening hours at the Palace Of Fine Arts?",
+          "answer": "The opening hours are from 10am to 5pm Tuesday through Sunday."
+        }
+      }
+    },
+    "100122": {
+      "name": "Pier 33",
+      "reviews": {
+        "0": {
+          "traveler_type": "Solo traveler",
+          "sentences": {
+            "0": "Pier 33 is a great spot to relax and enjoy the view of the water.",
+            "1": "However, it's not very accessible for those with mobility issues."
+          }
+        },
+        "1": {
+          "traveler_type": "Family with kids",
+          "sentences": {
+            "0": "We had a great time at Pier 33! The kids loved watching the boats and we appreciated the free admission."
+          }
+        },
+        "2": {
+          "traveler_type": "Couple",
+          "sentences": {
+            "0": "Pier 33 is a romantic spot to watch the sunset over the water.",
+            "1": "Just be aware that there is no parking available, so plan accordingly."
+          }
+        }
+      },
+      "faqs": {
+        "0": {
+          "question": "Can I park my bike at Pier 33?",
+          "answer": "Pier 33 does not have bike parking available."
+        },
+        "1": {
+          "question": "Can I park my car at Pier 33?",
+          "answer": "Parking is not allowed at Pier 33."
+        },
+        "2": {
+          "question": "Does Pier 33 charge any entrance fee to visitors?",
+          "answer": "No, Pier 33 is free to visit."
+        },
+        "3": {
+          "question": "Is Pier 33 wheelchair accessible?",
+          "answer": "Pier 33 is not wheelchair accessible."
+        }
+      }
+    },
+    "100123": {
+      "name": "Pier 39",
+      "reviews": {
+        "0": {
+          "traveler_type": "Solo traveler",
+          "sentences": {
+            "0": "Pier 39 is a great place to spend a day exploring.",
+            "1": "The sea lions are a must-see and the views of the bay are stunning."
+          }
+        },
+        "1": {
+          "traveler_type": "Family with kids",
+          "sentences": {
+            "0": "We had a blast at Pier 39! The kids loved the carousel and the arcade games, and we all enjoyed the delicious seafood at the restaurants."
+          }
+        },
+        "2": {
+          "traveler_type": "Couple",
+          "sentences": {
+            "0": "Pier 39 is a romantic spot to watch the sunset over the Golden Gate Bridge.",
+            "1": "We also enjoyed browsing the shops and trying the local wine."
+          }
+        }
+      },
+      "faqs": {
+        "0": {
+          "question": "Can I park my bike at Pier 39?",
+          "answer": "There is no bike parking available at Pier 39."
+        },
+        "1": {
+          "question": "Is Pier 39 good for kids?",
+          "answer": "Pier 39 is kid friendly"
+        },
+        "2": {
+          "question": "What time does Pier 39 open and close each day?",
+          "answer": "The hours are from 10:00 am until 9:00 pm Sunday through Thursday, and they are open until 10:00 pm on Friday and Saturday."
+        }
+      }
+    },
+    "100124": {
+      "name": "Pier 7",
+      "reviews": {
+        "0": {
+          "traveler_type": "Solo traveler",
+          "sentences": {
+            "0": "Pier 7 is a great spot for a peaceful lunch by the water.",
+            "1": "The bike parking was a plus for me."
+          }
+        },
+        "1": {
+          "traveler_type": "Family traveler",
+          "sentences": {
+            "0": "We had a lovely time at Pier 7 with our kids.",
+            "1": "The staff was friendly and accommodating."
+          }
+        },
+        "2": {
+          "traveler_type": "Couple traveler",
+          "sentences": {
+            "0": "Pier 7 was the perfect date spot for my partner and me.",
+            "1": "The street parking made it easy to get to."
+          }
+        }
+      },
+      "faqs": {
+        "0": {
+          "question": "Does Pier 7 have bike parking?",
+          "answer": "Pier 7 has bike parking."
+        },
+        "1": {
+          "question": "Is street parking available at Pier 7?",
+          "answer": "Yes, street parking is available."
+        },
+        "2": {
+          "question": "Is this establishment appropriate for kids?",
+          "answer": "Yes, Pier 7 is good for kids."
+        }
+      }
+    },
+    "100129": {
+      "name": "Randall Museum",
+      "reviews": {
+        "0": {
+          "traveler_type": "Family",
+          "sentences": {
+            "0": "The Randall Museum was a great experience for our family.",
+            "1": "Our kids loved the interactive exhibits and we appreciated the free admission."
+          }
+        },
+        "1": {
+          "traveler_type": "Solo",
+          "sentences": {
+            "0": "As a solo traveler, I found the Randall Museum to be a peaceful and educational escape from the city.",
+            "1": "The staff was friendly and knowledgeable."
+          }
+        },
+        "2": {
+          "traveler_type": "Couple",
+          "sentences": {
+            "0": "My partner and I had a lovely time at the Randall Museum.",
+            "1": "The exhibits were interesting and we enjoyed the beautiful views from the rooftop garden."
+          }
+        }
+      },
+      "faqs": {
+        "0": {
+          "question": "Does the museum accept Google Pay as a payment option?",
+          "answer": "No, the museum does not accept Google Pay."
+        },
+        "1": {
+          "question": "Is Apple Pay accepted at Randall Museum?",
+          "answer": "No, the museum does not accept Apple Pay."
+        },
+        "2": {
+          "question": "What are the business hours for the Randall Museum?",
+          "answer": "Randall Museum is open from 10AM to 5PM Tuesday to Saturday and is closed Sunday to Monday."
+        },
+        "3": {
+          "question": "What is the admission fee at Randall Museum?",
+          "answer": "The admission is free at Randall Museum."
+        },
+        "4": {
+          "question": "What payment options does Randall Museum take?",
+          "answer": "The payment options at Randall Museum are cash or credit card."
+        },
+        "5": {
+          "question": "Would my kids enjoy the museum?",
+          "answer": "Yes, the museum is good for kids."
+        }
+      }
+    },
+    "100131": {
+      "name": "Ripley's Believe It or Not!",
+      "reviews": {
+        "0": {
+          "traveler_type": "Solo traveler",
+          "sentences": {
+            "0": "Ripley's Believe It or Not! was a fascinating experience.",
+            "1": "The exhibits were unique and the staff was friendly and helpful."
+          }
+        },
+        "1": {
+          "traveler_type": "Family with kids",
+          "sentences": {
+            "0": "Our family had a blast at Ripley's Believe It or Not! The kids loved the interactive exhibits and we all learned something new."
+          }
+        },
+        "2": {
+          "traveler_type": "Couple",
+          "sentences": {
+            "0": "Ripley's Believe It or Not! was a fun and quirky date spot.",
+            "1": "We enjoyed exploring the oddities and learning about the world's curiosities together."
+          }
+        }
+      },
+      "faqs": {
+        "0": {
+          "question": "Are dogs allowed at Ripley's Believe It or Not!?",
+          "answer": "No, dogs are not allowed."
+        },
+        "1": {
+          "question": "Do you need an appointment to visit?",
+          "answer": "No, Ripley's Believe It or Not! is not by appointment only."
+        },
+        "2": {
+          "question": "Does Ripley's Believe It or Not! have bike parking?",
+          "answer": "Ripley's Believe It or Not! has bike parking."
+        },
+        "3": {
+          "question": "How much does the admission ticket to Ripley's Believe It or Not! cost for kids and adults?",
+          "answer": "The admission fee at Ripley's Believe It or Not! is $19.99 for adults and $12.99 for children."
+        },
+        "4": {
+          "question": "Is Ripley's Believe It or Not! good for kids?",
+          "answer": "Yes.Ripley's Believe It or Not!  is good for kids."
+        },
+        "5": {
+          "question": "What are the business hours of Ripley's Believe It or Not?",
+          "answer": "Ripley's Believe It or Not! Is open from 10AM to 9PM every day of the week."
+        },
+        "6": {
+          "question": "What kind of payments do you accept?",
+          "answer": "Ripley's Believe It or Not! accepts credit cards."
+        }
+      }
+    },
+    "100138": {
+      "name": "San Francisco Botanical Garden",
+      "reviews": {
+        "0": {
+          "traveler_type": "Family",
+          "sentences": {
+            "0": "San Francisco Botanical Garden was a great place to take the kids.",
+            "1": "They loved exploring the different gardens and learning about the different plants."
+          }
+        },
+        "1": {
+          "traveler_type": "Solo traveler",
+          "sentences": {
+            "0": "As a solo traveler, I found the San Francisco Botanical Garden to be a peaceful and relaxing escape from the city.",
+            "1": "The variety of plants and flowers was impressive."
+          }
+        },
+        "2": {
+          "traveler_type": "Couple",
+          "sentences": {
+            "0": "My partner and I had a lovely time at the San Francisco Botanical Garden.",
+            "1": "It was a romantic and beautiful setting for a stroll and we enjoyed learning about the."
+          }
+        }
+      },
+      "faqs": {
+        "0": {
+          "question": "Can I park my car at San Francisco Botanical Garden?",
+          "answer": "No, parking is not available on site."
+        },
+        "1": {
+          "question": "Do I need an appointment for the San Francisco Botanical Garden?",
+          "answer": "There is no appointment necessary for the San Francisco Botanical Garden."
+        },
+        "2": {
+          "question": "Does the San Francisco Botanical Garden allow dogs?",
+          "answer": "The San Francisco Botanical Garden does not allow dogs."
+        },
+        "3": {
+          "question": "Is WiFi available?",
+          "answer": "San Francisco Botanical Garden does not offer free WiFi."
+        },
+        "4": {
+          "question": "Is this a good place for kids?",
+          "answer": "San Francisco Botanical Garden is good for kids."
+        },
+        "5": {
+          "question": "What is the admission fee at San Francisco Botanical Garden?",
+          "answer": "The admission fee for adults is $9 for weekdays and $12 for weekends. It's $3 for children each day."
+        },
+        "6": {
+          "question": "What time does the San Francisco Botanical Garden open and close each day?",
+          "answer": "San Francisco Botanical Garden opens at 7:30 am every day, we also close at 6 pm everyday."
+        }
+      }
+    },
+    "100140": {
+      "name": "Chinatown",
+      "reviews": {
+        "0": {
+          "traveler_type": "Solo traveler",
+          "sentences": {
+            "0": "Chinatown is a must-visit destination for anyone exploring the city.",
+            "1": "The lack of parking may be inconvenient, but it's worth it for the authentic experience."
+          }
+        },
+        "1": {
+          "traveler_type": "Family traveler",
+          "sentences": {
+            "0": "Our family had a great time exploring Chinatown and trying all the delicious food.",
+            "1": "Just be aware that parking is limited and it can get crowded on weekends."
+          }
+        },
+        "2": {
+          "traveler_type": "Couple traveler",
+          "sentences": {
+            "0": "Chinatown is a romantic and charming neighborhood with plenty to see and do.",
+            "1": "We loved wandering the streets and trying new foods, but finding."
+          }
+        }
+      },
+      "faqs": {
+        "0": {
+          "question": "Can I park my car at Chinatown?",
+          "answer": "There is no parking available for cars at Chinatown."
+        }
+      }
+    },
+    "100143": {
+      "name": "San Francisco City Hall",
+      "reviews": {
+        "0": {
+          "traveler_type": "Solo traveler",
+          "sentences": {
+            "0": "San Francisco City Hall is a beautiful building with free WiFi and helpful staff.",
+            "1": "However, parking can be a challenge so plan accordingly."
+          }
+        },
+        "1": {
+          "traveler_type": "Family with kids",
+          "sentences": {
+            "0": "We visited San Francisco City Hall and were impressed with the architecture and history.",
+            "1": "The faqs on their website were very informative and helped us plan our visit."
+          }
+        },
+        "2": {
+          "traveler_type": "Business traveler",
+          "sentences": {
+            "0": "As someone who frequently visits government buildings, I was pleasantly surprised by the efficiency and organization at San Francisco City Hall.",
+            "1": "The free WiFi and credit card acceptance made my visit."
+          }
+        }
+      },
+      "faqs": {
+        "0": {
+          "question": "Are credit cards accepted as payment?",
+          "answer": "The San Francisco City Hall accepts credit cards."
+        },
+        "1": {
+          "question": "Can I park my bike at San Francisco City Hall?",
+          "answer": "You cannot park at San Francisco City Hall."
+        },
+        "2": {
+          "question": "Can I park my car at San Francisco City Hall?",
+          "answer": "San Francisco City Hall does not offer parking."
+        },
+        "3": {
+          "question": "Does San Francisco City Hall accept Google Pay?",
+          "answer": "No, the San Francisco City Hall does not accept Google Pay."
+        },
+        "4": {
+          "question": "Is Apple Pay accepted at San Francisco City Hall?",
+          "answer": "San Francisco City Hall does not accept Apple Pay."
+        },
+        "5": {
+          "question": "Is there any free WiFi here?",
+          "answer": "Yes, San Francisco City Hall offers free WiFi."
+        },
+        "6": {
+          "question": "What hours is San Francisco City Hall open?",
+          "answer": "San Francisco City Hall is open from 8AM to 8PM Monday through Friday and is closed Saturdays and Sundays."
+        }
+      }
+    },
+    "100147": {
+      "name": "San Francisco Museum of Modern Art",
+      "reviews": {
+        "0": {
+          "traveler_type": "Solo traveler",
+          "sentences": {
+            "0": "The San Francisco Museum of Modern Art was a great experience.",
+            "1": "The free WiFi was a nice touch and the admission fee was reasonable."
+          }
+        },
+        "1": {
+          "traveler_type": "Family traveler",
+          "sentences": {
+            "0": "The San Francisco Museum of Modern Art was a hit with the whole family.",
+            "1": "The kids loved the exhibits and the staff was friendly and accommodating."
+          }
+        },
+        "2": {
+          "traveler_type": "Art enthusiast",
+          "sentences": {
+            "0": "The San Francisco Museum of Modern Art is a must-visit for any art lover.",
+            "1": "The collection is impressive and the museum is well-maintained."
+          }
+        }
+      },
+      "faqs": {
+        "0": {
+          "question": "Can I park my bike at San Francisco Museum of Modern Art?",
+          "answer": "You cannot park bike at San Francisco Museum of Modern Art."
+        },
+        "1": {
+          "question": "Can I park my car at San Francisco Museum of Modern Art?",
+          "answer": "The San Francisco Museum of Modern Art does have parking available."
+        },
+        "2": {
+          "question": "Does San Francisco Museum of Modern Art accept Apple Pay?",
+          "answer": "Apple Pay is not an accepted form of payment at San Francisco Museum of Modern Art."
+        },
+        "3": {
+          "question": "Does San Francisco Museum of Modern Art allow dogs?",
+          "answer": "No, San Francisco Museum of Modern Art does not allow dogs."
+        },
+        "4": {
+          "question": "Does San Francisco Museum of Modern Art offer free WiFi?",
+          "answer": "Yes, San Francisco Museum of Modern Art offers free WiFi."
+        },
+        "5": {
+          "question": "Is San Francisco Museum of Modern Art by appointment only?",
+          "answer": "San Francisco Museum of Modern Art is not by appointment only."
+        },
+        "6": {
+          "question": "Is San Francisco Museum of Modern Art wheelchair accessible?",
+          "answer": "San Francisco Museum of Modern Art does not have wheelchair accessibilty at this time."
+        },
+        "7": {
+          "question": "Is The San Francisco Museum of Modern Art good for kids?",
+          "answer": "The San Francisco Museum of Modern Art is good for kids."
+        },
+        "8": {
+          "question": "What are the hours when I can visit the San Francisco Museum of Modern Art?",
+          "answer": "The San Francisco Museum of Modern Art is open from 10am to 5pm every day, except for Wednesdays when it is closed all day."
+        },
+        "9": {
+          "question": "What is the admission fee for kids and adults costs at the San Francisco Museum of Modern Art?",
+          "answer": "The San Francisco Museum of Modern Art charges $19 for children and $25 for adult admission."
+        },
+        "10": {
+          "question": "What's the dress attire at San Francisco Museum of Modern Art?",
+          "answer": "The dress attire is casual at San Francisco Museum of Modern Art."
+        }
+      }
+    },
+    "100150": {
+      "name": "San Francisco Zoo",
+      "reviews": {
+        "0": {
+          "traveler_type": "Family",
+          "sentences": {
+            "0": "The San Francisco Zoo was a great experience for our family.",
+            "1": "Our kids loved seeing all the animals and the staff was very friendly and helpful."
+          }
+        },
+        "1": {
+          "traveler_type": "Couple",
+          "sentences": {
+            "0": "We had a lovely time at the San Francisco Zoo.",
+            "1": "The exhibits were well-maintained and the variety of animals was impressive."
+          }
+        },
+        "2": {
+          "traveler_type": "Solo",
+          "sentences": {
+            "0": "As a solo traveler, I found the San Francisco Zoo to be a peaceful and enjoyable place to spend an afternoon.",
+            "1": "The zoo was easy to navigate and the information provided about the animals was informative."
+          }
+        }
+      },
+      "faqs": {
+        "0": {
+          "question": "Are the attraction at San Francisco Zoo good for kids?",
+          "answer": "Yes, the attraction is good for kids."
+        },
+        "1": {
+          "question": "Does San Francisco Zoo accept Apple Pay?",
+          "answer": "No, the zoo does not accept Apple Pay."
+        },
+        "2": {
+          "question": "Does San Francisco Zoo offer military discounts?",
+          "answer": "San Francisco Zoo does offer military discounts."
+        },
+        "3": {
+          "question": "Does the zoo accept Google Pay?",
+          "answer": "San Francisco Zoo doesn't support Google Pay as payment."
+        },
+        "4": {
+          "question": "How much is the admission at San Francisco Zoo?",
+          "answer": "Admission at the San Francisco Zoo is $23 for adults and $17 for children."
+        },
+        "5": {
+          "question": "Is San Francisco Zoo by appointment only?",
+          "answer": "No, a visit to the San Francisco Zoo does not require an appointment."
+        },
+        "6": {
+          "question": "Is there a designated area for parking bikes at this zoo?",
+          "answer": "Bike parking is available at the San Francisco Zoo."
+        },
+        "7": {
+          "question": "What are the parking options at the zoo?",
+          "answer": "Parking options at the San Francisco Zoo include a private lot, street parking and valet."
+        },
+        "8": {
+          "question": "What is the opening hours of San Francisco Zoo?",
+          "answer": "The San Francisco Zoo is open from 10am to 5pm every day of the week."
+        },
+        "9": {
+          "question": "What payment options does San Francisco Zoo accept?",
+          "answer": "San Francisco Zoo accepts only credit card as its primary option."
+        }
+      }
+    },
+    "100157": {
+      "name": "Seward Street Slides",
+      "reviews": {
+        "0": {
+          "traveler_type": "Solo traveler",
+          "sentences": {
+            "0": "I had a blast at the Seward Street Slides! It's definitely worth the visit if you're in the area."
+          }
+        },
+        "1": {
+          "traveler_type": "Family with kids",
+          "sentences": {
+            "0": "My kids loved the Seward Street Slides! It's a great place to take the family for some outdoor fun."
+          }
+        },
+        "2": {
+          "traveler_type": "Couple",
+          "sentences": {
+            "0": "The Seward Street Slides were a unique and fun experience for us.",
+            "1": "We enjoyed the thrill of sliding down the concrete slides together."
+          }
+        }
+      },
+      "faqs": {
+        "0": {
+          "question": "Are dogs allowed at Seward Street Slides?",
+          "answer": "Yes, dogs are allowed at Seward Street Slides."
+        },
+        "1": {
+          "question": "Do you have a place for me to park my bike?",
+          "answer": "No, Seward Street Slides does not offer bike parking."
+        },
+        "2": {
+          "question": "Is Seward Street Slides good for kids?",
+          "answer": "Seward Street Slides is good for kids."
+        },
+        "3": {
+          "question": "Is Seward Street Slides wheelchair accessible?",
+          "answer": "Seward Street Slides is not wheelchair accessible."
+        },
+        "4": {
+          "question": "Is parking available at Seward Street Slides?",
+          "answer": "Seward Street Slides has a private lot and street parking is also available."
+        },
+        "5": {
+          "question": "What are the days and hours that I can visit Seward Street Slides?",
+          "answer": "The opening hours for Seward Street Slides are 9am to 5pm, Tuesday through Sun, and closed on Monday."
+        }
+      }
+    },
+    "100158": {
+      "name": "SF Citadel",
+      "reviews": {
+        "0": {
+          "traveler_type": "Solo traveler",
+          "sentences": {
+            "0": "SF Citadel was a great experience for me.",
+            "1": "The staff was friendly and the atmosphere was welcoming."
+          }
+        },
+        "1": {
+          "traveler_type": "Couple",
+          "sentences": {
+            "0": "My partner and I had a blast at SF Citadel.",
+            "1": "The dungeon was well-equipped and the events were fun."
+          }
+        },
+        "2": {
+          "traveler_type": "Group of friends",
+          "sentences": {
+            "0": "We had a wild night at SF Citadel.",
+            "1": "The music was great and the play areas were clean and well-maintained."
+          }
+        }
+      },
+      "faqs": {
+        "0": {
+          "question": "Is SF Citadel kid friendly?",
+          "answer": "No, SF Citadel is not kid-friendly."
+        },
+        "1": {
+          "question": "Is there free WiFi available?",
+          "answer": "No, SF Citadel does not offer free WiFi."
+        },
+        "2": {
+          "question": "What days and times is SF Citadel open?",
+          "answer": "The SF Citadel is open on Friday and Saturday from 8:00 pm to 2:00 am."
+        }
+      }
+    },
+    "100164": {
+      "name": "Subpar Miniature Golf",
+      "reviews": {
+        "0": {
+          "traveler_type": "Family",
+          "sentences": {
+            "0": "Subpar Miniature Golf was a great experience for my family.",
+            "1": "The course was challenging but still fun for my young children."
+          }
+        },
+        "1": {
+          "traveler_type": "Couple",
+          "sentences": {
+            "0": "My partner and I had a blast at Subpar Miniature Golf.",
+            "1": "The course was well-maintained and the staff was friendly."
+          }
+        },
+        "2": {
+          "traveler_type": "Solo",
+          "sentences": {
+            "0": "As a solo traveler, I had a great time at Subpar Miniature Golf.",
+            "1": "The course was a fun way to spend an afternoon and the admission fee was reasonable."
+          }
+        }
+      },
+      "faqs": {
+        "0": {
+          "question": "Are dogs allowed on the golf course?",
+          "answer": "No dogs allowed at Subpar Miniature Golf."
+        },
+        "1": {
+          "question": "How much will it cost for Subpar Miniature Golf?",
+          "answer": "The admission fee at Subpar Miniature Golf is $12 for adults and $8 for children."
+        },
+        "2": {
+          "question": "Is Subpar Miniature Golf good for kids?",
+          "answer": "Yes.  Subpar Miniature Golf good for kids."
+        },
+        "3": {
+          "question": "What are the payment options for Subpar Miniature Golf?",
+          "answer": "The payment options at Subpar Miniature Golf are cash or credit card."
+        },
+        "4": {
+          "question": "What hours is Subpar Miniature Golf open?",
+          "answer": "Subpar Miniature Golf opens at 11 AM Monday to Thursday and 10 AM Friday to Sunday. It clsoes at 10 PM everyday."
+        }
+      }
+    },
+    "100165": {
+      "name": "Sutro Baths",
+      "reviews": {
+        "0": {
+          "traveler_type": "Solo traveler",
+          "sentences": {
+            "0": "Sutro Baths was a peaceful and serene place to visit.",
+            "1": "The views were breathtaking and I enjoyed the dog-friendly atmosphere."
+          }
+        },
+        "1": {
+          "traveler_type": "Family traveler",
+          "sentences": {
+            "0": "Our family had a great time at Sutro Baths.",
+            "1": "The kids loved exploring the ruins and we appreciated the availability of parking."
+          }
+        },
+        "2": {
+          "traveler_type": "Couple traveler",
+          "sentences": {
+            "0": "Sutro Baths was a romantic spot for a sunset stroll.",
+            "1": "We were disappointed to find out that it wasn't wheelchair accessible, but still enjoyed the views."
+          }
+        }
+      },
+      "faqs": {
+        "0": {
+          "question": "Are dogs allowed at Sutro Baths?",
+          "answer": "Yes, Sutro Baths allows dogs."
+        },
+        "1": {
+          "question": "Can I park my bike at Sutro Baths.?",
+          "answer": "You can park your bike at Sutro Baths."
+        },
+        "2": {
+          "question": "Do you have parking available?",
+          "answer": "Sutro Baths has street and lot parking available"
+        },
+        "3": {
+          "question": "Is Sutro Baths good for kids?",
+          "answer": "Yes. Sutro Baths is good for kids."
+        },
+        "4": {
+          "question": "Is Sutro Baths wheelchair accessible?",
+          "answer": "No they are not wheelchair accessible."
+        }
+      }
+    },
+    "100168": {
+      "name": "The 16th Avenue Tiled Steps",
+      "reviews": {
+        "0": {
+          "traveler_type": "Solo traveler",
+          "sentences": {
+            "0": "The 16th Avenue Tiled Steps were a great spot to visit on my own.",
+            "1": "The views were stunning and the steps themselves were a unique work of art."
+          }
+        },
+        "1": {
+          "traveler_type": "Family with kids",
+          "sentences": {
+            "0": "Our family had a blast visiting The 16th Avenue Tiled Steps.",
+            "1": "The kids loved running up and down the colorful steps and we all enjoyed the beautiful views of the city."
+          }
+        },
+        "2": {
+          "traveler_type": "Couple",
+          "sentences": {
+            "0": "The 16th Avenue Tiled Steps were a romantic spot for my partner and I to visit.",
+            "1": "We."
+          }
+        }
+      },
+      "faqs": {
+        "0": {
+          "question": "Can I bring my dog to the 16th Avenue Tiled Steps?",
+          "answer": "Yes, you can visit The 16th Avenue Tiled Steps with your pets."
+        },
+        "1": {
+          "question": "Can I park my bike at The 16th Avenue Tiled Steps?",
+          "answer": "No, you may not park your bike at The 16th Avenue Tiled Steps."
+        },
+        "2": {
+          "question": "Can I park my car at The 16th Avenue Tiled Steps?",
+          "answer": "You cannot park your car at The 16th Avenue Tiled Steps."
+        },
+        "3": {
+          "question": "Is The 16th Avenue Tiled Steps good for kids?",
+          "answer": "Yes, The 16th Avenue Tiled Steps are good for kids."
+        },
+        "4": {
+          "question": "Is The 16th Avenue Tiled Steps wheelchair accessible?",
+          "answer": "No The 16th Avenue Tiled Steps is not wheelchair accessible."
+        },
+        "5": {
+          "question": "What are the opening hours of The 16th Avenue Tiled Steps?",
+          "answer": "The 16th Avenue Tiled Steps opens at 9:30 AM Monday to Saturday and at 10:00 AM on Sundays. It closes at 5pm each day."
+        }
+      }
+    },
+    "100170": {
+      "name": "Cathedral of Saint Mary of the Assumption",
+      "reviews": {
+        "0": {
+          "traveler_type": "Solo traveler",
+          "sentences": {
+            "0": "The Cathedral of Saint Mary of the Assumption is a beautiful and peaceful place to visit.",
+            "1": "The staff were friendly and helpful in answering my questions."
+          }
+        },
+        "1": {
+          "traveler_type": "Family with kids",
+          "sentences": {
+            "0": "Our family had a great time visiting the Cathedral of Saint Mary of the Assumption.",
+            "1": "The kids were fascinated by the architecture and the faqs section was very informative."
+          }
+        },
+        "2": {
+          "traveler_type": "Couple",
+          "sentences": {
+            "0": "The Cathedral of Saint Mary of the Assumption is a must-visit for couples.",
+            "1": "The atmosphere is romantic and the admission is free, making."
+          }
+        }
+      },
+      "faqs": {
+        "0": {
+          "question": "Can I park my car at Cathedral of Saint Mary of the Assumption?",
+          "answer": "Parking is not available at the Cathedral of Saint Mary of the Assumption."
+        },
+        "1": {
+          "question": "Does it cost any admission fee to visit Saint Mary of the Assumption?",
+          "answer": "The admission for Saint Mary of the Assumption is free for both adults and children."
+        },
+        "2": {
+          "question": "Is there any entrance fee to visit Cathedral of Saint Mary of the Assumption?",
+          "answer": "No, Cathedral of Saint Mary of the Assumption is free to visit."
+        },
+        "3": {
+          "question": "When are the Cathedral of Saint Mary of the Assumption's opening hours?",
+          "answer": "Cathedral of Saint Mary of the Assumption is open from Monday to Friday from 9:30 am to 4:00 pm. On Saturday it is open from 11:00 am to 5:30 pm and on Sunday it is open from 9:00 am to 3:30 pm."
+        }
+      }
+    },
+    "100171": {
+      "name": "Embarcadero Waterfront",
+      "reviews": {
+        "0": {
+          "traveler_type": "Solo traveler",
+          "sentences": {
+            "0": "Embarcadero Waterfront is a great place to relax and enjoy the beautiful view of the bay.",
+            "1": "The faqs section was very helpful in answering my questions."
+          }
+        },
+        "1": {
+          "traveler_type": "Family with kids",
+          "sentences": {
+            "0": "Our family had a wonderful time at Embarcadero Waterfront.",
+            "1": "The kids loved playing by the water and the faqs section helped us plan our visit."
+          }
+        },
+        "2": {
+          "traveler_type": "Couple",
+          "sentences": {
+            "0": "Embarcadero Waterfront is a romantic spot to watch the sunset and take a stroll along the water.",
+            "1": "The faqs."
+          }
+        }
+      },
+      "faqs": {
+        "0": {
+          "question": "Can I park my car at Embarcadero Waterfront?",
+          "answer": "You cannot park at at Embarcadero Waterfront."
+        },
+        "1": {
+          "question": "Is Embarcadero Waterfront good for kids?",
+          "answer": "Yes, Embarcadero Waterfront is good for kids."
+        }
+      }
+    },
+    "100172": {
+      "name": "The Flyer - San Francisco",
+      "reviews": {
+        "0": {
+          "traveler_type": "Solo traveler",
+          "sentences": {
+            "0": "The Flyer was a thrilling experience, but I wish they had more options for those with motion sickness."
+          }
+        },
+        "1": {
+          "traveler_type": "Family with kids",
+          "sentences": {
+            "0": "The kids loved riding The Flyer on their own, and the staff made sure they were safe throughout the ride."
+          }
+        },
+        "2": {
+          "traveler_type": "Couple",
+          "sentences": {
+            "0": "The Flyer was a romantic way to see the city, but we were disappointed that we couldn't ride it while I was pregnant."
+          }
+        }
+      },
+      "faqs": {
+        "0": {
+          "question": "Are there any age restrictions to ride The Flyer?",
+          "answer": "There are no age restriction to ride The Flyer."
+        },
+        "1": {
+          "question": "Can I ride The Flyer - San Francisco if I suffer from motion sickness?",
+          "answer": "It is not recommend if you have motion sickness."
+        },
+        "2": {
+          "question": "Can children ride The Flyer unaccompanied?",
+          "answer": "Children can ride the flyer unaccompanied as long as 40 inches or taller."
+        },
+        "3": {
+          "question": "Could I ride The Flyer while I'm pregnant?",
+          "answer": "No, it is not advised to ride the Flyer if you are pregnant."
+        },
+        "4": {
+          "question": "Does The Flyer - San Francisco accept credit cards?",
+          "answer": "The Flyer - San Francisco accepts credit cards."
+        },
+        "5": {
+          "question": "Is The Flyer - San Francisco safe for those with medical conditions?",
+          "answer": "No, the Flyer in San Francisco is not recommended for those with medical conditions."
+        },
+        "6": {
+          "question": "What days and hours is The Flyer open?",
+          "answer": "The Flyer in San Francisco is open from 10am to 8pm every day."
+        },
+        "7": {
+          "question": "What is the maximum weight to ride the Flyer?",
+          "answer": "The maximum weight to ride the Flyer in San Francisco is 300 pounds."
+        },
+        "8": {
+          "question": "What is the minimum height to ride at The Flyer?",
+          "answer": "The minimum height to ride The Flyer - San Francisco is 40 inches."
+        },
+        "9": {
+          "question": "What's the admission fee going to cost me at The Flyer - San Francisco?",
+          "answer": "The admission fee at The Flyer in San Francisco is $25 for adults and $16 for children."
+        }
+      }
+    },
+    "100173": {
+      "name": "The Glass Elevators",
+      "reviews": {
+        "0": {
+          "traveler_type": "Solo traveler",
+          "sentences": {
+            "0": "The Glass Elevators provided a unique and enjoyable experience.",
+            "1": "The lack of parking was a minor inconvenience, but the friendly staff made up for it."
+          }
+        },
+        "1": {
+          "traveler_type": "Family traveler",
+          "sentences": {
+            "0": "The Glass Elevators was a hit with the kids! They loved the view and the ride.",
+            "1": "The staff was also very accommodating and helpful."
+          }
+        },
+        "2": {
+          "traveler_type": "Business traveler",
+          "sentences": {
+            "0": "The Glass Elevators was a great way to unwind after a long day of meetings.",
+            "1": "The view was breathtaking and the ride was smooth.",
+            "2": "Highly recommend for anyone visiting the area."
+          }
+        }
+      },
+      "faqs": {
+        "0": {
+          "question": "Can I park my car at The Glass Elevators?",
+          "answer": "Parking is not available."
+        },
+        "1": {
+          "question": "Is the Glass Elevators good for kids?",
+          "answer": "The Glass Elevators is good for kids."
+        }
+      }
+    },
+    "100174": {
+      "name": "Gregangelo Museum",
+      "reviews": {
+        "0": {
+          "traveler_type": "Solo traveler",
+          "sentences": {
+            "0": "The Gregangelo Museum is a hidden gem in San Francisco.",
+            "1": "The exhibits are unique and the staff is friendly and knowledgeable."
+          }
+        },
+        "1": {
+          "traveler_type": "Family with kids",
+          "sentences": {
+            "0": "We had a great time at the Gregangelo Museum! The kids loved the interactive exhibits and the staff was very accommodating."
+          }
+        },
+        "2": {
+          "traveler_type": "Couple",
+          "sentences": {
+            "0": "The Gregangelo Museum is a must-visit for anyone looking for a unique and immersive experience.",
+            "1": "The attention to detail in the exhibits is impressive and the staff is welcoming and informative."
+          }
+        }
+      },
+      "faqs": {
+        "0": {
+          "question": "Is Gregangelo Museum wheelchair accessible?",
+          "answer": "Gregangelo Museum is not wheelchair accessible."
+        },
+        "1": {
+          "question": "What is the opening hours at Gregangelo Museum?",
+          "answer": "Gregangelo Museum is open from 11 am to 6 pm Monday through Saturday. It's closed on Sunday."
+        }
+      }
+    },
+    "100176": {
+      "name": "The Mrs. Doubtfire House",
+      "reviews": {
+        "0": {
+          "traveler_type": "Solo traveler",
+          "sentences": {
+            "0": "I loved visiting The Mrs.",
+            "1": "Doubtfire House! It was a great experience and the staff were very friendly."
+          }
+        },
+        "1": {
+          "traveler_type": "Family traveler",
+          "sentences": {
+            "0": "The Mrs.",
+            "1": "Doubtfire House was the perfect destination for our family vacation.",
+            "2": "The kids had a blast and we all enjoyed the tour."
+          }
+        },
+        "2": {
+          "traveler_type": "Couple traveler",
+          "sentences": {
+            "0": "My partner and I had a wonderful time at The Mrs.",
+            "1": "Doubtfire House.",
+            "2": "It was a unique and memorable experience that we will never forget."
+          }
+        }
+      },
+      "faqs": {
+        "0": {
+          "question": "Can I bring my pet to The Mrs. Doubtfire House?",
+          "answer": "Sorry, no pet is allowed to The Mrs. Doubtfire House."
+        },
+        "1": {
+          "question": "Can I park my bike at The Mrs. Doubtfire House?",
+          "answer": "You cannot park your bike at The Mrs. Doubtfire House."
+        },
+        "2": {
+          "question": "Can I park my car at The Mrs. Doubtfire House?",
+          "answer": "You may not park your car on the The Mrs. Doubtfire House property."
+        },
+        "3": {
+          "question": "Is The Mrs. Doubtfire House kid-friendly?",
+          "answer": "Yes, The Mrs. Doubtfire House is kid-friendly."
+        },
+        "4": {
+          "question": "Is The Mrs. Doubtfire House wheelchair accessible?",
+          "answer": "Sorry, the Mrs. Doubtfire House isn't wheelchair accessible."
+        }
+      }
+    },
+    "100177": {
+      "name": "The Presidio",
+      "reviews": {
+        "0": {
+          "traveler_type": "Solo traveler",
+          "sentences": {
+            "0": "The Presidio is a great place to explore on your own.",
+            "1": "The bike paths are well-maintained and the views are breathtaking."
+          }
+        },
+        "1": {
+          "traveler_type": "Family traveler",
+          "sentences": {
+            "0": "The Presidio is a perfect destination for families.",
+            "1": "The kids loved the playgrounds and we enjoyed the scenic hikes."
+          }
+        },
+        "2": {
+          "traveler_type": "Pet-friendly traveler",
+          "sentences": {
+            "0": "As a dog owner, I highly recommend The Presidio.",
+            "1": "The off-leash areas are spacious and my furry friend had a blast."
+          }
+        }
+      },
+      "faqs": {
+        "0": {
+          "question": "Am I allowed to park my bike there?",
+          "answer": "You can park your bike at The Presidio"
+        },
+        "1": {
+          "question": "Can I park my car at The Presidio?",
+          "answer": "The Presidio has street and private lot parking."
+        },
+        "2": {
+          "question": "Is The Presidio good for kids?",
+          "answer": "The Presidio is good for kids."
+        },
+        "3": {
+          "question": "Is The Presidio, dog friendly at all?",
+          "answer": "The Presidio is a dog friendly zone."
+        },
+        "4": {
+          "question": "What days and times can I visit the Presidio?",
+          "answer": "The Presidio is open 24 hours a day, 7 days a week."
+        },
+        "5": {
+          "question": "What is the dress code at The Presidio?",
+          "answer": "The dress code is casual."
+        }
+      }
+    },
+    "100178": {
+      "name": "San Francisco Dungeon",
+      "reviews": {
+        "0": {
+          "traveler_type": "Solo traveler",
+          "sentences": {
+            "0": "The San Francisco Dungeon was a thrilling experience.",
+            "1": "The interactive exhibits and live actors made it feel like I was really a part of the history."
+          }
+        },
+        "1": {
+          "traveler_type": "Family traveler",
+          "sentences": {
+            "0": "Our family had a blast at the San Francisco Dungeon.",
+            "1": "The kids loved the special effects and the historical stories were fascinating for all of us."
+          }
+        },
+        "2": {
+          "traveler_type": "Couple traveler",
+          "sentences": {
+            "0": "The San Francisco Dungeon was a unique and fun date night activity.",
+            "1": "We enjoyed the spooky atmosphere and the interactive elements kept us engaged throughout the experience."
+          }
+        }
+      },
+      "faqs": {
+        "0": {
+          "question": "Are dogs allowed at San Francisco Dungeon?",
+          "answer": "No dogs allowed at  San Francisco Dungeon ."
+        },
+        "1": {
+          "question": "Does San Francisco Dungeon offer a military discount?",
+          "answer": "San Francisco Dungeon offers a military discount."
+        },
+        "2": {
+          "question": "Does the Dungeon offer free wifi?",
+          "answer": "San Francisco Dungeon does not offer free WiFi."
+        },
+        "3": {
+          "question": "Is San Francisco Dungeon a good place for kids?",
+          "answer": "San Francisco Dungeon is a good place for kids."
+        },
+        "4": {
+          "question": "What is the dress code?",
+          "answer": "The dress code is casual."
+        },
+        "5": {
+          "question": "When is the San Francisco Dungeon open to the public to visit?",
+          "answer": "The San Francisco Dungeon is open from 11am to 7pm Sunday - Thursday and 10am to 7pm Fridays and Saturdays."
+        }
+      }
+    },
+    "100180": {
+      "name": "San Francisco-Oakland Bay Bridge",
+      "reviews": {
+        "0": {
+          "traveler_type": "Solo traveler",
+          "sentences": {
+            "0": "The San Francisco-Oakland Bay Bridge is a must-see attraction for anyone visiting the Bay Area.",
+            "1": "The views of the city skyline and the bay are breathtaking."
+          }
+        },
+        "1": {
+          "traveler_type": "Family traveler",
+          "sentences": {
+            "0": "Our family had a great time driving across the San Francisco-Oakland Bay Bridge.",
+            "1": "The kids loved seeing the water and the city from such a unique perspective."
+          }
+        },
+        "2": {
+          "traveler_type": "Business traveler",
+          "sentences": {
+            "0": "As someone who frequently travels to San Francisco for work, I always make a point to drive across the San Francisco-Oakland Bay."
+          }
+        }
+      },
+      "faqs": {
+        "0": {
+          "question": "When is San Francisco-Oakland Bay Bridge open to the public?",
+          "answer": "The San Francisco-Oakland Bay Bridge is open 24 hours, 7 days a week."
+        }
+      }
+    },
+    "100181": {
+      "name": "Walt Disney Family Museum",
+      "reviews": {
+        "0": {
+          "traveler_type": "Family",
+          "sentences": {
+            "0": "The Walt Disney Family Museum was a great experience for our family.",
+            "1": "The exhibits were informative and engaging for both kids and adults."
+          }
+        },
+        "1": {
+          "traveler_type": "Couple",
+          "sentences": {
+            "0": "My partner and I had a lovely time at the Walt Disney Family Museum.",
+            "1": "The museum's collection of Walt Disney's personal artifacts was fascinating to see."
+          }
+        },
+        "2": {
+          "traveler_type": "Solo traveler",
+          "sentences": {
+            "0": "As a solo traveler, I found the Walt Disney Family Museum to be a peaceful and enjoyable place to spend an afternoon.",
+            "1": "The museum's staff were friendly and helpful in answering any questions I."
+          }
+        }
+      },
+      "faqs": {
+        "0": {
+          "question": "Can I park my car at Walt Disney Family Museum?",
+          "answer": "Walt Disney Family Museum has no parking available."
+        },
+        "1": {
+          "question": "Do the rooms have WiFi?",
+          "answer": "Walt Disney Family Museum offers free WiFi."
+        },
+        "2": {
+          "question": "Does Walt Disney Family Museum allow dogs?",
+          "answer": "Walt Disney Family Museum does not allow dogs."
+        },
+        "3": {
+          "question": "Is Walt Disney Family Museum a good place for kids?",
+          "answer": "The Walt Disney Family Museum is a good place for kids."
+        },
+        "4": {
+          "question": "Is visiting the museum by appointment only?",
+          "answer": "No, Walt Disney Family Museum is not by appointment only."
+        },
+        "5": {
+          "question": "What are Walt Disney Family Museum's opening hours?",
+          "answer": "The opening hours is from 10am to 6pm except for tuesday in which they are closed for the day."
+        },
+        "6": {
+          "question": "What is the dress code for the museum?",
+          "answer": "The dress code at Walt Disney Family Museum is casual."
+        },
+        "7": {
+          "question": "What's the cost of admission for kids and adults at the Walt Disney Family Museum?",
+          "answer": "The admission fee at the Walt Disney Family Museum is $25 for adults and $15 for children."
+        }
+      }
+    },
+    "100183": {
+      "name": "Tom and Jerry's House",
+      "reviews": {
+        "0": {
+          "traveler_type": "Solo traveler",
+          "sentences": {
+            "0": "I had a great stay at Tom and Jerry's House.",
+            "1": "The location was perfect for exploring the city on foot."
+          }
+        },
+        "1": {
+          "traveler_type": "Family with kids",
+          "sentences": {
+            "0": "We loved staying at Tom and Jerry's House! The kids enjoyed the cozy atmosphere and the faqs were very helpful."
+          }
+        },
+        "2": {
+          "traveler_type": "Couple",
+          "sentences": {
+            "0": "Tom and Jerry's House was the perfect romantic getaway.",
+            "1": "The cozy and intimate setting made for a memorable stay."
+          }
+        }
+      },
+      "faqs": {
+        "0": {
+          "question": "Can I park my bike at Tom and Jerry's House?",
+          "answer": "The Tom and Jerry's House has no available parking."
+        },
+        "1": {
+          "question": "Is Tom and Jerry's House wheelchair accessible?",
+          "answer": "Tom and Jerry's House is not wheelchair accessible."
+        },
+        "2": {
+          "question": "Is your place appropriate for kids?",
+          "answer": "Tom and Jerry's House is good for kids."
+        }
+      }
+    },
+    "100184": {
+      "name": "Torpedo Wharf",
+      "reviews": {
+        "0": {
+          "traveler_type": "Solo traveler",
+          "sentences": {
+            "0": "Torpedo Wharf is a great spot to relax and enjoy the view of the bay.",
+            "1": "The lack of bike parking was a bit inconvenient, but overall a pleasant experience."
+          }
+        },
+        "1": {
+          "traveler_type": "Family with kids",
+          "sentences": {
+            "0": "We had a fun day at Torpedo Wharf, exploring the historic site and learning about its significance.",
+            "1": "It was great that there was no entrance fee, making it a budget-friendly activity for our family."
+          }
+        },
+        "2": {
+          "traveler_type": "Couple",
+          "sentences": {
+            "0": "Torpedo Wharf provided a romantic backdrop for a sunset picnic.",
+            "1": "Although we."
+          }
+        }
+      },
+      "faqs": {
+        "0": {
+          "question": "Can I park my bike at Torpedo Wharf?",
+          "answer": "The Torpedo Wharf is not have any available bike parking."
+        },
+        "1": {
+          "question": "How much is the entrance fee to visit Torpedo Wharf?",
+          "answer": "Torpedo Wharf doesn't charge any fee to visitors."
+        }
+      }
+    },
+    "100187": {
+      "name": "Twin Peaks",
+      "reviews": {
+        "0": {
+          "traveler_type": "Solo traveler",
+          "sentences": {
+            "0": "Twin Peaks is a great spot for a morning hike with stunning views of the city.",
+            "1": "The dog-friendly policy was a bonus for me and my furry companion."
+          }
+        },
+        "1": {
+          "traveler_type": "Family with kids",
+          "sentences": {
+            "0": "We had a wonderful time at Twin Peaks with our kids.",
+            "1": "The views were breathtaking and the park was very family-friendly."
+          }
+        },
+        "2": {
+          "traveler_type": "Couples",
+          "sentences": {
+            "0": "Twin Peaks is a romantic spot to watch the sunset with your significant other.",
+            "1": "The peaceful atmosphere and stunning views make it a perfect date spot."
+          }
+        }
+      },
+      "faqs": {
+        "0": {
+          "question": "Can I bring my dog?",
+          "answer": "Twin Peaks is a dog friendly zone."
+        },
+        "1": {
+          "question": "Do have bike parking there?",
+          "answer": "Yes, bike parking is available."
+        },
+        "2": {
+          "question": "Is Twin Peaks wheelchair accessible?",
+          "answer": "No it is not wheelchair accessible."
+        },
+        "3": {
+          "question": "Is parking available at Twin Peaks?",
+          "answer": "Twin Peaks has street and private lot parking."
+        },
+        "4": {
+          "question": "Is this a good place to bring my kids?",
+          "answer": "Twin Peaks is good for kids."
+        },
+        "5": {
+          "question": "What are the opening hours for Twin Peaks?",
+          "answer": "The opening hours of Twin Peaks is every day from 5:00 am to 12:00 am."
+        }
+      }
+    },
+    "100189": {
+      "name": "Union Square",
+      "reviews": {
+        "0": {
+          "traveler_type": "Solo traveler",
+          "sentences": {
+            "0": "Union Square is a great spot to people watch and grab a coffee.",
+            "1": "The bike parking made it easy for me to explore the city on two wheels."
+          }
+        },
+        "1": {
+          "traveler_type": "Family traveler",
+          "sentences": {
+            "0": "We loved bringing our kids to Union Square.",
+            "1": "The open space and nearby parking garage made it a stress-free outing for the whole family."
+          }
+        },
+        "2": {
+          "traveler_type": "Business traveler",
+          "sentences": {
+            "0": "Union Square was the perfect spot for a quick lunch break between meetings.",
+            "1": "The convenient bike parking and variety of food options made it a go-to spot during my stay in the."
+          }
+        }
+      },
+      "faqs": {
+        "0": {
+          "question": "Is bike parking available at Union Square?",
+          "answer": "Yes, bike parking is available."
+        },
+        "1": {
+          "question": "Is there a parking garage near by?",
+          "answer": "Yes, there is a parking garage at Union Square."
+        },
+        "2": {
+          "question": "Is this a good place to bring my children?",
+          "answer": "Union Square is good for kids"
+        },
+        "3": {
+          "question": "What are the opening hours at Union Square?",
+          "answer": "Union Square is open from 6am to midnight daily."
+        }
+      }
+    },
+    "100193": {
+      "name": "Vallejo Street Steps",
+      "reviews": {
+        "0": {
+          "traveler_type": "Solo traveler",
+          "sentences": {
+            "0": "The Vallejo Street Steps were a great workout and offered stunning views of the city.",
+            "1": "I highly recommend them for anyone looking for a challenging hike."
+          }
+        },
+        "1": {
+          "traveler_type": "Family with kids",
+          "sentences": {
+            "0": "Our family had a blast climbing the Vallejo Street Steps.",
+            "1": "The kids loved the challenge and we all enjoyed the beautiful scenery."
+          }
+        },
+        "2": {
+          "traveler_type": "Couple",
+          "sentences": {
+            "0": "The Vallejo Street Steps were the perfect spot for a romantic hike.",
+            "1": "We loved the peaceful atmosphere and breathtaking views."
+          }
+        }
+      },
+      "faqs": {
+        "0": {
+          "question": "Can I park my car at Vallejo Street Steps?",
+          "answer": "Parking is not available."
+        },
+        "1": {
+          "question": "Is Vallejo Street Steps good for kids?",
+          "answer": "Vallejo Street Steps is good for kids."
+        }
+      }
+    },
+    "100197": {
+      "name": "Wave Organ",
+      "reviews": {
+        "0": {
+          "traveler_type": "Solo traveler",
+          "sentences": {
+            "0": "The Wave Organ was a unique and peaceful experience.",
+            "1": "I enjoyed listening to the sounds of the waves and the music created by the organ pipes."
+          }
+        },
+        "1": {
+          "traveler_type": "Family traveler",
+          "sentences": {
+            "0": "Our kids had a blast exploring the Wave Organ and listening to the different sounds it produced.",
+            "1": "It was a fun and educational experience for the whole family."
+          }
+        },
+        "2": {
+          "traveler_type": "Couple traveler",
+          "sentences": {
+            "0": "The Wave Organ provided a romantic and serene atmosphere for us to enjoy together.",
+            "1": "We loved sitting by the water and listening to the beautiful music created by the organ pipes."
+          }
+        }
+      },
+      "faqs": {
+        "0": {
+          "question": "Can I park my car at Wave Organ?",
+          "answer": "There is no car parking available at Wave Organ."
+        },
+        "1": {
+          "question": "How much is the admission fee at Wave Organ?",
+          "answer": "Wave Organ does not charge any admission fee at all."
+        },
+        "2": {
+          "question": "Is Wave Organ good for kids?",
+          "answer": "Wave Organ is good for kids."
+        }
+      }
+    },
+    "100200": {
+      "name": "Yoda Fountain at Lucasfilm",
+      "reviews": {
+        "0": {
+          "traveler_type": "Solo traveler",
+          "sentences": {
+            "0": "The Yoda Fountain at Lucasfilm was a must-see for any Star Wars fan like myself.",
+            "1": "The free admission and stunning design made it a highlight of my trip."
+          }
+        },
+        "1": {
+          "traveler_type": "Family with kids",
+          "sentences": {
+            "0": "Our family loved visiting the Yoda Fountain at Lucasfilm.",
+            "1": "The kids were thrilled to see such an iconic character in person and we appreciated the informative FAQs."
+          }
+        },
+        "2": {
+          "traveler_type": "Couple",
+          "sentences": {
+            "0": "The Yoda Fountain at Lucasfilm was a romantic spot for my partner and I to visit.",
+            "1": "We enjoyed taking pictures together and."
+          }
+        }
+      },
+      "faqs": {
+        "0": {
+          "question": "Can I park my bike at Yoda Fountain at Lucasfilm?",
+          "answer": "No, there is no bike parking allowed at Yoda Fountain at Lucasfilm."
+        },
+        "1": {
+          "question": "Does it cost any money to visit the Yoda Fountain at Lucasfilm?",
+          "answer": "It is free to visit the Yoda Fountain at Lucasfilm."
+        }
+      }
+    }
   }
 }
