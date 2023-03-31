@@ -25,32 +25,23 @@ def process_entity(reviews_all, domain, entity_name):
 
     prompt = [{"role": "user", "content": prompt}]
 
-    print(f'**PROMPT** {prompt}')
+    # print(f'**PROMPT** {prompt}')
 
     try:
         # Send request
         time.sleep(0.4)
         response = chatgpt(prompt)
-        # response = requests.post('https://api.openai.com/v1/chat/completions',
-        #                          headers={
-        #                              'Authorization': 'Bearer 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'},
-        #                          json={'prompt': prompt, 'max_tokens': 1024})
-        print(f"**RESPONSE** {response['text']}")
+
+        # print(f"**RESPONSE** {response['text']}")
 
         start = f'"10": {{"traveler_type": '
-        reviews_new = start + response['text']
+        reviews_new = "{" + start + response['text'] + "}"
 
         print(f'**MERGED** {reviews_new}')
 
-        reviews_new_dict = json.loads("{" + reviews_new + "}")
-
-        print(type(response['text']))
-        print(type(reviews_all))
+        reviews_new_dict = json.loads(reviews_new)
 
         reviews_all.update(reviews_new_dict)
-
-        # quick fix
-        # reviews_all['new_reviews'] = response['text']  # replace 'new_reviews' with review id
 
 
     except Exception:
@@ -79,7 +70,7 @@ def chatgpt(utterances, model="gpt-3.5-turbo"):
 
 
 # Load knowledge from file
-with open('/Users/lea/projects/dstc/dstc11-track5/data/knowledge.json') as f:
+with open('/Users/lea/projects/dstc/dstc11-track5/data/knowledge_aug_bkup.json') as f:
     knowledge = json.load(f)
 
     # Process each entity in knowledge
@@ -87,9 +78,10 @@ with open('/Users/lea/projects/dstc/dstc11-track5/data/knowledge.json') as f:
         for entity, entity_info in knowledge[domain].items():
             entity_name = entity_info["name"]
             entity_reviews = entity_info['reviews']
-            print(f'Entity: {entity_name}')
-            entity_info['reviews'] = process_entity(entity_reviews, domain, entity_name)
+            if len(entity_reviews) < 14:
+                print(f'Entity: {entity_name}')
+                entity_info['reviews'] = process_entity(entity_reviews, domain, entity_name)
 
     # Save extended knowledge to file
-    with open('/Users/lea/projects/dstc/dstc11-track5/data/knowledge_aug.json', 'w') as nf:
+    with open('/data/knowledge_aug_reviews.json', 'w') as nf:
         json.dump(knowledge, nf)

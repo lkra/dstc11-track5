@@ -5602,8 +5602,56 @@
             "3": "It was a bit of a pain getting to my meetings, as the place is not strategically located."
           }
         },
-        "10": {"traveler_type": "Families", "sentences": {"0": "My family and I stayed at the Gonville Hotel for a weekend getaway.", "1": "The staff was very accommodating and friendly towards my children, which made our stay much more enjoyable.", "2": "The hotel also had a great location, with many attractions and restaurants within walking distance.", "3": "The only downside was the lack of a pool or other amenities for children to enjoy.", "4": "Overall, we had a great stay and would recommend the Gonville Hotel to other families looking for a comfortable and convenient stay."}}, "11": {"traveler_type": "Friends", "sentences": {"0": "My friends and I stayed at the Gonville Hotel for a weekend trip.", "1": "The hotel had a great location, with many bars and restaurants nearby.", "2": "The staff was also very friendly and helpful, giving us recommendations for places to go and things to do.", "3": "The only downside was the noise level in the hotel, which made it difficult to sleep at night.", "4": "Overall, we had a good stay and would recommend the Gonville Hotel to other groups of friends looking for a fun and convenient stay."}}, "12": {"traveler_type": "Luxury travelers", "sentences": {"0": "The Gonville Hotel exceeded my expectations for a luxury stay.", "1": "The room was spacious and beautifully decorated, with high-end amenities and a comfortable bed.", "2": "The hotel also had a great spa facility and onsite restaurant with delicious food.", "3": "The staff was attentive and provided excellent service throughout my stay.", "4": "Overall, I had a wonderful experience at the Gonville Hotel and would highly recommend it to other luxury travelers."}}, "13": {"traveler_type": "Budget travelers", "sentences": {"0": "As a budget traveler, I was pleasantly surprised by the Gonville Hotel.", "1": "The room was clean and comfortable, with basic amenities and a good location.", "2": "The staff was also friendly and helpful, providing recommendations for affordable restaurants and activities in the area.", "3": "The only downside was the lack of free breakfast or other budget-friendly amenities.", "4": "Overall, I had a good stay at the Gonville Hotel and would recommend it to other budget travelers looking for a comfortable and convenient stay."}}, "14": {"traveler_type": "Pet owners", "sentences": {"0": "As a pet owner, I appreciated the Gonville Hotel's pet-friendly policy.", "1": "The staff was welcoming to my furry friend and provided amenities such as a pet bed and food bowls.", "2": "The room was also clean and comfortable, with no noticeable pet odors.", "3": "The only downside was the lack of a designated pet area or park nearby.", "4": "Overall, I had a good stay at the Gonville Hotel with my pet and would recommend it to other pet owners looking for a pet-friendly stay."}}
-
+        "10": {
+          "traveler_type": "Families",
+          "sentences": {
+            "0": "My family and I stayed at the Gonville Hotel for a weekend getaway.",
+            "1": "The staff was very accommodating and friendly towards my children, which made our stay much more enjoyable.",
+            "2": "The hotel also had a great location, with many attractions and restaurants within walking distance.",
+            "3": "The only downside was the lack of a pool or other amenities for children to enjoy.",
+            "4": "Overall, we had a great stay and would recommend the Gonville Hotel to other families looking for a comfortable and convenient stay."
+          }
+        },
+        "11": {
+          "traveler_type": "Friends",
+          "sentences": {
+            "0": "My friends and I stayed at the Gonville Hotel for a weekend trip.",
+            "1": "The hotel had a great location, with many bars and restaurants nearby.",
+            "2": "The staff was also very friendly and helpful, giving us recommendations for places to go and things to do.",
+            "3": "The only downside was the noise level in the hotel, which made it difficult to sleep at night.",
+            "4": "Overall, we had a good stay and would recommend the Gonville Hotel to other groups of friends looking for a fun and convenient stay."
+          }
+        },
+        "12": {
+          "traveler_type": "Luxury travelers",
+          "sentences": {
+            "0": "The Gonville Hotel exceeded my expectations for a luxury stay.",
+            "1": "The room was spacious and beautifully decorated, with high-end amenities and a comfortable bed.",
+            "2": "The hotel also had a great spa facility and onsite restaurant with delicious food.",
+            "3": "The staff was attentive and provided excellent service throughout my stay.",
+            "4": "Overall, I had a wonderful experience at the Gonville Hotel and would highly recommend it to other luxury travelers."
+          }
+        },
+        "13": {
+          "traveler_type": "Budget travelers",
+          "sentences": {
+            "0": "As a budget traveler, I was pleasantly surprised by the Gonville Hotel.",
+            "1": "The room was clean and comfortable, with basic amenities and a good location.",
+            "2": "The staff was also friendly and helpful, providing recommendations for affordable restaurants and activities in the area.",
+            "3": "The only downside was the lack of free breakfast or other budget-friendly amenities.",
+            "4": "Overall, I had a good stay at the Gonville Hotel and would recommend it to other budget travelers looking for a comfortable and convenient stay."
+          }
+        },
+        "14": {
+          "traveler_type": "Pet owners",
+          "sentences": {
+            "0": "As a pet owner, I appreciated the Gonville Hotel's pet-friendly policy.",
+            "1": "The staff was welcoming to my furry friend and provided amenities such as a pet bed and food bowls.",
+            "2": "The room was also clean and comfortable, with no noticeable pet odors.",
+            "3": "The only downside was the lack of a designated pet area or park nearby.",
+            "4": "Overall, I had a good stay at the Gonville Hotel with my pet and would recommend it to other pet owners looking for a pet-friendly stay."
+          }
+        }
       },
       "faqs": {
         "0": {
@@ -5861,7 +5909,55 @@
             "3": "I had a great view of the mountains."
           }
         },
-        "10": {"traveler_type": "Luxury travelers", "sentences": {"0": "As a luxury traveler, I have high expectations when it comes to accommodations.", "1": "The Hamilton Lodge did not disappoint.", "2": "The room was spacious and beautifully decorated, with high-end amenities and a comfortable bed.", "3": "The staff was attentive and went above and beyond to make sure my stay was enjoyable.", "4": "The location was also perfect, with stunning views of the surrounding mountains.", "5": "I highly recommend this hotel to anyone looking for a luxurious and relaxing getaway."}}, "11": {"traveler_type": "Families with young children", "sentences": {"0": "We stayed at the Hamilton Lodge with our young children and had a great experience.", "1": "The staff was friendly and accommodating, and the rooms were clean and comfortable.", "2": "Our kids loved the breakfast options and the outdoor pool.", "3": "The only downside was that the hotel was a bit far from the attractions we wanted to visit, but overall it was a great stay."}}, "12": {"traveler_type": "Budget travelers", "sentences": {"0": "As a budget traveler, I was pleasantly surprised by the Hamilton Lodge.", "1": "The price was very reasonable and the room was clean and comfortable.", "2": "The staff was friendly and helpful, and the breakfast options were good.", "3": "The location was a bit out of the way, but it was still easy to get around with a car.", "4": "Overall, I would definitely recommend this hotel to other budget travelers."}}, "13": {"traveler_type": "Couples", "sentences": {"0": "My partner and I had a wonderful stay at the Hamilton Lodge.", "1": "The room was cozy and romantic, with beautiful views of the mountains.", "2": "The staff was friendly and helpful, and the breakfast options were delicious.", "3": "We also enjoyed the outdoor pool and hot tub.", "4": "The only downside was that the hotel was a bit far from the town center, but it was still a great stay overall."}}, "14": {"traveler_type": "Families with teenagers", "sentences": {"0": "We stayed at the Hamilton Lodge with our teenagers and had a great time.", "1": "The rooms were spacious and comfortable, and the staff was friendly and accommodating.", "2": "Our teenagers loved the outdoor pool and hot tub, and we all enjoyed the breakfast options.", "3": "The only downside was that the hotel was a bit far from the attractions we wanted to visit, but it was still a great stay overall."}}
+        "10": {
+          "traveler_type": "Luxury travelers",
+          "sentences": {
+            "0": "As a luxury traveler, I have high expectations when it comes to accommodations.",
+            "1": "The Hamilton Lodge did not disappoint.",
+            "2": "The room was spacious and beautifully decorated, with high-end amenities and a comfortable bed.",
+            "3": "The staff was attentive and went above and beyond to make sure my stay was enjoyable.",
+            "4": "The location was also perfect, with stunning views of the surrounding mountains.",
+            "5": "I highly recommend this hotel to anyone looking for a luxurious and relaxing getaway."
+          }
+        },
+        "11": {
+          "traveler_type": "Families with young children",
+          "sentences": {
+            "0": "We stayed at the Hamilton Lodge with our young children and had a great experience.",
+            "1": "The staff was friendly and accommodating, and the rooms were clean and comfortable.",
+            "2": "Our kids loved the breakfast options and the outdoor pool.",
+            "3": "The only downside was that the hotel was a bit far from the attractions we wanted to visit, but overall it was a great stay."
+          }
+        },
+        "12": {
+          "traveler_type": "Budget travelers",
+          "sentences": {
+            "0": "As a budget traveler, I was pleasantly surprised by the Hamilton Lodge.",
+            "1": "The price was very reasonable and the room was clean and comfortable.",
+            "2": "The staff was friendly and helpful, and the breakfast options were good.",
+            "3": "The location was a bit out of the way, but it was still easy to get around with a car.",
+            "4": "Overall, I would definitely recommend this hotel to other budget travelers."
+          }
+        },
+        "13": {
+          "traveler_type": "Couples",
+          "sentences": {
+            "0": "My partner and I had a wonderful stay at the Hamilton Lodge.",
+            "1": "The room was cozy and romantic, with beautiful views of the mountains.",
+            "2": "The staff was friendly and helpful, and the breakfast options were delicious.",
+            "3": "We also enjoyed the outdoor pool and hot tub.",
+            "4": "The only downside was that the hotel was a bit far from the town center, but it was still a great stay overall."
+          }
+        },
+        "14": {
+          "traveler_type": "Families with teenagers",
+          "sentences": {
+            "0": "We stayed at the Hamilton Lodge with our teenagers and had a great time.",
+            "1": "The rooms were spacious and comfortable, and the staff was friendly and accommodating.",
+            "2": "Our teenagers loved the outdoor pool and hot tub, and we all enjoyed the breakfast options.",
+            "3": "The only downside was that the hotel was a bit far from the attractions we wanted to visit, but it was still a great stay overall."
+          }
+        }
       },
       "faqs": {
         "0": {
@@ -7341,7 +7437,51 @@
             "2": "The wifi was any slower though, it won't work at all."
           }
         },
-        "10": {"traveler_type": "Solo travelers", "sentences": {"0": "As a solo traveler, I found the Leverton House to be a great choice for my stay.", "1": "The location was convenient and the room was clean and comfortable.", "2": "I appreciated the free Wi-Fi and the helpful staff.", "3": "Overall, a great experience."}}, "11": {"traveler_type": "Couples", "sentences": {"0": "My partner and I had a wonderful stay at the Leverton House.", "1": "The room was spacious and clean, and the bed was very comfortable.", "2": "We also enjoyed the complimentary breakfast and the convenient location.", "3": "We would definitely stay here again."}}, "12": {"traveler_type": "Business travelers", "sentences": {"0": "I stayed at the Leverton House for a business trip and was impressed with the amenities.", "1": "The room was clean and comfortable, and the free Wi-Fi was fast and reliable.", "2": "The location was also convenient for my meetings.", "3": "Overall, a great choice for business travelers."}}, "13": {"traveler_type": "Families", "sentences": {"0": "My family and I had a great stay at the Leverton House.", "1": "The room was spacious and clean, and the staff was friendly and helpful.", "2": "We also appreciated the complimentary breakfast and the convenient location.", "3": "Overall, a great choice for families."}}, "14": {"traveler_type": "Solo travelers", "sentences": {"0": "As a solo traveler, I found the Leverton House to be a great choice for my stay.", "1": "The room was clean and comfortable, and the staff was friendly and helpful.", "2": "I also appreciated the free Wi-Fi and the convenient location.", "3": "Overall, a great experience."}}
+        "10": {
+          "traveler_type": "Solo travelers",
+          "sentences": {
+            "0": "As a solo traveler, I found the Leverton House to be a great choice for my stay.",
+            "1": "The location was convenient and the room was clean and comfortable.",
+            "2": "I appreciated the free Wi-Fi and the helpful staff.",
+            "3": "Overall, a great experience."
+          }
+        },
+        "11": {
+          "traveler_type": "Couples",
+          "sentences": {
+            "0": "My partner and I had a wonderful stay at the Leverton House.",
+            "1": "The room was spacious and clean, and the bed was very comfortable.",
+            "2": "We also enjoyed the complimentary breakfast and the convenient location.",
+            "3": "We would definitely stay here again."
+          }
+        },
+        "12": {
+          "traveler_type": "Business travelers",
+          "sentences": {
+            "0": "I stayed at the Leverton House for a business trip and was impressed with the amenities.",
+            "1": "The room was clean and comfortable, and the free Wi-Fi was fast and reliable.",
+            "2": "The location was also convenient for my meetings.",
+            "3": "Overall, a great choice for business travelers."
+          }
+        },
+        "13": {
+          "traveler_type": "Families",
+          "sentences": {
+            "0": "My family and I had a great stay at the Leverton House.",
+            "1": "The room was spacious and clean, and the staff was friendly and helpful.",
+            "2": "We also appreciated the complimentary breakfast and the convenient location.",
+            "3": "Overall, a great choice for families."
+          }
+        },
+        "14": {
+          "traveler_type": "Solo travelers",
+          "sentences": {
+            "0": "As a solo traveler, I found the Leverton House to be a great choice for my stay.",
+            "1": "The room was clean and comfortable, and the staff was friendly and helpful.",
+            "2": "I also appreciated the free Wi-Fi and the convenient location.",
+            "3": "Overall, a great experience."
+          }
+        }
       },
       "faqs": {
         "0": {
@@ -9093,7 +9233,56 @@
             "2": "The view from my room was really picturesque, and the bed offered a really comfortable night of sleep."
           }
         },
-        "10": {"traveler_type": "Business travelers", "sentences": {"0": "As a business traveler, I found the University Arms Hotel to be a great option.", "1": "The location was convenient for my meetings and the staff was very accommodating to my needs.", "2": "The room was spacious and had all the necessary amenities for a comfortable stay.", "3": "The onsite restaurant was also a great option for a quick meal between meetings.", "4": "Overall, I would highly recommend this hotel for any business traveler."}}, "11": {"traveler_type": "Friends", "sentences": {"0": "I stayed at the University Arms Hotel with a group of friends and we had a great time.", "1": "The location was perfect for exploring the city and there were plenty of restaurants and bars nearby.", "2": "The staff was friendly and helpful, and the rooms were clean and comfortable.", "3": "We also enjoyed the onsite gym and restaurant.", "4": "Overall, I would definitely recommend this hotel for a fun weekend with friends."}}, "12": {"traveler_type": "Solo travelers", "sentences": {"0": "I had a great stay at the University Arms Hotel as a solo traveler.", "1": "The location was perfect for exploring the city and there were plenty of restaurants and shops nearby.", "2": "The staff was friendly and helpful, and the room was clean and comfortable.", "3": "I also appreciated the onsite gym and restaurant.", "4": "Overall, I would highly recommend this hotel for any solo traveler looking for a convenient and comfortable stay."}}, "13": {"traveler_type": "Couples", "sentences": {"0": "My partner and I had a wonderful stay at the University Arms Hotel.", "1": "The location was perfect for exploring the city and the staff was friendly and helpful.", "2": "The room was spacious and comfortable, and we enjoyed the onsite gym and restaurant.", "3": "The only downside was that the room was a bit overpriced for what it offered.", "4": "Overall, we would still highly recommend this hotel for any couples looking for a romantic and convenient stay."}}, "14": {"traveler_type": "Families with young children", "sentences": {"0": "We had a great stay at the University Arms Hotel with our young children.", "1": "The staff was very accommodating to our needs and the room was spacious and comfortable.", "2": "The onsite restaurant was also a great option for a quick meal with the kids.", "3": "The only downside was that the hotel was a bit noisy at times, which made it difficult for the kids to sleep.", "4": "Overall, we would still highly recommend this hotel for any families with young children looking for a convenient and comfortable stay."}}
+        "10": {
+          "traveler_type": "Business travelers",
+          "sentences": {
+            "0": "As a business traveler, I found the University Arms Hotel to be a great option.",
+            "1": "The location was convenient for my meetings and the staff was very accommodating to my needs.",
+            "2": "The room was spacious and had all the necessary amenities for a comfortable stay.",
+            "3": "The onsite restaurant was also a great option for a quick meal between meetings.",
+            "4": "Overall, I would highly recommend this hotel for any business traveler."
+          }
+        },
+        "11": {
+          "traveler_type": "Friends",
+          "sentences": {
+            "0": "I stayed at the University Arms Hotel with a group of friends and we had a great time.",
+            "1": "The location was perfect for exploring the city and there were plenty of restaurants and bars nearby.",
+            "2": "The staff was friendly and helpful, and the rooms were clean and comfortable.",
+            "3": "We also enjoyed the onsite gym and restaurant.",
+            "4": "Overall, I would definitely recommend this hotel for a fun weekend with friends."
+          }
+        },
+        "12": {
+          "traveler_type": "Solo travelers",
+          "sentences": {
+            "0": "I had a great stay at the University Arms Hotel as a solo traveler.",
+            "1": "The location was perfect for exploring the city and there were plenty of restaurants and shops nearby.",
+            "2": "The staff was friendly and helpful, and the room was clean and comfortable.",
+            "3": "I also appreciated the onsite gym and restaurant.",
+            "4": "Overall, I would highly recommend this hotel for any solo traveler looking for a convenient and comfortable stay."
+          }
+        },
+        "13": {
+          "traveler_type": "Couples",
+          "sentences": {
+            "0": "My partner and I had a wonderful stay at the University Arms Hotel.",
+            "1": "The location was perfect for exploring the city and the staff was friendly and helpful.",
+            "2": "The room was spacious and comfortable, and we enjoyed the onsite gym and restaurant.",
+            "3": "The only downside was that the room was a bit overpriced for what it offered.",
+            "4": "Overall, we would still highly recommend this hotel for any couples looking for a romantic and convenient stay."
+          }
+        },
+        "14": {
+          "traveler_type": "Families with young children",
+          "sentences": {
+            "0": "We had a great stay at the University Arms Hotel with our young children.",
+            "1": "The staff was very accommodating to our needs and the room was spacious and comfortable.",
+            "2": "The onsite restaurant was also a great option for a quick meal with the kids.",
+            "3": "The only downside was that the hotel was a bit noisy at times, which made it difficult for the kids to sleep.",
+            "4": "Overall, we would still highly recommend this hotel for any families with young children looking for a convenient and comfortable stay."
+          }
+        }
       },
       "faqs": {
         "0": {
@@ -15035,7 +15224,56 @@
             "2": "No \"Pepsi is not okay\"!"
           }
         },
-        "10": {"traveler_type": "Business travelers", "sentences": {"0": "I had a business meeting at Saint Johns Chop House and was pleasantly surprised by the quality of the food and service.", "1": "I ordered the Yorkshire Pudding and it was cooked to perfection.", "2": "The staff was attentive and accommodating to our needs.", "3": "The only downside was the noise level, which made it difficult to have a conversation.", "4": "Overall, I would recommend this restaurant for a business lunch or dinner."}}, "11": {"traveler_type": "Couples", "sentences": {"0": "My partner and I had a lovely date night at Saint Johns Chop House.", "1": "The atmosphere was romantic and cozy, and the food was delicious.", "2": "We ordered the Beef Wellington and it was cooked to perfection.", "3": "The only downside was the high prices, but it was worth it for the quality of the food and service.", "4": "We will definitely be returning for another special occasion."}}, "12": {"traveler_type": "Solo travelers", "sentences": {"0": "As a solo traveler, I felt comfortable dining at Saint Johns Chop House.", "1": "The staff was friendly and welcoming, and the food was delicious.", "2": "I ordered the Cornish Pasty and it was one of the best I've ever had.", "3": "The only downside was the lack of vegetarian options on the menu.", "4": "Overall, I would recommend this restaurant for solo travelers looking for a delicious meal."}}, "13": {"traveler_type": "Friends", "sentences": {"0": "My friends and I had a great time at Saint Johns Chop House.", "1": "We ordered the Roast Dinners and they were cooked to perfection.", "2": "The staff was friendly and accommodating to our group.", "3": "The only downside was the high prices of the drinks.", "4": "Overall, we would recommend this restaurant for a fun night out with friends."}}, "14": {"traveler_type": "Families with children", "sentences": {"0": "My family and I had a great experience at Saint Johns Chop House.", "1": "The staff was friendly and accommodating to our children.", "2": "We ordered the Fish and Chips and they were delicious.", "3": "The only downside was the lack of children's menu options.", "4": "Overall, we would recommend this restaurant for families looking for a delicious meal."}}
+        "10": {
+          "traveler_type": "Business travelers",
+          "sentences": {
+            "0": "I had a business meeting at Saint Johns Chop House and was pleasantly surprised by the quality of the food and service.",
+            "1": "I ordered the Yorkshire Pudding and it was cooked to perfection.",
+            "2": "The staff was attentive and accommodating to our needs.",
+            "3": "The only downside was the noise level, which made it difficult to have a conversation.",
+            "4": "Overall, I would recommend this restaurant for a business lunch or dinner."
+          }
+        },
+        "11": {
+          "traveler_type": "Couples",
+          "sentences": {
+            "0": "My partner and I had a lovely date night at Saint Johns Chop House.",
+            "1": "The atmosphere was romantic and cozy, and the food was delicious.",
+            "2": "We ordered the Beef Wellington and it was cooked to perfection.",
+            "3": "The only downside was the high prices, but it was worth it for the quality of the food and service.",
+            "4": "We will definitely be returning for another special occasion."
+          }
+        },
+        "12": {
+          "traveler_type": "Solo travelers",
+          "sentences": {
+            "0": "As a solo traveler, I felt comfortable dining at Saint Johns Chop House.",
+            "1": "The staff was friendly and welcoming, and the food was delicious.",
+            "2": "I ordered the Cornish Pasty and it was one of the best I've ever had.",
+            "3": "The only downside was the lack of vegetarian options on the menu.",
+            "4": "Overall, I would recommend this restaurant for solo travelers looking for a delicious meal."
+          }
+        },
+        "13": {
+          "traveler_type": "Friends",
+          "sentences": {
+            "0": "My friends and I had a great time at Saint Johns Chop House.",
+            "1": "We ordered the Roast Dinners and they were cooked to perfection.",
+            "2": "The staff was friendly and accommodating to our group.",
+            "3": "The only downside was the high prices of the drinks.",
+            "4": "Overall, we would recommend this restaurant for a fun night out with friends."
+          }
+        },
+        "14": {
+          "traveler_type": "Families with children",
+          "sentences": {
+            "0": "My family and I had a great experience at Saint Johns Chop House.",
+            "1": "The staff was friendly and accommodating to our children.",
+            "2": "We ordered the Fish and Chips and they were delicious.",
+            "3": "The only downside was the lack of children's menu options.",
+            "4": "Overall, we would recommend this restaurant for families looking for a delicious meal."
+          }
+        }
       },
       "faqs": {
         "0": {
@@ -19752,7 +19990,60 @@
             "12": "It was so wonderful to finally have something that was really made in-house every day."
           }
         },
-        "10": {"traveler_type": "Business travelers", "sentences": {"0": "As a frequent business traveler, I'm always on the lookout for good restaurants in the area.", "1": "Lan Hong House definitely exceeded my expectations.", "2": "I ordered the Kung Pao chicken and it was absolutely delicious.", "3": "The service was also top-notch and the staff was very accommodating to my needs.", "4": "The only downside was the view, which wasn't very impressive.", "5": "But overall, I would highly recommend this restaurant to any business traveler looking for a great meal."}}, "11": {"traveler_type": "Couples", "sentences": {"0": "My partner and I decided to try Lan Hong House for our date night and we were not disappointed.", "1": "The atmosphere was cozy and romantic, and the food was amazing.", "2": "We ordered the hot pot and it was one of the best we've ever had.", "3": "The staff was also very attentive and made sure we had everything we needed.", "4": "The only downside was that the drinks were a bit overpriced.", "5": "But overall, we had a wonderful experience and would definitely come back."}}, "12": {"traveler_type": "Families with children", "sentences": {"0": "We brought our kids to Lan Hong House for a family dinner and it was a great experience.", "1": "The staff was very friendly and accommodating to our children's needs.", "2": "We ordered the dumplings, sweet and sour pork, and chow mein and everything was delicious.", "3": "The only downside was that the restaurant didn't have a kids menu, but the staff was able to recommend some dishes that our children enjoyed.", "4": "Overall, we had a great time and would definitely come back with our family again."}}, "13": {"traveler_type": "Budget travelers", "sentences": {"0": "As a budget traveler, I'm always looking for affordable restaurants that still offer great food.", "1": "Lan Hong House definitely fits the bill.", "2": "I ordered the Yangzhou fried rice and it was delicious and filling.", "3": "The prices were also very reasonable, especially considering the high quality of the food.", "4": "The only downside was that the drinks were a bit overpriced.", "5": "But overall, I would highly recommend this restaurant to any budget traveler looking for a great meal."}}, "14": {"traveler_type": "Foodies", "sentences": {"0": "As a foodie, I'm always on the lookout for new and exciting restaurants to try.", "1": "Lan Hong House definitely did not disappoint.", "2": "I ordered the Ma Po Tofu and it was one of the best I've ever had.", "3": "The flavors were perfectly balanced and the tofu was cooked to perfection.", "4": "The staff was also very knowledgeable about the menu and was able to recommend some other dishes that I loved.", "5": "Overall, I had a fantastic experience and would highly recommend this restaurant to any foodie looking for a great meal."}}
+        "10": {
+          "traveler_type": "Business travelers",
+          "sentences": {
+            "0": "As a frequent business traveler, I'm always on the lookout for good restaurants in the area.",
+            "1": "Lan Hong House definitely exceeded my expectations.",
+            "2": "I ordered the Kung Pao chicken and it was absolutely delicious.",
+            "3": "The service was also top-notch and the staff was very accommodating to my needs.",
+            "4": "The only downside was the view, which wasn't very impressive.",
+            "5": "But overall, I would highly recommend this restaurant to any business traveler looking for a great meal."
+          }
+        },
+        "11": {
+          "traveler_type": "Couples",
+          "sentences": {
+            "0": "My partner and I decided to try Lan Hong House for our date night and we were not disappointed.",
+            "1": "The atmosphere was cozy and romantic, and the food was amazing.",
+            "2": "We ordered the hot pot and it was one of the best we've ever had.",
+            "3": "The staff was also very attentive and made sure we had everything we needed.",
+            "4": "The only downside was that the drinks were a bit overpriced.",
+            "5": "But overall, we had a wonderful experience and would definitely come back."
+          }
+        },
+        "12": {
+          "traveler_type": "Families with children",
+          "sentences": {
+            "0": "We brought our kids to Lan Hong House for a family dinner and it was a great experience.",
+            "1": "The staff was very friendly and accommodating to our children's needs.",
+            "2": "We ordered the dumplings, sweet and sour pork, and chow mein and everything was delicious.",
+            "3": "The only downside was that the restaurant didn't have a kids menu, but the staff was able to recommend some dishes that our children enjoyed.",
+            "4": "Overall, we had a great time and would definitely come back with our family again."
+          }
+        },
+        "13": {
+          "traveler_type": "Budget travelers",
+          "sentences": {
+            "0": "As a budget traveler, I'm always looking for affordable restaurants that still offer great food.",
+            "1": "Lan Hong House definitely fits the bill.",
+            "2": "I ordered the Yangzhou fried rice and it was delicious and filling.",
+            "3": "The prices were also very reasonable, especially considering the high quality of the food.",
+            "4": "The only downside was that the drinks were a bit overpriced.",
+            "5": "But overall, I would highly recommend this restaurant to any budget traveler looking for a great meal."
+          }
+        },
+        "14": {
+          "traveler_type": "Foodies",
+          "sentences": {
+            "0": "As a foodie, I'm always on the lookout for new and exciting restaurants to try.",
+            "1": "Lan Hong House definitely did not disappoint.",
+            "2": "I ordered the Ma Po Tofu and it was one of the best I've ever had.",
+            "3": "The flavors were perfectly balanced and the tofu was cooked to perfection.",
+            "4": "The staff was also very knowledgeable about the menu and was able to recommend some other dishes that I loved.",
+            "5": "Overall, I had a fantastic experience and would highly recommend this restaurant to any foodie looking for a great meal."
+          }
+        }
       },
       "faqs": {
         "0": {
@@ -29210,7 +29501,59 @@
             "2": "But the drinks were good so I may go back just for those."
           }
         },
-        "10": {"traveler_type": "Business travelers", "sentences": {"0": "I had a business dinner at Cote and was impressed with the atmosphere and service.", "1": "The menu had a good variety of French dishes and the wine list was extensive.", "2": "I ordered the choucroute garnie and it was delicious.", "3": "The portion size was just right and the presentation was beautiful.", "4": "Overall, a great experience for a business dinner."}}, "11": {"traveler_type": "Couples", "sentences": {"0": "My partner and I had a lovely date night at Cote.", "1": "The ambiance was romantic and the service was attentive.", "2": "We shared the escargots de Bourgogne and they were cooked perfectly.", "3": "For our entrees, we had the coq au vin and the bouillabaisse, both of which were flavorful and satisfying.", "4": "We also enjoyed a bottle of red wine recommended by our server.", "5": "Overall, a great spot for a romantic dinner."}}, "12": {"traveler_type": "Solo travelers", "sentences": {"0": "As a solo traveler, I was hesitant to dine at Cote, but I'm glad I did.", "1": "The staff was friendly and made me feel welcome.", "2": "I ordered the cassoulet and it was one of the best meals I've had in a long time.", "3": "The portion size was generous and the flavors were well-balanced.", "4": "I also appreciated the gluten-free options on the menu.", "5": "Overall, a great experience for a solo diner."}}, "13": {"traveler_type": "Families", "sentences": {"0": "My family and I had a great time at Cote.", "1": "The staff was accommodating to our young children and provided coloring sheets and crayons.", "2": "We ordered the steak-frites and the bouillabaisse, both of which were delicious.", "3": "The kids enjoyed the mac and cheese from the children's menu.", "4": "We also appreciated the affordable prices and the extensive wine list.", "5": "Overall, a great spot for a family dinner."}}, "14": {"traveler_type": "Colleagues", "sentences": {"0": "I had a business lunch at Cote with my colleagues and we were all impressed with the food and service.", "1": "We ordered the moules marinieres and the sole meuniere, both of which were cooked perfectly.", "2": "The staff was attentive and accommodating to our dietary restrictions.", "3": "We also appreciated the extensive wine list and the affordable prices.", "4": "Overall, a great spot for a business lunch."}}
+        "10": {
+          "traveler_type": "Business travelers",
+          "sentences": {
+            "0": "I had a business dinner at Cote and was impressed with the atmosphere and service.",
+            "1": "The menu had a good variety of French dishes and the wine list was extensive.",
+            "2": "I ordered the choucroute garnie and it was delicious.",
+            "3": "The portion size was just right and the presentation was beautiful.",
+            "4": "Overall, a great experience for a business dinner."
+          }
+        },
+        "11": {
+          "traveler_type": "Couples",
+          "sentences": {
+            "0": "My partner and I had a lovely date night at Cote.",
+            "1": "The ambiance was romantic and the service was attentive.",
+            "2": "We shared the escargots de Bourgogne and they were cooked perfectly.",
+            "3": "For our entrees, we had the coq au vin and the bouillabaisse, both of which were flavorful and satisfying.",
+            "4": "We also enjoyed a bottle of red wine recommended by our server.",
+            "5": "Overall, a great spot for a romantic dinner."
+          }
+        },
+        "12": {
+          "traveler_type": "Solo travelers",
+          "sentences": {
+            "0": "As a solo traveler, I was hesitant to dine at Cote, but I'm glad I did.",
+            "1": "The staff was friendly and made me feel welcome.",
+            "2": "I ordered the cassoulet and it was one of the best meals I've had in a long time.",
+            "3": "The portion size was generous and the flavors were well-balanced.",
+            "4": "I also appreciated the gluten-free options on the menu.",
+            "5": "Overall, a great experience for a solo diner."
+          }
+        },
+        "13": {
+          "traveler_type": "Families",
+          "sentences": {
+            "0": "My family and I had a great time at Cote.",
+            "1": "The staff was accommodating to our young children and provided coloring sheets and crayons.",
+            "2": "We ordered the steak-frites and the bouillabaisse, both of which were delicious.",
+            "3": "The kids enjoyed the mac and cheese from the children's menu.",
+            "4": "We also appreciated the affordable prices and the extensive wine list.",
+            "5": "Overall, a great spot for a family dinner."
+          }
+        },
+        "14": {
+          "traveler_type": "Colleagues",
+          "sentences": {
+            "0": "I had a business lunch at Cote with my colleagues and we were all impressed with the food and service.",
+            "1": "We ordered the moules marinieres and the sole meuniere, both of which were cooked perfectly.",
+            "2": "The staff was attentive and accommodating to our dietary restrictions.",
+            "3": "We also appreciated the extensive wine list and the affordable prices.",
+            "4": "Overall, a great spot for a business lunch."
+          }
+        }
       },
       "faqs": {
         "0": {
@@ -35225,7 +35568,52 @@
             "10": "I would recommend ordering two entrees per person, as these were quite small."
           }
         },
-        "10": {"traveler_type": "Families", "sentences": {"0": "We had a great time at Sala Thong with our family.", "1": "The Som Tum and Tom Yum Goong were our favorites.", "2": "The staff was very accommodating to our children's dietary restrictions.", "3": "The only downside was the noise level, which made it difficult to have a conversation."}}, "11": {"traveler_type": "Solo travelers", "sentences": {"0": "As a solo traveler, I felt very comfortable dining at Sala Thong.", "1": "The staff was friendly and attentive.", "2": "I ordered the Pad Thai and it was delicious.", "3": "The portion size was perfect for one person.", "4": "I would definitely recommend this restaurant to other solo travelers."}}, "12": {"traveler_type": "Colleagues", "sentences": {"0": "I went to Sala Thong with my colleagues for a work lunch.", "1": "The service was quick and efficient, which was great since we were on a tight schedule.", "2": "The Tom Yum Goong and Pad Krapow Moo were both very flavorful.", "3": "The only downside was the lack of vegetarian options on the menu."}}, "13": {"traveler_type": "Friends", "sentences": {"0": "My friends and I had a great time at Sala Thong.", "1": "The atmosphere was cozy and inviting.", "2": "We ordered the Green Curry and Yellow Curry, both of which were delicious.", "3": "The only downside was the limited drink menu."}}, "14": {"traveler_type": "Couples", "sentences": {"0": "My partner and I had a lovely date night at Sala Thong.", "1": "The Tom Kha Kai and Pad Krapow Moo were both excellent.", "2": "The staff was very attentive and made us feel special.", "3": "The only downside was the noise level, which made it difficult to have a romantic conversation."}}
+        "10": {
+          "traveler_type": "Families",
+          "sentences": {
+            "0": "We had a great time at Sala Thong with our family.",
+            "1": "The Som Tum and Tom Yum Goong were our favorites.",
+            "2": "The staff was very accommodating to our children's dietary restrictions.",
+            "3": "The only downside was the noise level, which made it difficult to have a conversation."
+          }
+        },
+        "11": {
+          "traveler_type": "Solo travelers",
+          "sentences": {
+            "0": "As a solo traveler, I felt very comfortable dining at Sala Thong.",
+            "1": "The staff was friendly and attentive.",
+            "2": "I ordered the Pad Thai and it was delicious.",
+            "3": "The portion size was perfect for one person.",
+            "4": "I would definitely recommend this restaurant to other solo travelers."
+          }
+        },
+        "12": {
+          "traveler_type": "Colleagues",
+          "sentences": {
+            "0": "I went to Sala Thong with my colleagues for a work lunch.",
+            "1": "The service was quick and efficient, which was great since we were on a tight schedule.",
+            "2": "The Tom Yum Goong and Pad Krapow Moo were both very flavorful.",
+            "3": "The only downside was the lack of vegetarian options on the menu."
+          }
+        },
+        "13": {
+          "traveler_type": "Friends",
+          "sentences": {
+            "0": "My friends and I had a great time at Sala Thong.",
+            "1": "The atmosphere was cozy and inviting.",
+            "2": "We ordered the Green Curry and Yellow Curry, both of which were delicious.",
+            "3": "The only downside was the limited drink menu."
+          }
+        },
+        "14": {
+          "traveler_type": "Couples",
+          "sentences": {
+            "0": "My partner and I had a lovely date night at Sala Thong.",
+            "1": "The Tom Kha Kai and Pad Krapow Moo were both excellent.",
+            "2": "The staff was very attentive and made us feel special.",
+            "3": "The only downside was the noise level, which made it difficult to have a romantic conversation."
+          }
+        }
       },
       "faqs": {
         "0": {
@@ -40959,7 +41347,57 @@
             "3": "However, we thought the food was a little overpriced and the location was a little hard to get to."
           }
         },
-        "10": {"traveler_type": "Families", "sentences": {"0": "Zizzi Cambridge is a great spot for families looking for a casual Italian meal.", "1": "The menu has a good variety of options for both kids and adults.", "2": "We ordered the Margherita pizza and the Bolognese pasta, both of which were delicious.", "3": "The staff was friendly and accommodating to our young children.", "4": "Overall, a great experience for families looking for a tasty and relaxed meal."}}, "11": {"traveler_type": "Business travelers", "sentences": {"0": "As a business traveler, I appreciate a restaurant that can accommodate a quick and efficient meal.", "1": "Zizzi Cambridge did just that.", "2": "I ordered the Risotto and it was served promptly and tasted great.", "3": "The atmosphere was also conducive to a business meeting, with a quiet and professional ambiance.", "4": "I would definitely recommend this restaurant for any business travelers looking for a convenient and tasty meal."}}, "12": {"traveler_type": "Couples", "sentences": {"0": "My partner and I had a lovely date night at Zizzi Cambridge.", "1": "The restaurant has a cozy and romantic atmosphere, perfect for a night out.", "2": "We ordered the Caprese Salad and the Fiorentina Steak, both of which were cooked to perfection.", "3": "The wine selection was also impressive, and we enjoyed a bottle of Chianti.", "4": "Overall, a great spot for couples looking for a delicious and intimate dining experience."}}, "13": {"traveler_type": "Solo travelers", "sentences": {"0": "As a solo traveler, I often struggle to find restaurants that are welcoming and accommodating.", "1": "Zizzi Cambridge exceeded my expectations.", "2": "The staff was friendly and made me feel comfortable dining alone.", "3": "I ordered the Lasagna and it was one of the best I've ever had.", "4": "The portion size was also generous, making it a great value for the price.", "5": "I would highly recommend this restaurant to any solo travelers looking for a delicious and welcoming dining experience."}}, "14": {"traveler_type": "Friends", "sentences": {"0": "My friends and I had a great time at Zizzi Cambridge.", "1": "We ordered the Arancini, the Meatballs, and the Calzone, all of which were delicious.", "2": "The staff was also very friendly and accommodating to our group.", "3": "The only downside was that the restaurant was a bit noisy, making it difficult to have a conversation.", "4": "Overall, a great spot for friends looking for a fun and tasty meal."}}
+        "10": {
+          "traveler_type": "Families",
+          "sentences": {
+            "0": "Zizzi Cambridge is a great spot for families looking for a casual Italian meal.",
+            "1": "The menu has a good variety of options for both kids and adults.",
+            "2": "We ordered the Margherita pizza and the Bolognese pasta, both of which were delicious.",
+            "3": "The staff was friendly and accommodating to our young children.",
+            "4": "Overall, a great experience for families looking for a tasty and relaxed meal."
+          }
+        },
+        "11": {
+          "traveler_type": "Business travelers",
+          "sentences": {
+            "0": "As a business traveler, I appreciate a restaurant that can accommodate a quick and efficient meal.",
+            "1": "Zizzi Cambridge did just that.",
+            "2": "I ordered the Risotto and it was served promptly and tasted great.",
+            "3": "The atmosphere was also conducive to a business meeting, with a quiet and professional ambiance.",
+            "4": "I would definitely recommend this restaurant for any business travelers looking for a convenient and tasty meal."
+          }
+        },
+        "12": {
+          "traveler_type": "Couples",
+          "sentences": {
+            "0": "My partner and I had a lovely date night at Zizzi Cambridge.",
+            "1": "The restaurant has a cozy and romantic atmosphere, perfect for a night out.",
+            "2": "We ordered the Caprese Salad and the Fiorentina Steak, both of which were cooked to perfection.",
+            "3": "The wine selection was also impressive, and we enjoyed a bottle of Chianti.",
+            "4": "Overall, a great spot for couples looking for a delicious and intimate dining experience."
+          }
+        },
+        "13": {
+          "traveler_type": "Solo travelers",
+          "sentences": {
+            "0": "As a solo traveler, I often struggle to find restaurants that are welcoming and accommodating.",
+            "1": "Zizzi Cambridge exceeded my expectations.",
+            "2": "The staff was friendly and made me feel comfortable dining alone.",
+            "3": "I ordered the Lasagna and it was one of the best I've ever had.",
+            "4": "The portion size was also generous, making it a great value for the price.",
+            "5": "I would highly recommend this restaurant to any solo travelers looking for a delicious and welcoming dining experience."
+          }
+        },
+        "14": {
+          "traveler_type": "Friends",
+          "sentences": {
+            "0": "My friends and I had a great time at Zizzi Cambridge.",
+            "1": "We ordered the Arancini, the Meatballs, and the Calzone, all of which were delicious.",
+            "2": "The staff was also very friendly and accommodating to our group.",
+            "3": "The only downside was that the restaurant was a bit noisy, making it difficult to have a conversation.",
+            "4": "Overall, a great spot for friends looking for a fun and tasty meal."
+          }
+        }
       },
       "faqs": {
         "0": {
