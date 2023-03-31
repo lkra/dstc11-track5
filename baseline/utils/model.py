@@ -105,8 +105,21 @@ def run_batch_generation_sample(args, model, tokenizer, batch, dataset):
     )
 
     input_ids = torch.tensor(instance["input_ids"], device=args.device).unsqueeze(0)
+
+
+    if not hasattr(args, "top_k"):
+        args.top_k = 50
+    if not hasattr(args, "top_p"):
+        args.top_p = 1.0
+    if not hasattr(args, "temperature"):
+        args.temperature = 1.0
+
+
+
+
     current_output = model.generate(input_ids=input_ids, num_beams=args.num_beams,
                                     min_length=args.min_length, max_length=args.max_length,
+                                    temperature=args.temperature, top_k=args.top_k, top_p=args.top_p,
                                     eos_token_id=tokenizer.eos_token_id, bos_token_id=tokenizer.bos_token_id,
                                     pad_token_id=tokenizer.pad_token_id, do_sample=args.do_sample, num_return_sequences=1)
 
