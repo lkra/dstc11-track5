@@ -12,5 +12,5 @@ CUDA_VISIBLE_DEVICES=${cuda_id} python baseline.py \
         --negative_sample_method "oracle" \
         --knowledge_file knowledge_aug_reviews.json \
         --params_file baseline/configs/selection/params.json \
-        --exp_name ks-review-${model_name_exp}-oracle-baseline
+        --exp_name ks-review-augall-${model_name_exp}-oracle-baseline
 
