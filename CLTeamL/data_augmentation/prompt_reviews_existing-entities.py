@@ -70,7 +70,7 @@ def chatgpt(utterances, model="gpt-3.5-turbo"):
 
 
 # Load knowledge from file
-with open('/Users/lea/projects/dstc/dstc11-track5/data/knowledge_aug_bkup.json') as f:
+with open('/Users/lea/projects/dstc/dstc11-track5/data/knowledge.json') as f:
     knowledge = json.load(f)
 
     # Process each entity in knowledge
