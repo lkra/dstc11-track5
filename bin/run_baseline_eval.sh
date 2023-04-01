@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Prepare directories for intermediate results of each subtask
-eval_dataset=val
+eval_dataset=test
 mkdir -p pred/${eval_dataset}
 
 # eval for turn detection
@@ -9,7 +9,7 @@ model_name=microsoft/deberta-v3-base
 model_name_exp=deberta-v3-base
 checkpoint=runs/td-review-${model_name_exp}-baseline
 td_output_file=pred/${eval_dataset}/baseline.td.${model_name_exp}.json
-cuda_id=3
+cuda_id=0
 
 CUDA_VISIBLE_DEVICES=${cuda_id} python baseline.py \
         --task detection \
@@ -36,7 +36,7 @@ model_name=microsoft/deberta-v3-base
 model_name_exp=deberta-v3-base
 checkpoint=runs/ks-review-${model_name_exp}-oracle-baseline
 ks_output_file=pred/${eval_dataset}/baseline.ks.${model_name_exp}.json
-cuda_id=3
+cuda_id=0
 
 CUDA_VISIBLE_DEVICES=${cuda_id} python3 baseline.py \
         --eval_only \
@@ -55,7 +55,7 @@ model_name=facebook/bart-base
 model_name_exp=bart-base
 checkpoint=runs/rg-review-${model_name_exp}-oracle-baseline
 rg_output_file=pred/${eval_dataset}/baseline.rg.${model_name_exp}.json
-cuda_id=3
+cuda_id=0
 
 CUDA_VISIBLE_DEVICES=${cuda_id} python3 baseline.py \
         --task generation \
