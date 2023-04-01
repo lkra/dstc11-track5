@@ -17,7 +17,7 @@ CUDA_VISIBLE_DEVICES=${cuda_id} python baseline.py \
 # training and validation for knowledge selection
 model_name=microsoft/deberta-v3-base
 model_name_exp=deberta-v3-base
-cuda_id=1
+cuda_id=0
 
 CUDA_VISIBLE_DEVICES=${cuda_id} python baseline.py \
         --task selection \
