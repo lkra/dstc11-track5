@@ -1,12 +1,10 @@
 import json
 import statistics
 
-import matplotlib.pyplot as plt
 import pandas as pd
-import seaborn as sns
 
 from scripts.dataset_walker import DatasetWalker
-from utils.nlp_helpers import get_sentiment
+from utils.nlp_helpers import get_sentiment, calculate_entropy
 
 
 def read_predictions(dataset_to_read="val", dataroot="./../../pred/", prediction_file="baseline.rg.bart-base.json"):
@@ -49,17 +47,32 @@ def group_metrics_by(df, column):
 
 def process_knowledge(item, nlp):
     if not item['knowledge']:  # in case knowledge is empty
-        item_knowledge, item_know_sentiment, item_know_avg_sentiment = [], [], 0
+        item_faqs, item_reviews = None, None
+        item_knowledge, item_know_nr = [], None
+        item_know_sentiment, item_know_avg_sentiment = [], None
+        item_know_std_sentiment, item_know_entropy_sentiment = None, None
         item_domain, item_doc_type = 'empty', 'empty'
     else:
-        item_knowledge = [el['sent'] if 'sent' in el.keys() else el['question'] + el['answer']
-                          for el in item['knowledge']]
-        item_know_sentiment = [get_sentiment(el, nlp) for el in item_knowledge]
+        # Sort and separate
+        item['knowledge'] = sorted(item['knowledge'], key=lambda d: d['doc_type'])
+        item_faqs = [el['question'] + el['answer'] for el in item['knowledge'] if el['doc_type'] == 'faq']
+        item_reviews = [el['sent'] for el in item['knowledge'] if el['doc_type'] == 'review']
+
+        # overall knowledge
+        item_know_nr = len(item['knowledge'])
+        item_knowledge = item_faqs + item_reviews
+        item_know_sentiment = [get_sentiment(el, nlp) for el in item_reviews]
         item_know_avg_sentiment = statistics.mean(item_know_sentiment) if item_know_sentiment else None
+        item_know_std_sentiment = statistics.stdev(item_know_sentiment) \
+            if item_know_sentiment and len(item_know_sentiment) > 2 else None
+        item_know_entropy_sentiment = calculate_entropy(item_know_sentiment, item_know_avg_sentiment) \
+            if item_know_sentiment else None
         item_domain = item['knowledge'][0]['domain']
         item_doc_type = item['knowledge'][0]['doc_type']
 
-    return item_knowledge, item_know_sentiment, item_know_avg_sentiment, item_domain, item_doc_type
+    return item_know_nr, item_knowledge, item_faqs, item_reviews, \
+           item_know_sentiment, item_know_avg_sentiment, item_know_std_sentiment, item_know_entropy_sentiment, \
+           item_domain, item_doc_type
 
 
 def score_predictions(reference_response, prediction_response, bleu_metric, meteor_metric, rouge_scorer):
@@ -67,7 +80,6 @@ def score_predictions(reference_response, prediction_response, bleu_metric, mete
         bleu, meteor, rouge1, rouge2, rougeL = None, None, None, None, None
 
     else:
-
         try:
             # calculate metrics
             bleu = bleu_metric.evaluate_example(prediction_response, reference_response)['bleu'] / 100.0
@@ -82,18 +94,3 @@ def score_predictions(reference_response, prediction_response, bleu_metric, mete
             bleu, meteor, rouge1, rouge2, rougeL = None, None, None, None, None
 
     return bleu, meteor, rouge1, rouge2, rougeL
-
-
-def hardest_examples(n_samples):
-    dataset = pd.read_csv(f'./../data_analysis/output/analysis_train.csv')
-    dataset.sort_values(by="ref_know_nr", ascending=False, inplace=True)
-
-    print(dataset['ref_know_nr'].describe())
-
-    sns.kdeplot(data=dataset, x="ref_know_nr")
-    plt.show()
-
-    dataset = dataset[dataset['ref_know_nr'] < dataset['ref_know_nr'].mean() + dataset['ref_know_nr'].std()]
-    dataset = dataset[dataset['ref_know_nr'] > dataset['ref_know_nr'].mean()]
-
-    return dataset[:n_samples].index

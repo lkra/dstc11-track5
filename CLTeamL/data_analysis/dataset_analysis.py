@@ -1,14 +1,20 @@
 import argparse
+import sys
 
-from spacytextblob.spacytextblob import SpacyTextBlob
 import pandas as pd
 import spacy
 from tqdm import tqdm
+
+from spacytextblob.spacytextblob import SpacyTextBlob
 
 from scripts.dataset_walker import DatasetWalker
 from utils.dialogue_act_classifier import MidasDialogTagger
 from utils.helpers import process_knowledge
 from utils.nlp_helpers import get_sentiment, split_summary_question, get_num_sentences
+
+SCRIPTS_PATH = "./../../scripts/"
+if SCRIPTS_PATH not in sys.path:
+    sys.path.append(SCRIPTS_PATH)
 
 
 def main(args):
@@ -18,7 +24,9 @@ def main(args):
                  'turn_nr', 'dialogue_act_history',
                  'user_utterance', 'user_utterance_dialogue_act',
                  'ref_domain', 'ref_doc_type',
-                 'ref_knowledge', 'ref_know_nr', 'ref_know_sentiment', 'ref_know_avg_sentiment',
+                 'ref_knowledge', 'ref_know_nr', 'ref_faqs', 'ref_reviews',
+                 'ref_know_sentiment',
+                 'ref_know_avg_sentiment', 'ref_know_std_sentiment', 'ref_know_entropy_sentiment',
                  'ref_response', 'ref_response_length', 'ref_response_sent_nr',
                  'ref_response_summary', 'ref_response_summary_sentiment', 'ref_response_question'])
 
@@ -28,10 +36,11 @@ def main(args):
     nlp.add_pipe('spacytextblob')
 
     # loop over references and predictions
-    data = DatasetWalker(dataset=args.dataset, dataroot="./../../data/", labels=True, incl_knowledge=True)
+    data = DatasetWalker(dataset=args.dataset, dataroot="./../../data/",
+                         labels=args.dataset != 'test', incl_knowledge=True)
     for (log, reference) in tqdm(data):
         # skip if instance without response
-        if not reference['target']:
+        if reference and not reference['target']:
             df = pd.concat([df, pd.DataFrame.from_records([{'target': False}])])
             continue
 
@@ -50,19 +59,28 @@ def main(args):
         user_utterance = log[-1]['text']
 
         ####################### Process reference response #######################
-        # get reference data
-        ref_response = reference['response']
-        ref_length = len(reference['response'])
-        ref_sent_length = get_num_sentences(reference['response'], nlp)
-        ref_know_nr = len(reference['knowledge'])
-        ref_knowledge, ref_know_sentiment, ref_know_avg_sentiment, ref_domain, ref_doc_type = process_knowledge(
-            reference, nlp)
+        if reference:
+            # get reference data
+            ref_response = reference['response']
+            ref_length = len(reference['response'])
+            ref_sent_length = get_num_sentences(reference['response'], nlp)
 
-        # separate and find questions
-        ref_summary, ref_optional_question = split_summary_question(ref_response, nlp)
+            # Process knowledge
+            ref_know_nr, ref_knowledge, ref_faqs, ref_reviews, \
+                ref_know_sentiment, ref_know_avg_sentiment, ref_know_std_sentiment, ref_know_entropy_sentiment, \
+                ref_domain, ref_doc_type = process_knowledge(reference, nlp)
 
-        # analyse summary sentiment
-        ref_summary_sentiment = get_sentiment(ref_summary, nlp)
+            # separate and find questions
+            ref_summary, ref_optional_question = split_summary_question(ref_response, nlp)
+
+            # analyse summary sentiment
+            ref_summary_sentiment = get_sentiment(ref_summary, nlp)
+        else:
+            ref_response, ref_length, ref_sent_length = None, None, None
+            ref_know_nr, ref_knowledge, ref_faqs, ref_reviews, \
+                ref_know_sentiment, ref_know_avg_sentiment, ref_know_std_sentiment, ref_know_entropy_sentiment, \
+                ref_domain, ref_doc_type = None, None, None, None, None, None, None, None, None, None
+            ref_summary, ref_optional_question, ref_summary_sentiment = None, None, None
 
         # append data to dataframe
         print(f'\nUSER UTTERANCE: {user_utterance}\n\tREFERENCE RESPONSE: {ref_response}')
@@ -83,8 +101,12 @@ def main(args):
             'ref_response_sent_nr': ref_sent_length,
             'ref_knowledge': ref_knowledge,
             'ref_know_nr': ref_know_nr,
+            'ref_faqs': ref_faqs,
+            'ref_reviews': ref_reviews,
             'ref_know_sentiment': ref_know_sentiment,
             'ref_know_avg_sentiment': ref_know_avg_sentiment,
+            'ref_know_std_sentiment': ref_know_std_sentiment,
+            'ref_know_entropy_sentiment': ref_know_entropy_sentiment,
             'ref_domain': ref_domain,
             'ref_doc_type': ref_doc_type,
             'ref_response_summary': ref_summary,

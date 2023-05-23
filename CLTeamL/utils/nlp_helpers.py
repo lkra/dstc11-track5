@@ -2,6 +2,7 @@ from collections import Counter
 from itertools import chain
 
 import pandas as pd
+from scipy.stats import entropy
 
 from utils.constants import NGRAM_SIZE
 
@@ -51,3 +52,17 @@ def get_ngram_count(df, column, ngram_size=NGRAM_SIZE):
     ngram_counts = pd.DataFrame.from_dict(ngram_counts, orient='index', columns=['count'])
 
     return ngram_counts
+
+
+def calculate_entropy(ref_know_sentiment, ref_know_avg_sentiment):
+    try:
+        if ref_know_sentiment:
+            sentiments = ref_know_sentiment  # ast.literal_eval(ref_know_sentiment)
+            comparison = [ref_know_avg_sentiment] * int(len(sentiments))
+            t = entropy(sentiments, comparison)
+        else:
+            t = ref_know_sentiment
+    except:
+        print(f"Failed to calculate entropy on:{ref_know_sentiment, ref_know_avg_sentiment}")
+        t = None
+    return t

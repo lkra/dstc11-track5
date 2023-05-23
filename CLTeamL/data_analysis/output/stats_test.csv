@@ -1,0 +1,9 @@
+,turn_nr,ref_domain,ref_doc_type,ref_knowledge,ref_know_nr,ref_know_sentiment,ref_know_avg_sentiment,ref_response,ref_response_length,ref_response_sent_nr,ref_response_summary,ref_response_summary_sentiment,ref_response_question,ref_response_question?
+count,5475.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,5475.0
+mean,7.575342465753424,,,,,,,,,,,,,1.0
+std,4.590336134740108,,,,,,,,,,,,,0.0
+min,1.0,,,,,,,,,,,,,1.0
+25%,5.0,,,,,,,,,,,,,1.0
+50%,7.0,,,,,,,,,,,,,1.0
+75%,11.0,,,,,,,,,,,,,1.0
+max,31.0,,,,,,,,,,,,,1.0

@@ -47,7 +47,7 @@ for creating such response. To calculate the correlations between the average se
 items `ref_know_avg_sentiment` and the `ref_response_summary_sentiment`, please run:
 
 ```bash
-python ngram_analysis.py 
+python data_viz.py 
 ```
 
 #### Question analysis
@@ -69,6 +69,19 @@ environmental variable. For running the *best* approach using GPT3, run:
 python prompting.py 
  --test_set True
  --prompt_style 1
+```
+
+#### Post Prompting
+
+As some responses from the API contain ste-by-step reasoning, we must parse them and extract the correct substring of
+interest. To do so, run:
+
+```bash
+python post_prompting.py 
+ --test_set True
+ --prompt_style 2
+ --clean_style 0
+ --prediction_file baseline.rg.bart-base.json
 ```
 
 #### Manipulate questions
@@ -114,4 +127,10 @@ To compare the output of a specific type of dialogue act, you may run:
 
 ```bash
 python case_analysis.py
+```
+
+To compare the features of the worst, best and average performing data samples, you may run:
+
+```bash
+python plot_trends.py
 ```
