@@ -36,12 +36,20 @@ def read_preprocessed_data_and_predictions(dataset_to_read="val", dataroot="./..
 
 def group_metrics_by(df, column):
     groups = df.groupby(column)[column,
+                                'ref_know_avg_sentiment','ref_response_length', 'ref_response_sent_nr',
                                 'bleu', 'meteor', 'rouge1', 'rouge2', 'rougeL'].agg(avg_bleu=('bleu', 'mean'),
                                                                                     avg_meteor=('meteor', 'mean'),
                                                                                     avg_rouge1=('rouge1', 'mean'),
                                                                                     avg_rouge2=('rouge2', 'mean'),
                                                                                     avg_rougeL=('rougeL', 'mean'),
-                                                                                    num_samples=(column, 'count'))
+                                                                                    num_samples=(column, 'count'),
+                                                                                    avg_know_sentiment=(
+                                                                                    'ref_know_avg_sentiment', 'mean'),
+                                                                                    avg_len=(
+                                                                                    'ref_response_length', 'mean'),
+                                                                                    avg_sentences=(
+                                                                                    'ref_response_sent_nr', 'mean')
+                                                                                    )
     return groups
 
 

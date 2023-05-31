@@ -36,8 +36,7 @@ def main(args):
     nlp.add_pipe('spacytextblob')
 
     # loop over references and predictions
-    data = DatasetWalker(dataset=args.dataset, dataroot="./../../data/",
-                         labels=args.dataset != 'test', incl_knowledge=True)
+    data = DatasetWalker(dataset=args.dataset, dataroot="./../../data/", labels=True, incl_knowledge=True)
     for (log, reference) in tqdm(data):
         # skip if instance without response
         if reference and not reference['target']:

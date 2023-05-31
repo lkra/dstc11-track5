@@ -47,15 +47,15 @@ for creating such response. To calculate the correlations between the average se
 items `ref_know_avg_sentiment` and the `ref_response_summary_sentiment`, please run:
 
 ```bash
-python data_viz.py 
+python sentiment_analysis.py 
 ```
 
 #### Question analysis
 
-To extract ngrams and look at the patterns in the questions part of the responses, please run:
+To look at the patterns in the questions part of the responses, please run:
 
 ```bash
-python ngram_analysis.py 
+python question_analysis.py 
 ```
 
 ### Approaches

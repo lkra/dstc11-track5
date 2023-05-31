@@ -53,7 +53,7 @@ def main(args):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument('--prediction_file', default='baseline.rg.bart-base.json', type=str,
+    parser.add_argument('--prediction_file', default='baseline.rg.bart-base', type=str,
                         help="Which file with predictions to compare to the ground truth")
     args = parser.parse_args()
     config = vars(args)
