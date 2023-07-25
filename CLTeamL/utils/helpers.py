@@ -4,7 +4,7 @@ import statistics
 import pandas as pd
 
 from scripts.dataset_walker import DatasetWalker
-from utils.nlp_helpers import get_sentiment
+from utils.nlp_helpers import get_sentiment, calculate_entropy
 
 
 def read_predictions(dataset_to_read="val", dataroot="./../../pred/", prediction_file="baseline.rg.bart-base.json"):
@@ -36,27 +36,51 @@ def read_preprocessed_data_and_predictions(dataset_to_read="val", dataroot="./..
 
 def group_metrics_by(df, column):
     groups = df.groupby(column)[column,
+                                'ref_know_avg_sentiment','ref_response_length', 'ref_response_sent_nr',
                                 'bleu', 'meteor', 'rouge1', 'rouge2', 'rougeL'].agg(avg_bleu=('bleu', 'mean'),
                                                                                     avg_meteor=('meteor', 'mean'),
                                                                                     avg_rouge1=('rouge1', 'mean'),
                                                                                     avg_rouge2=('rouge2', 'mean'),
                                                                                     avg_rougeL=('rougeL', 'mean'),
-                                                                                    num_samples=(column, 'count'))
+                                                                                    num_samples=(column, 'count'),
+                                                                                    avg_know_sentiment=(
+                                                                                    'ref_know_avg_sentiment', 'mean'),
+                                                                                    avg_len=(
+                                                                                    'ref_response_length', 'mean'),
+                                                                                    avg_sentences=(
+                                                                                    'ref_response_sent_nr', 'mean')
+                                                                                    )
     return groups
 
 
 def process_knowledge(item, nlp):
     if not item['knowledge']:  # in case knowledge is empty
-        item_knowledge, item_know_sentiment, item_know_avg_sentiment = [], [], 0
+        item_faqs, item_reviews = None, None
+        item_knowledge, item_know_nr = [], None
+        item_know_sentiment, item_know_avg_sentiment = [], None
+        item_know_std_sentiment, item_know_entropy_sentiment = None, None
         item_domain, item_doc_type = 'empty', 'empty'
     else:
-        item_knowledge = [el['sent'] for el in item['knowledge'] if 'sent' in el.keys()]
-        item_know_sentiment = [get_sentiment(el, nlp) for el in item_knowledge]
+        # Sort and separate
+        item['knowledge'] = sorted(item['knowledge'], key=lambda d: d['doc_type'])
+        item_faqs = [el['question'] + el['answer'] for el in item['knowledge'] if el['doc_type'] == 'faq']
+        item_reviews = [el['sent'] for el in item['knowledge'] if el['doc_type'] == 'review']
+
+        # overall knowledge
+        item_know_nr = len(item['knowledge'])
+        item_knowledge = item_faqs + item_reviews
+        item_know_sentiment = [get_sentiment(el, nlp) for el in item_reviews]
         item_know_avg_sentiment = statistics.mean(item_know_sentiment) if item_know_sentiment else None
+        item_know_std_sentiment = statistics.stdev(item_know_sentiment) \
+            if item_know_sentiment and len(item_know_sentiment) > 2 else None
+        item_know_entropy_sentiment = calculate_entropy(item_know_sentiment, item_know_avg_sentiment) \
+            if item_know_sentiment else None
         item_domain = item['knowledge'][0]['domain']
         item_doc_type = item['knowledge'][0]['doc_type']
 
-    return item_knowledge, item_know_sentiment, item_know_avg_sentiment, item_domain, item_doc_type
+    return item_know_nr, item_knowledge, item_faqs, item_reviews, \
+           item_know_sentiment, item_know_avg_sentiment, item_know_std_sentiment, item_know_entropy_sentiment, \
+           item_domain, item_doc_type
 
 
 def score_predictions(reference_response, prediction_response, bleu_metric, meteor_metric, rouge_scorer):
@@ -64,7 +88,6 @@ def score_predictions(reference_response, prediction_response, bleu_metric, mete
         bleu, meteor, rouge1, rouge2, rougeL = None, None, None, None, None
 
     else:
-
         try:
             # calculate metrics
             bleu = bleu_metric.evaluate_example(prediction_response, reference_response)['bleu'] / 100.0

@@ -8,7 +8,7 @@ class DatasetWalker(object):
     def __init__(self, dataset, dataroot, labels=False, labels_file=None, incl_knowledge=False):
         path = os.path.join(os.path.abspath(dataroot))
 
-        if dataset not in ['train', 'val']:
+        if dataset not in ['train', 'val', 'test']:
             raise ValueError('Wrong dataset name: %s' % (dataset))
 
         logs_file = os.path.join(path, dataset, 'logs.json')
@@ -72,3 +72,12 @@ class DatasetWalker(object):
                 label['knowledge'][idx]['answer'] = answer
 
         return label
+
+    def filter_knowledge_only(self):
+        x, y = [], []
+        for lab, log in zip(self.labels, self.logs):
+            if lab['target']:
+                x.append(lab)
+                y.append(log)
+
+        self.labels, self.logs = x, y

@@ -2,7 +2,7 @@ import pandas as pd
 
 from utils.nlp_helpers import get_ngram_count
 
-DATASET = "val"  # val or train
+DATASET = "test"  # val or train
 
 # read in data frame
 df = pd.read_csv(f'output/analysis_{DATASET}.csv')
