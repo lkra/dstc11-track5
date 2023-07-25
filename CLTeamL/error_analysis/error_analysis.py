@@ -1,6 +1,5 @@
 import argparse
 
-from spacytextblob.spacytextblob import SpacyTextBlob
 import pandas as pd
 import spacy
 from rouge_score import rouge_scorer
@@ -8,16 +7,22 @@ from summ_eval.bleu_metric import BleuMetric
 from summ_eval.meteor_metric import MeteorMetric
 from tqdm import tqdm
 
+from spacytextblob.spacytextblob import SpacyTextBlob
+
 from utils.helpers import read_preprocessed_data_and_predictions, process_knowledge, score_predictions
 from utils.nlp_helpers import get_sentiment, split_summary_question, get_num_sentences
 
 
 def main(args):
+    approach = args.prediction_file.rsplit(".", 1)[0]
+
     # create dataframe
     pred_df = pd.DataFrame(
         columns=['target',
                  'pred_domain', 'pred_doc_type',
-                 'pred_knowledge', 'pred_know_nr', 'pred_know_sentiment', 'pred_know_avg_sentiment',
+                 'pred_knowledge', 'pred_know_nr', 'pred_faqs', 'pred_reviews',
+                 'pred_know_sentiment',
+                 'pred_know_avg_sentiment', 'pred_know_std_sentiment', 'pred_know_entropy_sentiment',
                  'pred_response', 'pred_response_length', 'pred_response_sent_nr',
                  'pred_response_summary', 'pred_response_summary_sentiment', 'pred_response_question',
                  'bleu', 'meteor', 'rouge1', 'rouge2', 'rougeL',
@@ -40,9 +45,11 @@ def main(args):
         pred_response = prediction['response']
         pred_length = len(prediction['response'])
         pred_sent_length = get_num_sentences(prediction['response'], nlp)
-        pred_know_nr = len(prediction['knowledge'])
-        pred_knowledge, pred_know_sentiment, pred_know_avg_sentiment, pred_domain, pred_doc_type = process_knowledge(
-            prediction, nlp)
+
+        # Process knowledge
+        pred_know_nr, pred_knowledge, pred_faqs, pred_reviews, \
+            pred_know_sentiment, pred_know_avg_sentiment, pred_know_std_sentiment, pred_know_entropy_sentiment, \
+            pred_domain, pred_doc_type = process_knowledge(prediction, nlp)
 
         # separate summary and find questions
         pred_summary, pred_optional_question = split_summary_question(pred_response, nlp)
@@ -58,8 +65,12 @@ def main(args):
             'pred_response_sent_nr': pred_sent_length,
             'pred_knowledge': pred_knowledge,
             'pred_know_nr': pred_know_nr,
+            'pred_faqs': pred_faqs,
+            'pred_reviews': pred_reviews,
             'pred_know_sentiment': pred_know_sentiment,
             'pred_know_avg_sentiment': pred_know_avg_sentiment,
+            'pred_know_std_sentiment': pred_know_std_sentiment,
+            'pred_know_entropy_sentiment': pred_know_entropy_sentiment,
             'pred_domain': pred_domain,
             'pred_doc_type': pred_doc_type,
             'pred_response_summary': pred_summary,
@@ -83,8 +94,11 @@ def main(args):
         lambda x: score_predictions(x['ref_response'], x['pred_response'], bleu_metric, meteor_metric, rouge_metric),
         axis=1, result_type='expand')
 
-    df.to_csv(f'./output/errors_{args.prediction_file.rsplit(".", 1)[0]}.csv', index=False)
+    df.to_csv(f'./output/error_analysis_{approach}.csv', index=False)
 
+    # Report overall statistics
+    general_stats = df.describe()
+    general_stats.to_csv(f'./output/stats_{approach}.csv')
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
