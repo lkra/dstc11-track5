@@ -2,7 +2,7 @@
 
 This repository contains the data, scripts and baseline codes for [DSTC11](https://dstc11.dstc.community/) Track 5.
 
-**CLTeamL** For the description and instructions of our team's approaches, please see [CLTeamL](https://github.com/lkra/dstc11-track5/tree/main/CLTeamL).
+**For the description and instructions of our team's approaches, please see [CLTeamL](https://github.com/lkra/dstc11-track5/tree/main/CLTeamL).**
 
 This challenge track aims to support more informative and engaging task-oriented conversations by utilizing the subjective knowledge from review posts.
 Track participants will develop dialogue systems to understand relevant review posts, and generate system responses grounded on the selected review knowledge snippets.
