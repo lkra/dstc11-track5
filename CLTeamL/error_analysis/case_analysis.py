@@ -9,12 +9,8 @@ def main(args):
     approach = args.prediction_file.rsplit(".", 1)[0]
 
     # read in data frame
-    df = pd.read_csv(f'./output/errors_{approach}.csv')
+    df = pd.read_csv(f'./output/error_analysis_{approach}.csv')
     df = df[df['target']]
-
-    # Report overall statistics
-    general_stats = df.describe()
-    general_stats.to_csv(f'./output/stats_{approach}.csv', index=False)
 
     # group by USER UTTERANCE dialogue act
     groups = group_metrics_by(df, 'user_utterance_dialogue_act')

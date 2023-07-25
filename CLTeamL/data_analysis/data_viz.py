@@ -4,10 +4,10 @@ import seaborn as sns
 
 sns.set(font_scale=0.6)
 
-DATASET = 'train'
+DATASET = 'baseline.rg.bart-base'
 
 # read in data frame
-df = pd.read_csv(f'./output/analysis_{DATASET}.csv')
+df = pd.read_csv(f'/Users/lea/projects/dstc/dstc11-track5/CLTeamL/error_analysis/output/error_analysis_{DATASET}.csv')
 df = df[df['target']]
 
 # change data types from object to int
