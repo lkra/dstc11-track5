@@ -1,0 +1,52 @@
+{
+  "taxi": {
+    "0": {
+      "name": null,
+      "reviews": {
+        "0": {
+          "traveler_type": "Business traveler",
+          "sentences": {
+            "0": "I was impressed with the promptness of the text message confirmation and the ease of making changes to my booking.",
+            "1": "The included taxes and fees made the price transparent and hassle-free."
+          }
+        },
+        "1": {
+          "traveler_type": "Family vacationer",
+          "sentences": {
+            "0": "Booking with this service was a breeze and the cancellation policy gave us peace of mind.",
+            "1": "The driver was friendly and accommodating to our family's needs."
+          }
+        },
+        "2": {
+          "traveler_type": "Solo traveler",
+          "sentences": {
+            "0": "I appreciated the variety of payment options and the fact that tipping was not required.",
+            "1": "The FAQ section was helpful in answering."
+          }
+        }
+      },
+      "faqs": {
+        "1": {
+          "question": "How will I receive my booking confirmation?",
+          "answer": "Booking confirmations will be sent via text messages shortly."
+        },
+        "2": {
+          "question": "What is the cancellation policy?",
+          "answer": "You are able to cancel for free up to 24 hours in advance, we will charge 10 GBP after the cancellation time frame."
+        },
+        "3": {
+          "question": "Can I make changes to my booking later?",
+          "answer": "When the cancellation period (up to 24 hours in advance) is over, only minor changes can be made to booking arrangments, which includes pick-up and drop-off points, passenger details, and pickup time."
+        },
+        "4": {
+          "question": "What types of payments do you accept?",
+          "answer": "We take cash, Visa, Master Card and major debit cards."
+        },
+        "5": {
+          "question": "What charges are included in the rates?",
+          "answer": "The taxes, fees, and toll charges are included in the price. Tipping is not required, but common with about 10% of the fare."
+        }
+      }
+    }
+  }
+}

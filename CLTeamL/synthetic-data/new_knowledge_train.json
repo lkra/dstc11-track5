@@ -1,0 +1,135 @@
+{
+  "train": {
+    "0": {
+      "name": null,
+      "reviews": {
+        "0": {
+          "traveler_type": "1. Solo traveler",
+          "sentences": {
+            "0": "I appreciated the wheelchair accessibility and assisted travel service on the train.",
+            "1": "The onboard WiFi was also a nice touch."
+          }
+        },
+        "1": {
+          "traveler_type": "2. Family with children",
+          "sentences": {
+            "0": "The discount for children under 5 and 50% off for those aged 5-16 made our family trip more affordable.",
+            "1": "We also appreciated the pet policy allowing us to bring our furry friends."
+          }
+        },
+        "2": {
+          "traveler_type": "3. Business traveler",
+          "sentences": {
+            "0": "The major debit and credit card payment options, as well as eVoucher and PayPal, made."
+          }
+        }
+      },
+      "faqs": {
+        "1": {
+          "question": "Do you offer any discounts for children?",
+          "answer": "If a child is under 5, they get in for free. If they are 5 to 16 years old, they get a 50% discount."
+        },
+        "2": {
+          "question": "Is there a senior discount available?",
+          "answer": "There is a 10% discount available for seniors over 65 years of age."
+        },
+        "3": {
+          "question": "Can I reserve a seat on the train?",
+          "answer": "No, we do not offer seat reservation."
+        },
+        "4": {
+          "question": "What is the refund policy for the tickets?",
+          "answer": "A full refund with no fee is available for a delayed or cancelled train, otherwise there is a fee of 12 GBP."
+        },
+        "5": {
+          "question": "Can I use my season ticket to get on the train?",
+          "answer": "You can use your season ticket for all the trains with no additional fees. But you need to visit the ticket office in your station to pick up a physical ticket for your ride."
+        },
+        "6": {
+          "question": "Can I change my ticket after purchase?",
+          "answer": "No, you have to apply for a refund and purchase another ticket."
+        },
+        "7": {
+          "question": "What form of payment do you accept for the purchase of tickets?",
+          "answer": "Major debit and credit cards including Visa, Master Card, and American Express, also eVoucher, PayPal, and Visa CheckOut will be accepted at ticket machines. If you want to pay with cash, please visit the ticket office in your station."
+        },
+        "8": {
+          "question": "Where can I pick up my ticket?",
+          "answer": "You can collect your ticket from the ticket machines at any train station."
+        },
+        "9": {
+          "question": "Can my ticket be picked up by someone else if needed?",
+          "answer": "Yes it can be, as long as they have access to a payment card for identification."
+        },
+        "10": {
+          "question": "How will I receive my booking confirmation?",
+          "answer": "You will receive an email comfirmation once booking is complete."
+        },
+        "11": {
+          "question": "Is there WiFi available on the train?",
+          "answer": "There will be basic WiFi service on the train, the ID is GreatNorthern_WiFi."
+        },
+        "12": {
+          "question": "Is there a charge for using WiFi?",
+          "answer": "Wifi is available free of charge."
+        },
+        "13": {
+          "question": "How much data is included with the onboard wifi?",
+          "answer": "Data is limited to 50MB per day with no option of additional data."
+        },
+        "14": {
+          "question": "Can I purchase additional data when I use the WiFi?",
+          "answer": "There is no additional data available to purchase."
+        },
+        "15": {
+          "question": "Are the trains accessible for wheelchairs?",
+          "answer": "Yes, all the trains are accessible and have assisted travel service."
+        },
+        "16": {
+          "question": "Can I bring a wheelchair or a mobility scooter onto the train?",
+          "answer": "Yes, as long as it is a manual/powered wheelchairs or a mobility scooter; that is smaller than 70x120cm and lighter than 300 kilograms."
+        },
+        "17": {
+          "question": "Can I bring my bike on the train?",
+          "answer": "You can only bring a folding bike to the train and non folding bike must be parked at the station."
+        },
+        "18": {
+          "question": "Can I bring my pets on board?",
+          "answer": "You may bring 2 domestic pets, they must be kept on a short lead, or carried in a basket size 85x60x60cm."
+        },
+        "19": {
+          "question": "Can I smoke on the train?",
+          "answer": "No, smoking is not allowed on the train."
+        },
+        "20": {
+          "question": "What are the hours of operation for the train station?",
+          "answer": "The hours of operation are Monday-Saturday 05:00 - 23:00, and on Sundays 07:00 - 22:55."
+        },
+        "21": {
+          "question": "Can I park my car at the train station?",
+          "answer": "You may park at the station, there may be a fee, you should check with your station."
+        },
+        "22": {
+          "question": "How much is the car parking fee?",
+          "answer": "The parking fee will vary by station, check with your local station onsite."
+        },
+        "23": {
+          "question": "Can I park my bike at the station?",
+          "answer": "Yes, there is bike parking available at the train station."
+        },
+        "24": {
+          "question": "Are there any fees for parking my bike?",
+          "answer": "Free weekday bike parking is available between the hours of 6AM and 7PM. You will be charged 5 GBP/night for weekday overnight parking and 10 GBP/day for weekend parking."
+        },
+        "25": {
+          "question": "Are public restrooms available at the stations?",
+          "answer": "Yes, there are public toilets available in the stations."
+        },
+        "26": {
+          "question": "Is smoking allowed at the train stations?",
+          "answer": "No, smoking is not allowed at the stations."
+        }
+      }
+    }
+  }
+}

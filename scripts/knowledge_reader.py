@@ -9,6 +9,12 @@ class KnowledgeReader(object):
         with open(os.path.join(path, knowledge_file), 'r') as f:
             self.knowledge = json.load(f)
 
+        if "taxi" in self.knowledge.keys():
+            self.knowledge["taxi"]["0"] = self.knowledge["taxi"].pop("*")
+
+        if "train" in self.knowledge.keys():
+            self.knowledge["train"]["0"] = self.knowledge["train"].pop("*")
+
     def get_domain_list(self):
         return list(self.knowledge.keys())
 
