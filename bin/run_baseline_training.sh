@@ -1,5 +1,5 @@
 #!/bin/bash
-
+set -e
 # training and validation for turn detection
 model_name=microsoft/deberta-v3-base
 model_name_exp=deberta-v3-base

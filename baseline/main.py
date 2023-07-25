@@ -21,6 +21,7 @@ from transformers import (
     PreTrainedTokenizer,
     get_linear_schedule_with_warmup,
     BartForConditionalGeneration,
+    AutoModelForSeq2SeqLM,
     AutoModelForSequenceClassification,
 )
 
@@ -67,7 +68,10 @@ def get_classes(args):
     """ Get classes for dataset, model, training func, and eval func """
     task, model = args.task, args.model_name_or_path
     if task.lower() == "generation":
-        return ResponseGenerationDataset, BartForConditionalGeneration, run_batch_generation_train, run_batch_generation_eval
+        if "t5" in args.model_name_or_path:
+            return ResponseGenerationDataset, AutoModelForSeq2SeqLM, run_batch_generation_train, run_batch_generation_eval
+        else:
+            return ResponseGenerationDataset, BartForConditionalGeneration, run_batch_generation_train, run_batch_generation_eval
     elif task.lower() == "selection":
         return KnowledgeSelectionDataset, AutoModelForSequenceClassification, run_batch_selection_train, run_batch_selection_eval
     elif task.lower() == 'detection':
@@ -403,7 +407,11 @@ def main():
             tokenizer = AutoTokenizer.from_pretrained(args.checkpoint)
             model.to(args.device)
         else:
-            config = AutoConfig.from_pretrained(args.model_name_or_path)
+            if args.fp16:
+                model_dtype = torch.float16
+            else:
+                model_dtype = torch.float32
+            config = AutoConfig.from_pretrained(args.model_name_or_path, torch_dtype=model_dtype)
             tokenizer = AutoTokenizer.from_pretrained(args.model_name_or_path)
             tokenizer.add_special_tokens(SPECIAL_TOKENS)
             tokenizer.model_max_length = min(1024, tokenizer.model_max_length)

@@ -29,7 +29,11 @@ class BaseDataset(torch.utils.data.Dataset):
 
         self.cls = self.tokenizer.cls_token_id
         self.sep = self.tokenizer.sep_token_id
-        self.bos = self.tokenizer.bos_token_id
+        if self.tokenizer.bos_token_id is None:
+            # Manually add a bos token
+            self.bos = self.tokenizer.convert_tokens_to_ids(["<s>"])[0]
+        else:
+            self.bos = self.tokenizer.bos_token_id
         self.eos = self.tokenizer.eos_token_id
         self.pad = self.tokenizer.pad_token_id
         self.SPECIAL_TOKENS = SPECIAL_TOKENS

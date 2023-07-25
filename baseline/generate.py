@@ -11,7 +11,7 @@ import numpy as np
 import torch
 from torch.utils.data import DataLoader, SequentialSampler
 from tqdm import tqdm
-from transformers import AutoTokenizer, BartForConditionalGeneration
+from transformers import AutoTokenizer, BartForConditionalGeneration, AutoModelForSeq2SeqLM
 from .dataset import ResponseGenerationEvalDataset
 
 from .utils.argument import update_additional_params
@@ -176,7 +176,7 @@ def main():
     dataset_args.debug = args.debug
 
     # Setup CUDA & GPU
-    device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
+    device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     args.device = device
 
     # Set seed
@@ -184,7 +184,10 @@ def main():
 
     args.output_dir = args.checkpoint
     tokenizer = AutoTokenizer.from_pretrained(args.checkpoint)
-    model_class = BartForConditionalGeneration
+    if "t5" in args.checkpoint:
+        model_class = AutoModelForSeq2SeqLM
+    else:
+        model_class = BartForConditionalGeneration
     model = model_class.from_pretrained(args.checkpoint, ignore_mismatched_sizes=True)
     model.to(args.device)
 
